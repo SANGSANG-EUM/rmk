@@ -59,6 +59,38 @@
 
 /* 브랜드 스토리 > 고객리뷰 */
 
+/* 브랜드 스토리 > 인사말 */
+#greeting {}
+.greeting-visual {background: url('/src/img/greeting-vs.jpg') no-repeat center center/cover;}
+.greeting-mean {position: relative; padding-top: 120px;}
+.greeting-mean_paralax {position: absolute; left: calc((100% - 1520px) / 2); top: 50%; margin-left: -10px; font-size: 200px; font-weight: 400; color: var(--color-gray1); z-index: -1;}
+.greeting-mean_paralax b {font-weight: 700;}
+.greeting-mean_title {display: inline-block; vertical-align: middle; position: relative; padding-right: 180px; font-size: 30px; font-weight: 800; color: var(--color-black2);}
+.greeting-mean_title::after {position: absolute; top: 50%; right: 0; width: 44.28%; height: 0; border-top: 1px solid var(--color-gray6); content:""; z-index: 0;}
+.greeting-mean_content {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; gap: 170px; margin-top: 50px;}
+.greeting-mean_box {display: flex;}
+.greeting-mean_box1 {flex-direction: column; justify-content: space-between; width: 650px; gap: 430px;}
+.greeting-mean_box2 {flex-direction: column-reverse; justify-content: flex-start; width: 700px; gap: 60px;}
+.greeting-mean_item {}
+.greeting-mean_item1 {}
+.greeting-mean_word {}
+.greeting-mean_word:not(:first-child) {margin-top: 25px;}
+.greeting-mean_en {font-size: 60px; font-weight: 800; color: var(--color-black2);}
+.greeting-mean_en b {font-weight: 800; color: var(--color-main);}
+.greeting-mean_kr {padding-top: 15px; font-size: 40px; font-weight: 300; color: var(--color-black2);}
+.greeting-mean_item2 {}
+.greeting-mean_item2 img {}
+.greeting-mean_item3 {}
+.greeting-mean_text1 {font-size: 26px; font-weight: 600; color: var(--color-black2); line-height: 1.55;}
+.greeting-mean_text2 {margin-top: 20px; font-size: 18px; font-weight: 300; color: var(--color-black2); line-height: 1.55;}
+.greeting-mean_text3 {margin-top: 26px; font-size: 18px; font-weight: 400; color: var(--color-black2);}
+.greeting-mean_item4 {border-radius: 999px 999px 0 0; overflow: hidden;}
+.greeting-mean_item4 img {}
+
+
+
+
+
 /* 제품소개 */
 #product {}
 .product-visual {margin-top: 40px; margin-bottom: 100px; padding: 200px 0 58px; background: url('/src/img/product-bg.jpg') no-repeat center right;}
