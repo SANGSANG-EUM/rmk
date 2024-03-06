@@ -93,6 +93,7 @@ add_javascript('<script src="'.G5_JS_URL.'/placeholders.min.js"></script>', 0);
 /*Plug-in, Library {*/
 add_javascript('<script src="'.EUM_PLUGIN_URL.'/feather.min.js"></script>', 0);
 add_javascript('<script src="'.EUM_PLUGIN_URL.'/prefixfree.min.js"></script>', 0);
+add_javascript('<script src="'.EUM_PLUGIN_URL.'/beforeafter/beforeafter.jquery-1.0.0.min.js"></script>', 0);
 add_javascript('<script src="'.EUM_PLUGIN_URL.'/scrollbar/jquery.mCustomScrollbar.js"></script>', 0);
 add_javascript('<script src="'.EUM_PLUGIN_URL.'/jquery.matchHeight.js"></script>', 0);
 add_javascript('<script src="'.EUM_PLUGIN_URL.'/aos/aos.js"></script>', 0);

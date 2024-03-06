@@ -43,6 +43,20 @@ $(document).ready(function () {
   const mainVisualSlider = f.slider(mainVisualTarget, mainVisualOptions);
 
 
+  $("#dalton_exp-beforeAfter-slider").on("input change", (e)=>{
+    const sliderPos = e.target.value;
+    // Update the width of the foreground image
+    $('.foreground-img').css('width', `calc(${sliderPos}%)`)
+    // Update the position of the slider button
+    if ($(window).width() > 767) {
+      $('.slider-button').css('left', `calc(${sliderPos}% - 23px)`)
+    } else {
+      $('.slider-button').css('left', `calc(${sliderPos}% - 13px)`)
+    }
+  
+    console.log(sliderPos)
+  });
+
   // Mouse Scroll
   $window.on('scroll', function(){
     let windowScrollTop = $window.scrollTop();
