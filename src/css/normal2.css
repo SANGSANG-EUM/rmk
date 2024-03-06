@@ -1,0 +1,49 @@
+/* 기술소개 > 색각이상이란? */
+.dys-visual {position: relative; background: url('/src/img/dys-vs.jpg') no-repeat center / cover;}
+.dys-visual-txt {display: flex; flex-direction: column; gap: 10px; position: absolute; bottom: 100px; max-width: 695px; font-size: 24px; font-weight: 500; color: #fff;}
+.dys-visual-txt img {width: 36px;}
+
+.dys-overview {padding: 120px 0;}
+.dys-sec-tit {padding-bottom: 60px; font-size: 40px; font-weight: 700; color: #0f0f0f;}
+.dys-overview-ul {display: flex; gap: 18.5%; padding-top: 120px;}
+.dys-overview-famtree {max-width: 455px;}
+.dys-overview-graph-wr {display: flex; gap: 90px; position: relative;}
+.dys-overview-graph-wr::after {content: ''; position: absolute; left: 50%; top: calc(50% - 30px); transform: translate(-50%, -50%); width: 16px; height: 31px; background: url('/src/img/dys-circle_arrow.svg') no-repeat center / contain;}
+.dys-overview-circle {position: relative; width: 280px; height: 280px; border-radius: 50%; transform: .3s;}
+.dys-overview-percentage {width: inherit; height: inherit; border-radius: 50%; background-color: #f0f0f0;}
+/* 아래 내용 스크립트로 처리 */
+/* .dys-overview-graph--male .dys-overview-percentage {background: conic-gradient(#52A2C6 49.7deg, #f0f0f0 50deg);}
+.dys-overview-graph--female .dys-overview-percentage {background: conic-gradient(#E5685C 4.6deg, #f0f0f0 5deg);} */
+.dys-overview-in {display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 15px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 210px; height: 210px; border-radius: 50%; background-color: #fff; font-size: 20px; font-weight: 400; color: #0f0f0f;}
+.dys-overview-info {display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 60px; font-size: 24px; font-weight: 600; color: #0f0f0f;}
+
+.dys-experience {padding-top: 120px;}
+.dys-exp1-ul {display: flex; gap: 8%; margin: auto; padding-bottom: 100px;}
+.dys-exp1-li {flex: 1;}
+.dys-exp1-li__icon {display: flex; align-items: center; justify-content: center; width: 72px; height: 72px;}
+.dys-exp1-li__icon img {max-width: 90%; max-height: 90%;}
+.dys-exp2-bg {padding: 100px 0 120px; background-color: #F8F8F8;}
+.dys-exp2-ul {display: flex; gap: 7.5%; max-width: 1450px; margin: auto;} 
+.dys-exp2-li {flex: 1; gap: 7%;}
+.dys-exp2-li {flex: 1; text-align: center;}
+.dys-exp-txt {color: #0f0f0f;}
+.dys-exp-txt--01 {font-size: 24px; font-weight: 500;}
+.dys-exp-txt--02 {font-size: 18px; line-height: 1.55;}
+.dys-exp1-li .dys-exp-txt--01 {padding: 22px 0 16px;}
+.dys-exp2-li .dys-exp-txt-wr {padding: 0 5px;}
+.dys-exp2-li .dys-exp-txt--01 {padding: 30px 0 15px; border-bottom: 2px solid #565656;}
+.dys-exp2-li .dys-exp-txt--02 {padding-top: 20px;}
+.dys-exp2-li__img {position: relative; width: 100%; height: 14.6vw; overflow: hidden;}
+.dys-exp2-li__img img {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; object-fit: cover;}
+.dys-exp2-li__img--01 {border-radius: 50%;}
+.dys-exp2-li__img--02 {border-radius: 0;}
+.dys-exp2-li__img--03 {border-radius: 50% 50% 0 0;}
+.dys-exp2-li__img--04 {border-radius: 50% 50% 0 50%;}
+
+.dys-sunglasses {padding-top: 180px;}
+.dys-sunglasses-wr {display: flex; align-items: flex-start; gap: 70px; padding-top: 80px;}
+.dys-sunglasses-l {width: 65%;}
+.dys-sunglasses-r {width: 35%;}
+.dys-sunglassses-img {position: relative; width: 100%; height: 15vw; border-radius: 1000px 1000px 0 0; overflow: hidden;}
+.dys-sunglassses-img img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; object-fit: cover;}
+.dys-sunglasses-wr .dys-exp-txt--01 {padding: 64px 0 26px;}
