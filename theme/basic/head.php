@@ -20,11 +20,15 @@ include EUM_INCLUDE_PATH.'/menus.php';
 <?php
 if(defined('_INDEX_')) { // index에서만 실행
   include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
+
+  $header_addclass = 'main_header type2';
+} else {
+  $header_addclass = 'sub_header';
 }
 ?>
 
 <!-- header { -->
-<div id="header" class="type2">
+<div id="header" class="<?php echo $header_addclass;?>">
   <div class="container">
     <div class="inner">
       <h1 class="logo">
