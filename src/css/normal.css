@@ -91,10 +91,22 @@
 .main_dalton-img-item.item2 {transform: translate3d(0, -200px, 0);}
 
 .main_dalton-info {margin-top: 100px;}
-.dalton_logo {margin-bottom: 50px;}
-.dalton-text {margin-left: 28px;}
+.main_dalton-info .dalton_logo {margin-bottom: 50px;}
+.main_dalton-info .dalton-text {margin-left: 28px;}
 
-.dalton_proud {display: flex; flex-flow: row wrap; gap: 40px; margin-top: 100px;}
-.dalton_proud-item {display: flex; flex-flow: column wrap; align-items: center; justify-content: center; width: calc(100% / 3 - 80px / 3); height: 350px; text-align: center; background-color: #fff; box-shadow: 0 0 250px 300px rgba(0,0,0,0.015);}
-.dalton_proud-item .t1 {font-size: 26px; font-weight: 600; color: var(--color-black2);}
-.dalton_proud-item .t2 {font-size: 16px; font-weight: 400; color: var(--color-gray5);}
+.main_dalton-info .dalton_proud {display: flex; flex-flow: row wrap; gap: 40px; margin-top: 100px;}
+.main_dalton-info .dalton_proud-item {display: flex; flex-flow: column wrap; align-items: center; justify-content: center; width: calc(100% / 3 - 80px / 3); height: 350px; text-align: center; background-color: #fff; box-shadow: 0 0 250px 300px rgba(0,0,0,0.015);}
+.main_dalton-info .dalton_proud-item .t1 {font-size: 26px; font-weight: 600; color: var(--color-black2);}
+.main_dalton-info .dalton_proud-item .t2 {font-size: 16px; font-weight: 400; color: var(--color-gray5);}
+
+.main_dalton-info .dalton_exp {margin-top: 200px;}
+.main_dalton-info .dalton_exp .content-text3 {margin-top: 30px; text-align: right;}
+
+.main_dalton-info .dalton_exp-beforeAfter {overflow: hidden; position: relative; width: 100%; height: 500px; margin-top: 50px; border: 2px solid white;}
+.main_dalton-info .dalton_exp-beforeAfter .img {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: 1520px 100%; background-repeat: no-repeat;}
+.main_dalton-info .dalton_exp-beforeAfter .background-img {background: url('../img/dalton-background-img.jpg') left center;}
+.main_dalton-info .dalton_exp-beforeAfter .foreground-img {width: 50%; background: url('../img/dalton-foreground-img.jpg') left center;}
+.main_dalton-info .dalton_exp-beforeAfter .slider {position: absolute; -webkit-appearance: none; appearance: none; width: calc(100%); height: 100%; background: transparent; outline: none; margin: 0; transition: all 0.2s; display: flex; justify-content: center; align-items: center; writing-mode: horizontal-tb !important;}
+.main_dalton-info .dalton_exp-beforeAfter .slider-button {pointer-events: none; position: absolute; width: 66px; height: 66px; border-radius: 50%; left: calc(50% - 33px); top: calc(50% - 33px); display: flex; justify-content: center; align-items: center; z-index: 0; cursor: pointer;}
+.main_dalton-info .dalton_exp-beforeAfter .slider-button:after {content: ""; display: block; position: absolute; top: 50%; left: 50%; z-index: 1; width: 4px; height: 500px; transform: translate(-50%, -50%); background-color: var(--color-black2);}
+.main_dalton-info .dalton_exp-beforeAfter .slider-circle {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 66px; height: 66px; border-radius: 50%; background: url('../img/beforeAfter-arrow.png') no-repeat center/38px auto, var(--color-black2); z-index: 11; cursor: pointer;}
