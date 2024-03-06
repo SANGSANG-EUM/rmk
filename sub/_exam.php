@@ -9,9 +9,9 @@
     <section class="exam-visual sub-content">
       <div class="wrapper">
         <!-- 컨텐츠 섹션 상단의 타이틀 및 텍스트 { -->
-        <p class="sub-content_title1">타이틀 1</p>
-        <p class="sub-content_title2">타이틀 2</p>
-        <p class="sub-content_text">하단 설명 문구</p>
+        <p class="content_title1">타이틀 1</p>
+        <p class="content_title2">타이틀 2</p>
+        <p class="content_text">하단 설명 문구</p>
         <!-- } 컨텐츠 섹션 상단의 타이틀 및 텍스트 -->
         내용 작성
       </div>
