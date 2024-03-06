@@ -18,6 +18,11 @@
   100% {}
 }
 
+/* 공통 */
+.content_title1 {font-size: 60px; font-weight: 800; color: var(--color-black2);}
+.content_title2 {font-size: 40px; font-weight: 700; color: var(--color-black2);}
+.content_text {margin-top: 45px; font-size: 24px; font-weight: 500; color: var(--color-black2);}
+
 /* 서브 공통 */
 .sub {padding-top: 90px; padding-bottom: 140px;}
 .sub-head {padding-top: 95px; padding-bottom: 65px;}
@@ -25,9 +30,6 @@
 .sub-head_explan {margin-top: 35px; font-size: 60px; font-weight: 400; color: var(--color-black2);}
 .sub-body {}
 .sub-content {}
-.sub-content_title1 {font-size: 60px; font-weight: 800; color: var(--color-black2);}
-.sub-content_title2 {font-size: 40px; font-weight: 700; color: var(--color-black2);}
-.sub-content_text {margin-top: 45px; font-size: 24px; font-weight: 500; color: var(--color-black2);}
 
 /* 브랜드 스토리 > 돌튼 */
 #dalton {}
