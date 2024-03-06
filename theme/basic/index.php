@@ -93,7 +93,7 @@ include_once(G5_THEME_PATH.'/head.php');
               <p class="content-text">알엠케이의 <b>색상 보정 안경 브랜드 ‘돌튼’</b>은 <br/><b>돌터니즘</b>의 <b>John Dalton</b>에서 탄생했습니다.</p>
 
               <div class="dalton_proud">
-                <div class="round-right  dalton_proud-item">
+                <div class="round-right dalton_proud-item">
                   <div class="icon"></div>
                   <div class="t1">국내 최초 개발</div>
                   <div class="t2">국내 순수 기술로 최초 개발된 <br/>색약 보정 안경입니다.</div>
@@ -123,7 +123,31 @@ include_once(G5_THEME_PATH.'/head.php');
                   </div>
                 </div>
 
+                <div class="dalton_ex">
+                  <div class="round-right dalton_ex-item">
+                    <div class="icon"><img src="/src/img/dalton-ex-img1.png" alt=""></div>
+                    <div class="txt">
+                      <p class="t1">General</p>
+                      <p class="t2">일반 색각</p>
+                    </div>
+                  </div>
+                  <div class="round-left dalton_ex-item">
+                    <div class="icon"><img src="/src/img/dalton-ex-img2.png" alt=""></div>
+                    <div class="txt">
+                      <p class="t1">Color weakness</p>
+                      <p class="t2">적록색약</p>
+                    </div>
+                  </div>
+                  <div class="dalton_ex-item">
+                    <div class="icon"><img src="/src/img/dalton-ex-img3.png" alt=""></div>
+                    <div class="txt">
+                      <p class="t1"><span>*</span>Dolton</p>
+                      <p class="t2">돌튼 착용 후</p>
+                    </div>
+                  </div>
+                </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -145,15 +169,33 @@ include_once(G5_THEME_PATH.'/head.php');
       <div class="container">
         <div class="wrapper">
           <div class="inner">
-            <div class="main_product-type">
+            <div class="main_product-types">
               <div class="main_product-type-item item1">
-                <img src="/src/img/main-dalton-img1.jpg" alt="">
+                <div class="img">
+                  <img src="/src/img/main-product-img1.jpg" alt="">
+                </div>
+                <div class="txt">
+                  <p class="t1">클립온</p>
+                  <p class="t2">안경테(금속 프레임)/클립온/색약보정렌즈</p>
+                </div>
               </div>
-              <div class="round-top main_product-type-item item2">
-                <img src="/src/img/main-dalton-img2.jpg" alt="">
+              <div class="main_product-type-item item2">
+                <div class="round-top img">
+                  <img src="/src/img/main-product-img2.jpg" alt="">
+                </div>
+                <div class="txt">
+                  <p class="t1">금속프레임</p>
+                  <p class="t2">안경테(금속 프레임)/색약보정렌즈</p>
+                </div>
               </div>
-              <div class="round main_product-type-item item3">
-                <img src="/src/img/main-dalton-img3.jpg" alt="">
+              <div class="main_product-type-item item3">
+                <div class="round img">
+                  <img src="/src/img/main-product-img3.jpg" alt="">
+                </div>
+                <div class="txt">
+                  <p class="t1">아세테이트 프레임</p>
+                  <p class="t2">안경테(아세테이트 프레임)/색약보정렌즈</p>
+                </div>
               </div>
             </div>
           </div>
