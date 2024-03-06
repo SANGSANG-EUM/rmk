@@ -16,22 +16,6 @@ $(document).ready(function () {
   // Nice Select
   $('.ncSelect').niceSelect();
 
-  // Mouse Scroll
-  
-
-  $window.on('scroll', function(){
-    let scrolled = $window.scrollTop() >= 100;
-    
-    if(header.hasClass('main_header') ) {
-      if(scrolled) {
-        header.removeClass('type2', scrolled);
-      } else {
-        header.addClass('type2', scrolled);
-      }
-    }
-    fixBtns.toggleClass('show', scrolled);
-  });
-
   // Main Visual
   const mainVisualTarget = '.main_visual .swiper-container';
   const mainVisualOptions = {
@@ -57,4 +41,26 @@ $(document).ready(function () {
     // },
   };
   const mainVisualSlider = f.slider(mainVisualTarget, mainVisualOptions);
+
+
+  // Mouse Scroll
+  $window.on('scroll', function(){
+    let windowScrollTop = $window.scrollTop();
+    let scrolled = windowScrollTop >= 100;
+    
+    if(header.hasClass('main_header') ) {
+      if(scrolled) {
+        header.removeClass('type2', scrolled);
+      } else {
+        header.addClass('type2', scrolled);
+      }
+    }
+    fixBtns.toggleClass('show', scrolled);
+
+    f.scrollVisible(".main_dalton", function(){
+      $(".main_dalton-img-item.item1").css({"transform": `translate3d(0, -${windowScrollTop / 6}px, 0)`});
+      $(".main_dalton-img-item.item2").css({"transform": `translate3d(0, -${windowScrollTop / 3}px, 0)`});
+      $(".main_dalton-img-item.item3").css({"transform": `translate3d(0, -${windowScrollTop / 10}px, 0)`});
+    });
+  });
 });

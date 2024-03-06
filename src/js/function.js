@@ -343,3 +343,31 @@ export const textTyping = (el) => {
     
   });
 }
+
+/* 스크롤시 특정영역 감지 */
+export const checkVisible = ( element, check = 'above' ) => {
+  const viewportHeight = $(window).height(); // Viewport Height
+  const scrolltop = $(window).scrollTop(); // Scroll Top
+  const y = $(element).offset().top;
+  const elementHeight = $(element).height();   
+  
+  if (check == "visible") 
+    return ((y < (viewportHeight + scrolltop)) && (y > (scrolltop - elementHeight)));
+      
+  if (check == "above") 
+    return ((y < (viewportHeight + scrolltop)));
+}
+
+export const scrollVisible = (element, callback) => {
+  let isVisible = false;
+
+  if ( !isVisible && checkVisible(element) ) {
+    if (typeof callback === 'function') {
+      callback();
+    }
+
+    isVisible = true;
+  }
+
+  isVisible && window.removeEventListener('scroll', scrollVisible);
+}
