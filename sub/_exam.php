@@ -6,7 +6,8 @@
     </div>
   </div>
   <div class="sub-body">
-    <section class="exam-visual sub-content">
+    <section class="exam-visual sub-visual"></section>
+    <section class="exam-overview sub-content">
       <div class="wrapper">
         <!-- 컨텐츠 섹션 상단의 타이틀 및 텍스트 { -->
         <p class="content_title1">타이틀 1</p>
@@ -15,12 +16,6 @@
         <!-- } 컨텐츠 섹션 상단의 타이틀 및 텍스트 -->
         내용 작성
       </div>
-    </section>
-    <section class="exam-overview sub-content">
-      <div class="wrapper">
-        내용 작성
-      </div>
-    </section>
     </section>
   </div>
 </div>
