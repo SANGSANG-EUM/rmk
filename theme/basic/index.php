@@ -57,6 +57,10 @@ include_once(G5_THEME_PATH.'/head.php');
       </div>
     </div>
   </div>
+
+  <div class="main_sec main_dalton">
+
+  </div>
 </div>
 <!-- } main -->
 
