@@ -14,7 +14,22 @@ if(G5_COMMUNITY_USE === false) {
 </div><!-- header.php : #contents_dom -->
 <!-- } 콘텐츠 끝 -->
 
-<hr>
+<div class="fix_btns">
+  <ul>
+    <li>
+      <button type="button" class="ui-btn inspection-btn"></button>
+    </li>
+    <li>
+      <a href="" class="ui-btn naverStore-btn"></a>
+    </li>
+    <li>
+      <a href="" class="ui-btn amazon-btn"></a>
+    </li>
+    <li>
+      <button type="button" class="ui-btn top-btn"></button>
+    </li>
+  </ul>
+</div>
 
 <!-- 푸터 시작 { -->
 <div id="footer">
