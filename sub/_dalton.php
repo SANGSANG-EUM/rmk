@@ -5,10 +5,10 @@
     </div>
   </div>
   <div class="sub-body">
-    <section class="dalton-visual sub-content"></section>
+    <section class="dalton-visual sub-visual"></section>
     <section class="dalton-overview sub-content">
       <div class="wrapper">
-        <p class="sub-content_title1">색약자를 위한 색보정 안경 전문 기업 <br/>‘알엠케이 돌튼’입니다.</p>
+        <p class="content_title1">색약자를 위한 색보정 안경 전문 기업 <br/>‘알엠케이 돌튼’입니다.</p>
         <div class="dalton-overview_list">
           <div class="dalton-overview_row dalton-overview_row1">
             <div class="dalton-overview_content">
@@ -56,9 +56,42 @@
     </section>
     <section class="dalton-video sub-content">
       <div class="wrapper">
-        <p class="sub-content_title1">알엠케이 홍보영상</p>
-        <div class="dalton-video_content"></div>
+        <p class="content_title1">알엠케이 홍보영상</p>
+        <div class="dalton-video_thumb"></div>
+        <div class="dalton-video_popup">
+          <div class="dalton-video_frame">
+            <iframe src="https://www.youtube.com/embed/dBAJzKWI3yI?rel=0" title="국내 최초 색약안경 개발 성공! RMK 돌튼의 색약안경 실물보기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
     </section>
   </div>
 </div>
+
+<script>
+// 동영상 정지(초기화)
+function stopVideo() {
+  const iframe = $('.dalton-video_frame iframe');
+  const iframeSrc = iframe.attr('src');
+  iframe.attr('src', iframeSrc);
+}
+
+$(document).ready(function(){
+  // 홍보영상 팝업
+  const videoBtn = $('.dalton-video_thumb');
+  const videoPop = videoBtn.siblings('.dalton-video_popup');
+
+  videoBtn.on('click', function(e) {
+    e.stopPropagation();
+    videoPop.fadeToggle();
+  });
+
+  $(document).on('click', function(e) {
+    const isPopup = videoPop.has(e.target).length > 0 || videoBtn.has(e.target).length > 0;
+    if (!isPopup) {
+      videoPop.fadeOut();
+      stopVideo();
+    }
+  });
+})
+</script>
