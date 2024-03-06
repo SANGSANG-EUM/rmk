@@ -1,0 +1,54 @@
+/* Header */
+#header {position: fixed; top: 0; left: 0; z-index: 100; width: 100%; height: 90px; background: var(--color-white);}
+#header .inner {display: flex; flex-flow: row wrap; align-items: center; justify-content: space-between;}
+
+#header .logo > a {display: block; width: 88px; height: 90px; padding-top: 33px;}
+#header .logo > a img {vertical-align: top;}
+
+#header .gnb {display: flex; flex-flow: row wrap; align-items: center;}
+#header .gnb .navi > ul {display: flex; flex-flow: row wrap; align-items: center; gap: 0 90px;}
+#header .gnb .navi > ul > li {position: relative;}
+#header .gnb .navi > ul > li > a {display: block; position: relative; height: 90px; line-height: 90px; font-size: 18px; font-weight: 600; color: var(--color-black2);}
+#header .gnb .navi > ul > li > a:after {content: ""; display: block; position: absolute; bottom: 24px; left: 50%; z-index: 1; transform: translateX(-50%); width: 0; border-top: 2px solid var(--color-gray6); opacity: 0; transition: all 0.3s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;}
+
+#header .gnb .navi .depth2 {position: absolute; top: 75px; left: 50%; transform: translateX(-50%); width: 120px; padding: 12px 0; border-radius: 12px; text-align: center; background-color: var(--color-black2); opacity: 0; visibility: hidden; transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;}
+#header .gnb .navi .depth2 > li {}
+#header .gnb .navi .depth2 > li > a {display: block; padding: 7px 10px; font-size: 16px; font-weight: 400; color: #ccc; line-height: 1;}
+
+#header .gnb .navi > ul > li:hover .depth2 {width: 150px; opacity: 1; visibility: visible;}
+#header .gnb .navi > ul > li:hover > a:after {width: 100%; opacity: 1;}
+#header .gnb .navi .depth2 > li > a:hover {color: var(--color-main);}
+
+#header .language {margin-left: 140px; position: relative;}
+#header .language .icon {position: absolute; top: 50%; left: 0; z-index: 1; width: 20px; height: 20px; margin-top: -10px; background: url('../img/language.svg') no-repeat center/contain;}
+#header .language .ncSelect {height: 40px; line-height: 40px; border: 0; font-size: 16px; font-weight: 500; color: var(--color-black2);}
+#header .language .ncSelect .list {padding: 12px 0; border-radius: 12px; background: var(--color-black2);}
+#header .language .ncSelect .option {height: auto; line-height: 1; padding: 7px 10px; font-size: 16px; font-weight: 400; color: #ccc; text-align: center;}
+#header .language .ncSelect .option.focus, 
+#header .language .ncSelect .option.selected.focus {background: none; font-weight: 500; color: var(--color-main);}
+#header .language .ncSelect .option:hover {background: none; font-weight: 500; text-decoration: underline;}
+
+#header .inspection {margin-left: 50px;}
+#header .inspection-btn {width: 110px; height: 40px; font-size: 16px; font-weight: 600; color: var(--color-white); background-color: var(--color-black3); transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25)}
+#header .inspection-btn img {margin: -1px 3px 0 0; vertical-align: top;}
+#header .inspection-btn:hover {background-color: var(--color-main);}
+
+#header.type2 {background: none;}
+#header.type2:before {content: ""; display: block; position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 90px; background: rgba(255,255,255,0); background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 88%); opacity: 0.2;}
+#header.type2 .logo > a {width: 158px;}
+#header.type2 .gnb .navi > ul > li > a {color: var(--color-white);}
+#header.type2 .gnb .navi > ul > li > a:after {border-color: var(--color-white);}
+#header.type2 .language .ncSelect {color: var(--color-white); background-image: url('../img/arrow-down-w.svg');}
+#header.type2 .language .icon {background-image: url('../img/language-w.svg');}
+
+
+/* Footer */
+
+
+/* Main */
+.main_visual .swiper-slide {position: relative; width: 100%; height: 100vh;}
+.main_visual .swiper-slide img {position: absolute; top: 50%; left: 50%; z-index: 1; transform: translate(-50%, -50%);}
+.main_visual .swiper-slide .txt-box {position: absolute; bottom: 23%; left: 0; z-index: 20; width: 100%;}
+.main_visual .swiper-slide .txt-box .inner {width: 50%;}
+.main_visual .swiper-slide .txt-box .t1 {font-size: 100px; font-weight: 800; color: var(--color-white); line-height: normal;}
+.main_visual .swiper-slide .txt-box .t2 {margin-top: 35px; font-size: 30px; font-weight: 500; color: var(--color-white); line-height: normal;}
