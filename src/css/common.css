@@ -105,11 +105,11 @@ input {border-radius: 0;}
 .radio-wrap input[type='radio'] + label {display: inline-block; position: relative; padding-left: 31px; font-size: 16px; font-weight: 300; color: var(--color-black2); line-height: 1.45; cursor: pointer;}
 .radio-wrap input[type='radio']+ label::before {content: ""; display: inline-block; position: absolute; left: 0; top: 0; width: 21px; height: 21px; border-radius: 50%; border: 1px solid var(--color-gray9); background-color: var(--color-white); z-index: 1;}
 .radio-wrap input[type='radio']:checked + label::before {border-color: var(--color-main);}
-.radio-wrap input[type='radio']:checked + label::after {content: ""; display: inline-block; position: absolute; left: 6px; top: 6px; width: 11px; height: 11px; border-radius: 50%; background-color: var(--color-main); z-index: 2;}
+.radio-wrap input[type='radio']:checked + label::after {content: ""; display: inline-block; position: absolute; left: 5px; top: 5px; width: 11px; height: 11px; border-radius: 50%; background-color: var(--color-main); z-index: 2;}
 
 /* Input : checkbox */
 .check-wrap input[type='checkbox'] {display: none;}
 .check-wrap input[type='checkbox'] + label {display: inline-block; position: relative; padding-left: 31px; font-size: 16px; font-weight: 300; color: var(--color-black2); line-height: 1.45; cursor: pointer;}
 .check-wrap input[type='checkbox']+ label::before {content: ""; display: inline-block; position: absolute; left: 0; top: 0; width: 21px; height: 21px; border-radius: 3px; border: 1px solid var(--color-gray9); background-color: var(--color-white); z-index: 1;}
 .check-wrap input[type='checkbox']:checked + label::before {border-color: var(--color-main);}
-.check-wrap input[type='checkbox']:checked + label::after {content: ""; display: inline-block; position: absolute; left: 6px; top: 7px; width: 11px; height: 9px; border-radius: 0; background: url('../img/icon-check.png') no-repeat center center/cover; z-index: 2;}
+.check-wrap input[type='checkbox']:checked + label::after {content: ""; display: inline-block; position: absolute; left: 5px; top: 6px; width: 11px; height: 9px; border-radius: 0; background: url('../img/icon-check.png') no-repeat center center/cover; z-index: 2;}
