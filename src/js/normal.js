@@ -18,29 +18,37 @@ $(document).ready(function () {
 
   // Main Visual
   const mainVisualTarget = '.main_visual .swiper-container';
-  const mainVisualOptions = {
-    slidesPerView: 1,
-    loop: true,
-    loopAdditionalSlides : 1,
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true
-    },
-    // autoplay: {
-    //   delay: 3000,
-    // },
-    speed: 1000,
-    centeredSlides: true,
-    on: {
-      slideChangeTransitionEnd : function() {
-        f.textTyping(".main_visual .swiper-slide-active .typing-txt");
+  const mainVisualSlideCount = $(mainVisualTarget).find('.swiper-slide').length;
+
+  if(mainVisualSlideCount > 1) {
+    const mainVisualOptions = {
+      slidesPerView: 1,
+      loop: true,
+      loopAdditionalSlides : 1,
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
       },
-    },
-    // pagination: {
-    //   el: `${mainVisualTarget} .pagination`,
-    // },
-  };
-  const mainVisualSlider = f.slider(mainVisualTarget, mainVisualOptions);
+      autoplay: {
+        delay: 3500,
+      },
+      speed: 1500,
+      centeredSlides: true,
+      on: {
+        slideChangeTransitionEnd : function() {
+          f.textTyping(".main_visual .swiper-slide-active .typing-txt");
+          $(".main_visual .swiper-slide-active .txt-box .t2").addClass('show');
+        },
+      },
+      // pagination: {
+      //   el: `${mainVisualTarget} .pagination`,
+      // },
+    };
+    const mainVisualSlider = f.slider(mainVisualTarget, mainVisualOptions);
+  } else {
+    f.textTyping(".main_visual .swiper-slide .typing-txt");
+    $(".main_visual .swiper-slide .txt-box .t2").addClass('show');
+  }
 
 
   $("#dalton_exp-beforeAfter-slider").on("input change", (e)=>{
