@@ -18,10 +18,15 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 ?>
 
 <div id="faq_list" class="sub faq">
-  <?php sub_top($sb_menus, 'cs', 'faq'); ?>
+  <div class="sub-head">
+    <div class="wrapper">
+      <h1 class="sub-head_title">FAQ</h1>
+      <p class="sub-head_explan">이용에 궁금하신 점이 있으신가요?</p>
+    </div>
+  </div>
 
   <!-- sub contents { -->
-  <div class="container sub_contents">
+  <div class="sub-body">
     <div class="wrapper">
 
       <!-- 게시판 목록 시작 { -->
@@ -30,7 +35,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         <!-- 게시판 카테고리 시작 { -->
         <?php if ($is_category) { ?>
         <nav id="bo_cate">
-          <h2><?php echo $board['bo_subject'] ?> 카테고리</h2>
+          <!-- <h2><?php //echo $board['bo_subject'] ?> 카테고리</h2> -->
           <ul id="bo_cate_ul">
             <?php echo $category_option ?>
           </ul>
@@ -127,13 +132,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                     <?php echo $list[$i]['wr_subject'];?>
                   </div>
                   <?php if ($is_checkbox) { ?>
-                  <a href="./write.php?w=u&bo_table=<?=$bo_table?>&wr_id=<?=$list[$i]['wr_id']?>" class="bo_btn1 faq_edit_btn">수정</a>
+                  <a href="/<?=$bo_table?>/write?w=u&wr_id=<?=$list[$i]['wr_id']?>" class="bo_btn1 faq_edit_btn">수정</a>
                   <?php }else{ ?>
-                  <span class="faq_arrow"><i class="arrow down"></i></span>
+                  <!-- <span class="faq_arrow"></span> -->
                   <?php } ?>
                 </div>
                 <div class="faq_a">
-                  <span class="faq_icon">A.</span>
                   <div class="faq_a_txt">
                     <?php echo nl2br($list[$i]['wr_content']);?>
                   </div>
