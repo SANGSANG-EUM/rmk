@@ -40,18 +40,27 @@ if(defined('_INDEX_')) { // index에서만 실행
         <div class="navi">
           <ul>
             <li>
-              <a href="">브랜드 스토리</a>
+              <a href="/sub/dalton">브랜드 스토리</a>
               <ul class="depth2">
                 <li>
                   <a href="/sub/dalton">돌튼</a>
                 </li>
                 <li>
-                  <a href="">고객리뷰</a>
+                  <a href="">고객 리뷰</a>
+                </li>
+                <li>
+                  <a href="/sub/greeting">인사말</a>
+                </li>
+                <li>
+                  <a href="/sub/history">주요 연혁</a>
+                </li>
+                <li>
+                  <a href="">오시는 길</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="">제품소개</a>
+              <a href="/sub/product">제품소개</a>
               <ul class="depth2">
                 <li>
                   <a href="/sub/product">색약 선글라스</a>
@@ -62,10 +71,10 @@ if(defined('_INDEX_')) { // index에서만 실행
               </ul>
             </li>
             <li>
-              <a href="">기술소개</a>
+              <a href="/sub/dyschromatopsia">기술소개</a>
               <ul class="depth2">
                 <li>
-                  <a href="">색각이상이란?</a>
+                  <a href="/sub/dyschromatopsia">색각이상이란?</a>
                 </li>
                 <li>
                   <a href="">차별화 기술</a>
@@ -73,10 +82,10 @@ if(defined('_INDEX_')) { // index에서만 실행
               </ul>
             </li>
             <li>
-              <a href="">고객지원</a>
+              <a href="/sub/guide">고객지원</a>
               <ul class="depth2">
                 <li>
-                  <a href="">가이드</a>
+                  <a href="/sub/guide">가이드</a>
                 </li>
                 <li>
                   <a href="">FAQ</a>
@@ -85,7 +94,7 @@ if(defined('_INDEX_')) { // index에서만 실행
                   <a href="">체험장 안내</a>
                 </li>
                 <li>
-                  <a href="">문의하기</a>
+                  <a href="/contact/write">문의하기</a>
                 </li>
               </ul>
             </li>
