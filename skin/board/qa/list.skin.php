@@ -13,11 +13,14 @@ if ($is_nogood) $colspan++;
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
 
-<div id="qa_list" class="sub qa">
-  <?php sub_top($sb_menus, 'cs', 'qa'); ?>
-
-  <!-- sub contents { -->
-  <div class="container sub_contents">
+<div id="qa-list" class="sub">
+  <div class="sub-head">
+    <div class="wrapper">
+      <h1 class="sub-head_title">문의하기</h1>
+      <p class="sub-head_explan">우리에게 궁금한 것이 있으신가요?</p>
+    </div>
+  </div>
+  <div class="sub-body">
     <div class="wrapper">
 
       <!-- 게시판 목록 시작 { -->
@@ -106,7 +109,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                   <th scope="col">번호</th>
                   <th scope="col">제목</th>
                   <th scope="col">글쓴이</th>
-                  <th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th>
+                  <!-- <th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th> -->
                   <th scope="col"><?php echo subject_sort_link('wr_datetime', $qstr2, 1) ?>날짜  </a></th>
                 </tr>
               </thead>
@@ -173,13 +176,13 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                     <div class="mo_view mo_contents">
                       <ul class="i-col-0 bo_info">
                         <li><i class="fa fa-user-o" aria-hidden="true"></i><?php echo $list[$i]['name'] ?></li>
-                        <li><i class="fa fa-eye" aria-hidden="true"></i><?php echo $list[$i]['wr_hit'] ?></li>
+                        <!-- <li><i class="fa fa-eye" aria-hidden="true"></i><?php echo $list[$i]['wr_hit'] ?></li> -->
                         <li><i class="fa fa-clock-o" aria-hidden="true"></i><?php echo date("Y.m.d", strtotime($list[$i]['wr_datetime'])) ?></li>
                       </ul>
                     </div>
                   </td>
                   <td class="td_name"><?php echo $list[$i]['name'] ?></td>
-                  <td class="td_num"><?php echo $list[$i]['wr_hit'] ?></td>
+                  <!-- <td class="td_num"><?php echo $list[$i]['wr_hit'] ?></td> -->
                   <td class="td_datetime"><?php echo date("Y.m.d", strtotime($list[$i]['wr_datetime'])) ?></td>
                 </tr>
                 <?php } ?>
@@ -224,7 +227,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
     </div>
   </div>
-  <!-- } sub contents -->
 </div>
 
 <?php if($is_checkbox) { ?>
