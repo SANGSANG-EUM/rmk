@@ -62,7 +62,7 @@
 /* 브랜드 스토리 > 인사말 */
 #greeting {}
 .greeting-visual {background: url('/src/img/greeting-vs.jpg') no-repeat center center/cover;}
-.greeting-mean {position: relative; padding-top: 120px; overflow: hidden;}
+.greeting-mean {position: relative; margin-top: 120px; overflow: hidden;}
 .greeting-mean_paralax {position: absolute; left: calc((100% - 1520px) / 2); top: 50%; min-width: 150%; margin-left: -10px; font-size: 200px; font-weight: 400; color: var(--color-gray1); line-height: 1; z-index: -1;}
 .greeting-mean_paralax b {font-weight: 700;}
 .greeting-mean_title {display: inline-block; vertical-align: middle; position: relative; padding-right: 180px; font-size: 30px; font-weight: 800; color: var(--color-black2);}
@@ -86,6 +86,22 @@
 .greeting-mean_text3 {margin-top: 26px; font-size: 18px; font-weight: 400; color: var(--color-black2);}
 .greeting-mean_item4 {border-radius: 999px 999px 0 0; overflow: hidden;}
 .greeting-mean_item4 img {}
+
+/* 브랜드 스토리 > 주요연혁 */
+#history {}
+.history-visual {background: url('/src/img/history-vs.jpg') no-repeat center center/cover;}
+.history-content {position: relative; margin-top: 120px; overflow: hidden;}
+.history-content::before {position: absolute; left: calc((100% - 1520px) / 2); top: 45px; width: 100%; height: 100%; background: linear-gradient(180deg, #FAFAFA 83.35%, rgba(250, 250, 250, 0) 100%); border-radius: 150px 0px 0px 0px; z-index: -1; content: "";}
+.history-box {position: relative; padding-left: 210px; padding-right: 200px; padding-top: 90px; padding-bottom: 130px;}
+.history-box_row {padding: 30px; font-size: 0;}
+.history-box_row:not(:last-child) {border-bottom: 1px dashed var(--color-gray10);}
+.history-box_item {display: inline-block; vertical-align: top;}
+.history-box_year {position: relative; width: 240px; padding: 0 28px; font-size: 40px; font-weight: 700; color: var(--color-black2);}
+.history-box_row:first-child .history-box_year::before {position: absolute; left: 0; top: 19px; width: 14px; height: 14px; background: var(--color-main); border-radius: 50%; content: "";}
+.history-box_text {width: calc(100% - 240px); padding-top: 14px;}
+.history-box_text p {font-size: 20px; font-weight: 300; color: var(--color-black2);}
+.history-box_text p b {}
+.history-box_text p ~ p {margin-top: 15px;}
 
 /* 제품소개 */
 #product {}
