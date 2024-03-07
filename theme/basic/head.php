@@ -88,13 +88,13 @@ if(defined('_INDEX_')) { // index에서만 실행
                   <a href="/sub/guide">가이드</a>
                 </li>
                 <li>
-                  <a href="">FAQ</a>
+                  <a href="/faq_kr">FAQ</a>
                 </li>
                 <li>
-                  <a href="">체험장 안내</a>
+                  <a href="/sub/location">체험장 안내</a>
                 </li>
                 <li>
-                  <a href="/contact/write">문의하기</a>
+                  <a href="/contact_kr/write">문의하기</a>
                 </li>
               </ul>
             </li>

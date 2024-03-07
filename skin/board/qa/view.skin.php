@@ -9,11 +9,14 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
 
-<div id="qa_view" class="sub qa">
-  <?php sub_top($sb_menus, 'cs', 'qa'); ?>
-
-  <!-- sub contents { -->
-  <div class="container sub_contents">
+<div id="qa-view" class="sub">
+  <div class="sub-head">
+    <div class="wrapper">
+      <h1 class="sub-head_title">문의하기</h1>
+      <p class="sub-head_explan">우리에게 궁금한 것이 있으신가요?</p>
+    </div>
+  </div>
+  <div class="sub-body">
     <div class="wrapper">
 
       <!-- 게시물 읽기 시작 { -->
@@ -123,9 +126,11 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
           <h2 id="bo_v_atc_title">본문</h2>
           <!-- 본문 내용 시작 { -->
           <div id="bo_v_con">
+            문의분류 : <?php echo $view['ca_name'];?><br>
             작성자 : <?php echo $view['wr_name'];?><br>
+            연락처 : <?php echo $view['wr_homepage'];?><br>
             이메일 : <?php echo $view['wr_email'];?><br>
-            전화번호 : <?php echo $view['wr_homepage'];?><br><br>
+            마케팅 활용 및 광고 수신 동의 : SMS <?php echo $view['wr_1']=='Y'?'동의':'미동의';?> / E-mail <?php echo $view['wr_2']=='Y'?'동의':'미동의'; ?><br><br>
             <?php echo get_view_thumbnail($view['content']); ?>
           </div>
           <!-- } 본문 내용 끝 -->
@@ -183,7 +188,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
     </div>
   </div>
-  <!-- } sub contents -->
 </div>
 
 <script>
