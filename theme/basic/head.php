@@ -60,13 +60,13 @@ if(defined('_INDEX_')) { // index에서만 실행
               </ul>
             </li>
             <li>
-              <a href="/sub/product">제품소개</a>
+              <a href="/sub/sunglasses">제품소개</a>
               <ul class="depth2">
                 <li>
-                  <a href="/sub/product">색약 선글라스</a>
+                  <a href="/sub/sunglasses">색약 선글라스</a>
                 </li>
                 <li>
-                  <a href="">색약 안경렌즈</a>
+                  <a href="/sub/lens">색약 안경렌즈</a>
                 </li>
               </ul>
             </li>
