@@ -68,20 +68,5 @@ $(document).ready(function () {
       }
     }
     fixBtns.toggleClass('show', scrolled);
-    
-    f.scrollVisible(".main_dalton", function(){
-      $(".main_dalton-img-item.item1").css({"transform": `translate3d(0, -${windowScrollTop / 6}px, 0)`});
-      $(".main_dalton-img-item.item2").css({"transform": `translate3d(0, -${windowScrollTop / 3}px, 0)`});
-      $(".main_dalton-img-item.item3").css({"transform": `translate3d(0, -${windowScrollTop / 10}px, 0)`});
-    });
-
-    let mainProduct_top = $(".main_product").offset().top;
-    let mainProduct_calcY = -(windowScrollTop - mainProduct_top);
-
-    f.scrollVisible(".main_product", function(){
-      $(".main_product-type-item.item1").css({"transform": `translate3d(0, ${mainProduct_calcY}px, 0)`});
-      $(".main_product-type-item.item2").css({"transform": `translate3d(0, ${mainProduct_calcY - 275}px, 0)`});
-      $(".main_product-type-item.item3").css({"transform": `translate3d(0, ${mainProduct_calcY + 145}px, 0)`});
-    });
   });
 });

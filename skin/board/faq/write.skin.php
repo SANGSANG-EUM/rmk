@@ -7,10 +7,15 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 ?>
 
 <div id="faq_write" class="sub faq">
-  <?php sub_top($sb_menus, 'cs', 'faq'); ?>
+  <div class="sub-head">
+    <div class="wrapper">
+      <h1 class="sub-head_title">FAQ</h1>
+      <p class="sub-head_explan">이용에 궁금하신 점이 있으신가요?</p>
+    </div>
+  </div>
 
   <!-- sub contents { -->
-  <div class="container sub_contents">
+  <div class="sub-body">
     <div class="wrapper">
 
       <!-- 게시물 작성/수정 시작 { -->
