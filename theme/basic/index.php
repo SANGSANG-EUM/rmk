@@ -141,13 +141,12 @@ include_once(G5_THEME_PATH.'/head.php');
                   <div class="dalton_ex-item">
                     <div class="icon"><img src="/src/img/dalton-ex-img3.png" alt=""></div>
                     <div class="txt">
-                      <p class="t1"><span>*</span>Dolton</p>
+                      <p class="t1 medium"><span class="mark">*</span>Dalton</p>
                       <p class="t2">돌튼 착용 후</p>
                     </div>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -161,6 +160,10 @@ include_once(G5_THEME_PATH.'/head.php');
         <div class="wrapper">
           <div class="inner">
             <p class="content_title1">색약보정 아이웨어 돌튼의 제품은 <br/>색을 선물해드립니다.</p>
+            <a href="/sub/product" class="ui-btn link-btn">
+              <span class="txt">제품 보러가기</span>
+              <img src="/src/img/link-icon.svg" alt="">
+            </a>
           </div>
         </div>
       </div>
@@ -201,11 +204,75 @@ include_once(G5_THEME_PATH.'/head.php');
           </div>
         </div>
       </div>
+      <div class="marquee_text">
+        <div class="track">
+          <p class="tbox">
+            <span class="black">Color Weakness </span>
+            <span class="gray">Correction </span>
+            <span class="black">Eyewear </span>
+            <span class="gray">Product </span>
+            <span class="black">Color Weakness </span>
+            <span class="gray">Correction </span>
+            <span class="black">Eyewear </span>
+            <span class="gray">Product</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main_sec main_inspection">
+    <div class="container">
+      <div class="wrapper">
+        <div class="inner">
+          <div class="main_sec-top">
+            <p class="content_title1">온라인 색약테스트로 <br/>본인의 색약 유형을 알아보세요!</p>
+            <p class="content-text3"><b>결과를 바탕으로 가장 적합한 색약 안경 제품을 찾아드립니다.</b></p>
+          </div>
+          <div class="main_sec-ct">
+            <div class="main_inspection-img">
+              <img src="/src/img/main_inspection-img.jpg" alt="">
+            </div>
+            <button type="button" class="ui-btn link-btn">
+              <span class="txt">색각 검사하기</span>
+              <img src="/src/img/link-icon.svg" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
 </div>
 <!-- } main -->
+
+<script type="module">
+import * as f from '/src/js/function.js';
+
+$(document).ready(function(){
+  const $window = $(window);
+
+  // Mouse Scroll
+  $window.on('scroll', function(){
+    let windowScrollTop = $window.scrollTop();
+    
+    f.scrollVisible(".main_dalton", function(){
+      $(".main_dalton-img-item.item1").css({"transform": `translate3d(0, -${windowScrollTop / 6}px, 0)`});
+      $(".main_dalton-img-item.item2").css({"transform": `translate3d(0, -${windowScrollTop / 3}px, 0)`});
+      $(".main_dalton-img-item.item3").css({"transform": `translate3d(0, -${windowScrollTop / 10}px, 0)`});
+    });
+
+    let mainProduct_top = $(".main_product").offset().top;
+    let mainProduct_calcY = -(windowScrollTop - mainProduct_top);
+
+    f.scrollVisible(".main_product", function(){
+      $(".main_product-type-item.item1").css({"transform": `translate3d(0, ${mainProduct_calcY}px, 0)`});
+      $(".main_product-type-item.item2").css({"transform": `translate3d(0, ${mainProduct_calcY - 275}px, 0)`});
+      $(".main_product-type-item.item3").css({"transform": `translate3d(0, ${mainProduct_calcY + 145}px, 0)`});
+    });
+  });
+})
+</script>
 
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
