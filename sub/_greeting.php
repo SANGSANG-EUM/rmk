@@ -46,3 +46,17 @@
     </section>
   </div>
 </div>
+
+<script>
+$(document).ready(function () {
+  $(window).scroll(function () {
+    const greetingScroll = $(window).scrollTop() - 900;
+    const greetingText = $(".greeting-mean_paralax");
+    if(greetingText.length > 0) {
+      greetingText.css({
+        'transform': 'translateX(-' + greetingScroll / 2 + 'px)'
+      });
+    }
+  });
+});
+</script>
