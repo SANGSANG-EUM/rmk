@@ -1,6 +1,6 @@
 <div id="product" class="sub">
   <div class="sub-body">
-    <section class="product-visual sub-content">
+    <section class="product-visual sunglasses sub-content">
       <div class="wrapper">
         <p class="product-visual_title">색약 선글라스</p>
         <p class="product-visual_text1">알엠케이에서는 성인과 아동을 위한 <br/>다양한 색약 선글라스를 선보입니다.</p>
@@ -139,7 +139,20 @@
           <!-- } loop -->
           <div class="product-list_item">
             <a href="" class="product-list_thumb">
-              <img src="/src/img/product-icon-down.png" alt="제품 이미지">
+              <img src="/src/img/product-thumb2.jpg" alt="제품 이미지">
+            </a>
+            <div class="product-list_info">
+              <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
+              <p class="product-list_price"><span>520,000</span>원</p>
+              <div class="product-list_option">
+                <p>+ 4 Color</p>
+                <p>+ 2 Lenses</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-list_item">
+            <a href="" class="product-list_thumb">
+              <img src="/src/img/product-thumb3.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
               <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
@@ -165,7 +178,20 @@
           </div>
           <div class="product-list_item">
             <a href="" class="product-list_thumb">
-              <img src="/src/img/product-icon-down.png" alt="제품 이미지">
+              <img src="/src/img/product-thumb2.jpg" alt="제품 이미지">
+            </a>
+            <div class="product-list_info">
+              <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
+              <p class="product-list_price"><span>520,000</span>원</p>
+              <div class="product-list_option">
+                <p>+ 4 Color</p>
+                <p>+ 2 Lenses</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-list_item">
+            <a href="" class="product-list_thumb">
+              <img src="/src/img/product-thumb3.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
               <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
@@ -191,7 +217,20 @@
           </div>
           <div class="product-list_item">
             <a href="" class="product-list_thumb">
-              <img src="/src/img/product-icon-down.png" alt="제품 이미지">
+              <img src="/src/img/product-thumb2.jpg" alt="제품 이미지">
+            </a>
+            <div class="product-list_info">
+              <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
+              <p class="product-list_price"><span>520,000</span>원</p>
+              <div class="product-list_option">
+                <p>+ 4 Color</p>
+                <p>+ 2 Lenses</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-list_item">
+            <a href="" class="product-list_thumb">
+              <img src="/src/img/product-thumb3.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
               <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
@@ -217,7 +256,7 @@
           </div>
           <div class="product-list_item">
             <a href="" class="product-list_thumb">
-              <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
+              <img src="/src/img/product-thumb2.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
               <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
@@ -230,46 +269,7 @@
           </div>
           <div class="product-list_item">
             <a href="" class="product-list_thumb">
-              <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
-            </a>
-            <div class="product-list_info">
-              <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
-              <div class="product-list_option">
-                <p>+ 4 Color</p>
-                <p>+ 2 Lenses</p>
-              </div>
-            </div>
-          </div>
-          <div class="product-list_item">
-            <a href="" class="product-list_thumb">
-              <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
-            </a>
-            <div class="product-list_info">
-              <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
-              <div class="product-list_option">
-                <p>+ 4 Color</p>
-                <p>+ 2 Lenses</p>
-              </div>
-            </div>
-          </div>
-          <div class="product-list_item">
-            <a href="" class="product-list_thumb">
-              <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
-            </a>
-            <div class="product-list_info">
-              <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
-              <div class="product-list_option">
-                <p>+ 4 Color</p>
-                <p>+ 2 Lenses</p>
-              </div>
-            </div>
-          </div>
-          <div class="product-list_item">
-            <a href="" class="product-list_thumb">
-              <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
+              <img src="/src/img/product-thumb3.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
               <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>

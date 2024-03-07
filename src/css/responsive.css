@@ -105,7 +105,9 @@
 
 /* 제품소개 */
 #product {}
-.product-visual {margin-top: 40px; margin-bottom: 100px; padding: 200px 0 58px; background: url('/src/img/product-bg.jpg') no-repeat center right;}
+.product-visual {margin-top: 40px; margin-bottom: 100px; padding: 200px 0 58px;}
+.product-visual.sunglasses {background: url('/src/img/product-bg.jpg') no-repeat center right;}
+.product-visual.lens {background: url('/src/img/product-lens-bg.jpg') no-repeat center right;}
 .product-visual_title {font-size: 100px; font-weight: 800; color: var(--color-black2); line-height: 1.3;}
 .product-visual_text1 {margin-top: 55px; font-size: 24px; font-weight: 500; color: var(--color-black2); line-height: 1.4;}
 .product-visual_text2 {margin-top: 20px; font-size: 16px; font-weight: 300; color: var(--color-black2); line-height: 1.6;}
