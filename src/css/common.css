@@ -15,7 +15,7 @@ input[type="submit"], button {cursor: pointer;}
 input {border-radius: 0;}
 
 /* Content Line */
-.container {padding-left: 1.5rem; padding-right: 1.5rem; width: 100%;}
+.container {padding-left: 70px; padding-right: 70px; width: 100%;}
 .wrapper {width: 1520px; max-width: 100%; margin: 0 auto;}
 
 /* Color */

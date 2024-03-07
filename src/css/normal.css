@@ -80,7 +80,37 @@
 
 
 /* Footer */
-#footer {height: 730px; background-color: var(--color-gray6);}
+#footer {padding: 100px 0 120px; background-color: var(--color-gray6);}
+#footer .inner {display: flex; flex-flow: row wrap; align-items: flex-start; justify-content: flex-start;}
+#footer .lt {width: calc(100% - 825px); max-width: 100%; padding-right: 160px;}
+#footer .rt {width: 825px; max-width: 100%; padding-top: 20px;}
+#footer .slg_t1 {font-size: 70px; font-weight: 800; color: var(--color-white); line-height: 1.142;}
+#footer .slg_t2 {margin-top: 30px; font-size: 30px; font-weight: 300; color: var(--color-white); line-height: 1.53;}
+#footer .slg_t2 b {font-weight: 700;}
+#footer .slg_t3 {width: 450px; max-width: 100%; margin-top: 50px; font-size: 18px; font-weight: 400; color: var(--color-white); line-height: 1.55;}
+
+#footer .brand_logo {display: flex; flex-flow: row wrap; align-items: center; gap: 10px 30px; margin-top: 30px;}
+#footer .brand_logo > li {position: relative;}
+#footer .brand_logo > li ~ li:after {content: ""; display: block; position: absolute; top: 50%; left: -15px; z-index: 1; height: 22px; margin-top: -11px; border-left: 1px solid rgba(255,255,255,0.3);}
+#footer .brand_logo .rmk-logo img {width: 60px;}
+
+#footer .sitemap > ul {display: flex; flex-flow: row wrap; align-items: flex-start; justify-content: space-between;}
+#footer .sitemap > ul > li > a {display: block; font-size: 20px; font-weight: 700; color: var(--color-white); line-height: normal;}
+#footer .sitemap > ul > li > ul {margin-top: 20px;}
+#footer .sitemap > ul > li > ul > li {}
+#footer .sitemap > ul > li > ul > li > a {display: block; font-size: 16px; font-weight: 400; color: var(--color-white); line-height: 1.875;}
+
+#footer .company_info {margin-top: 50px; padding-top: 55px; border-top: 1px solid rgba(255,255,255,0.3);}
+#footer .company_info > ul {display: flex; flex-flow: row wrap; gap: 12px 28px;}
+#footer .company_info > ul > li {position: relative; font-size: 16px; font-weight: 400; color: var(--color-white); line-height: normal;}
+#footer .company_info > ul > li:after {content: ""; display: block; position: absolute; top: 50%; right: -14px; z-index: 1; height: 12px; margin-top: -6px; border-left: 1px dashed rgba(255,255,255,0.3);}
+#footer .company_info > ul > li ~ li:last-child:after {display: none;}
+#footer .company_info > ul > li b {font-weight: 600;}
+
+#footer .copy {margin-top: 25px; font-size: 14px; font-weight: 400; color: #bbb; line-height: normal;}
+
+#footer .sns {margin-top: 40px;}
+#footer .sns > ul {display: flex; flex-flow: row wrap; gap: 10px 20px;}
 
 .fix_btns {position: fixed; bottom: 20px; right: 20px; z-index: 100;}
 .fix_btns > ul {}
@@ -117,7 +147,7 @@
 .main_visual .swiper-slide .txt-box .inner {width: 50%;}
 .main_visual .swiper-slide .txt-box .t1 {font-size: 100px; font-weight: 800; color: var(--color-white); line-height: normal;}
 .main_visual .swiper-slide .txt-box .t2 {margin-top: 35px; font-size: 30px; font-weight: 500; color: var(--color-white); line-height: normal; opacity: 0; transition: all 3s 1s cubic-bezier(0.5, 0, 0, 1.25);}
-.main_visual .swiper-slide-active .txt-box .t2 {opacity: 1;}
+.main_visual .swiper-slide .txt-box .t2.show {opacity: 1;}
 
 .main_dalton {margin-top: 120px;}
 .main_dalton .main_sec-ct {position: relative;}

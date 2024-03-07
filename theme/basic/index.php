@@ -37,23 +37,6 @@ include_once(G5_THEME_PATH.'/head.php');
             </div>
           </div>
         </div>
-        <div class="swiper-slide">
-          <img src="/src/img/main_vs1.jpg" alt="" class="fitCover">
-
-          <div class="txt-box">
-            <div class="container">
-              <div class="wrapper">
-                <div class="inner">
-                  <div class="t1">
-                    <p class="typing-txt">세상의 아름다움을 선명하게 보여주다.</p>
-                    <p class="typing"></p>
-                  </div>
-                  <p class="t2">모두를 위한 색약보정 아이웨어 전문, 알엠케이</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
