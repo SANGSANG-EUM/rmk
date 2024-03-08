@@ -55,13 +55,13 @@ if(G5_COMMUNITY_USE === false) {
                     <a href="/sub/dalton">돌튼 Dalton</a>
                   </li>
                   <li>
-                    <a href="/sub/review">고객리뷰</a>
+                    <a href="/sub/review">고객 리뷰</a>
                   </li>
                   <li>
                     <a href="/sub/greeting">인사말</a>
                   </li>
                   <li>
-                    <a href="/sub/history">주요연혁</a>
+                    <a href="/sub/history">주요 연혁</a>
                   </li>
                   <li>
                     <a href="/sub/map">오시는 길</a>
@@ -69,7 +69,7 @@ if(G5_COMMUNITY_USE === false) {
                 </ul>
               </li>
               <li>
-                <a href="/sub/sunglasses">제품 소개</a>
+                <a href="/sub/sunglasses">제품소개</a>
                 <ul>
                   <li>
                     <a href="/sub/sunglasses">색약 선글라스</a>
@@ -80,7 +80,7 @@ if(G5_COMMUNITY_USE === false) {
                 </ul>
               </li>
               <li>
-                <a href="/sub/dyschromatopsia">기술 소개</a>
+                <a href="/sub/dyschromatopsia">기술소개</a>
                 <ul>
                   <li>
                     <a href="/sub/dyschromatopsia">색각이상이란?</a>
