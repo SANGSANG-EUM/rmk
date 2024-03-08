@@ -43,7 +43,7 @@ if(defined('_INDEX_')) { // index에서만 실행
               <a href="/sub/dalton">브랜드 스토리</a>
               <ul class="depth2">
                 <li>
-                  <a href="/sub/dalton">돌튼</a>
+                  <a href="/sub/dalton">돌튼 Dalton</a>
                 </li>
                 <li>
                   <a href="">고객 리뷰</a>
@@ -77,7 +77,21 @@ if(defined('_INDEX_')) { // index에서만 실행
                   <a href="/sub/dyschromatopsia">색각이상이란?</a>
                 </li>
                 <li>
-                  <a href="">차별화 기술</a>
+                  <a href="/sub/difference">차별화 기술</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="/news_kr">새소식</a>
+              <ul class="depth2">
+                <li>
+                  <a href="/news_kr">보도자료</a>
+                </li>
+                <li>
+                  <a href="/notice_kr">공지사항</a>
+                </li>
+                <li>
+                  <a href="/gallery_kr">갤러리</a>
                 </li>
               </ul>
             </li>
