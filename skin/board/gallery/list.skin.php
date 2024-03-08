@@ -11,11 +11,20 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 */
 ?>
 
-<div id="gallery_list" class="sub gallery">
-  <?php sub_top($sb_menus, 'cs', 'gallery'); ?>
-
-  <!-- sub contents { -->
-  <div class="container sub_contents">
+<div id="gallery-list" class="sub">
+  <div class="sub-head">
+    <div class="wrapper">
+      <?php 
+      if(strpos($bo_table, 'news') !== false) { ?>
+      <h1 class="sub-head_title">보도자료</h1>
+      <p class="sub-head_explan">알엠케이의 새소식을 확인하세요.</p>
+      <?php } else { ?>
+      <h1 class="sub-head_title">갤러리</h1>
+      <p class="sub-head_explan">알엠케이의 갤러리입니다.</p>
+      <?php } ?>
+    </div>
+  </div>
+  <div class="sub-body">
     <div class="wrapper">
 
       <!-- 게시판 목록 시작 { -->
