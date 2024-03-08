@@ -82,20 +82,6 @@ if(defined('_INDEX_')) { // index에서만 실행
               </ul>
             </li>
             <li>
-              <a href="/news_kr">새소식</a>
-              <ul class="depth2">
-                <li>
-                  <a href="/news_kr">보도자료</a>
-                </li>
-                <li>
-                  <a href="/notice_kr">공지사항</a>
-                </li>
-                <li>
-                  <a href="/gallery_kr">갤러리</a>
-                </li>
-              </ul>
-            </li>
-            <li>
               <a href="/sub/guide">고객지원</a>
               <ul class="depth2">
                 <li>
