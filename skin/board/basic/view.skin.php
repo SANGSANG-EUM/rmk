@@ -9,11 +9,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
 
-<div id="notice_view" class="sub notice">
-  <?php sub_top($sb_menus, 'cs', 'notice'); ?>
-
-  <!-- sub contents { -->
-  <div class="container sub_contents">
+<div id="notice-view" class="sub">
+  <div class="sub-body">
     <div class="wrapper">
 
       <!-- 게시물 읽기 시작 { -->
@@ -29,7 +26,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
           <div class="profile_info">
             <div class="profile_info_ct">
               <ul class="i-col-0 profile_info_ct_ul">
-                <li>
+                <!-- <li>
                   <span class="sound_only">작성자</span>
                   <strong>
                     <i class="fa fa-user-o" aria-hidden="true"></i>
@@ -49,7 +46,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                     <i class="fa fa-eye" aria-hidden="true"></i>
                     <?php echo number_format($view['wr_hit']) ?>회
                   </strong>
-                </li>
+                </li> -->
                 <li>
                   <span class="sound_only">작성일</span>
                   <strong class="if_date">
@@ -141,9 +138,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
           <ul class="btn_bo_user bo_v_com">
             <?php if ($reply_href) { ?>
-            <li>
+            <!-- <li>
               <a href="<?php echo $reply_href ?>" class="bo_btn2">답변</a>
-            </li>
+            </li> -->
             <?php } ?>
             <?php if ($copy_href) { ?>
             <li>
@@ -175,26 +172,29 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         
         <!-- 게시글 이동 버튼 { -->
         <div id="bo_v_oth">
-          <a href="<?php echo $list_href ?>" class="bo_v_back_btn">LIST</a>
-
-          <?php if ($prev_href || $next_href) { ?>
+          <?php //if ($prev_href || $next_href) { ?>
           <ul class="i-col-0 bo_v_nb">
-            <?php if ($prev_href) { ?>
             <li class="btn_prv">
-              <a href="<?php echo $prev_href ?>" class="bo_v_nb_btn bo_v_nb_prev">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i>이전글
+              <?php if ($prev_href) { ?>
+              <a href="<?php echo $prev_href ?>" class="bo_v_nb_btn bo_v_nb_prev">이전 글 보러가기
               </a>
+              <?php } else { ?>
+              <p class="bo_v_nb_txt">이전 글이 없습니다.</p>
+              <?php } ?>
             </li>
-            <?php } ?>
-            <?php if ($next_href) { ?>
             <li class="btn_next">
+              <?php if ($next_href) { ?>
               <a href="<?php echo $next_href ?>" class="bo_v_nb_btn bo_v_nb_next">
-                다음글<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                다음 글 보러가기
               </a>
+              <?php } else { ?>
+              <p class="bo_v_nb_txt">다음 글이 없습니다.</p>
+              <?php } ?>
             </li>
-            <?php } ?>
+            <?php //} ?>
           </ul>
-          <?php } ?>
+          <?php //} ?>
+          <a href="<?php echo $list_href ?>" class="bo_v_back_btn"><i></i>LIST</a>
         </div>
         <!-- } 게시글 이동 버튼 -->
 

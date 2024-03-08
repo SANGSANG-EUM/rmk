@@ -13,11 +13,14 @@ if ($is_nogood) $colspan++;
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
 
-<div id="notice_list" class="sub notice">
-  <?php sub_top($sb_menus, 'cs', 'notice'); ?>
-
-  <!-- sub contents { -->
-  <div class="container sub_contents">
+<div id="notice-list" class="sub">
+  <div class="sub-head">
+    <div class="wrapper">
+      <h1 class="sub-head_title">공지사항</h1>
+      <p class="sub-head_explan">알엠케이의 안내사항입니다.</p>
+    </div>
+  </div>
+  <div class="sub-body">
     <div class="wrapper">
 
       <!-- 게시판 목록 시작 { -->
@@ -99,14 +102,14 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                     <input type="checkbox" id="chkall" onclick="if (this.checked) all_checked(true); else all_checked(false);" class="selec_chk">
                     <label for="chkall">
                       <span></span>
-                      <b class="sound_only">현재 페이지 게시물  전체선택</b>
+                      <b class="sound_only">현재 페이지 게시물  </b>전체선택
                     </label>
                   </th>
                   <?php } ?>
-                  <th scope="col">번호</th>
+                  <!-- <th scope="col">번호</th> -->
                   <th scope="col">제목</th>
-                  <th scope="col">글쓴이</th>
-                  <th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th>
+                  <!-- <th scope="col">글쓴이</th> -->
+                  <!-- <th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th> -->
                   <th scope="col"><?php echo subject_sort_link('wr_datetime', $qstr2, 1) ?>날짜  </a></th>
                 </tr>
               </thead>
@@ -123,7 +126,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                   </td>
                   <?php } ?>
 
-                  <td class="td_num2">
+                  <!-- <td class="td_num2">
                   <?php
                   if ($list[$i]['is_notice']) // 공지사항
                     echo '<strong class="notice_icon">공지</strong>';
@@ -132,7 +135,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                   else
                     echo $list[$i]['num'];
                   ?>
-                  </td>
+                  </td> -->
 
                   <td class="td_subject mo_td_view">
                     <?php if ($is_category && $list[$i]['ca_name']) { //게시글 카테고리 사용+카테고리 등록되었을 경우 ?>
@@ -172,14 +175,14 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
                     <div class="mo_view mo_contents">
                       <ul class="i-col-0 bo_info">
-                        <li><i class="fa fa-user-o" aria-hidden="true"></i><?php echo $list[$i]['name'] ?></li>
-                        <li><i class="fa fa-eye" aria-hidden="true"></i><?php echo $list[$i]['wr_hit'] ?></li>
+                        <!-- <li><i class="fa fa-user-o" aria-hidden="true"></i><?php echo $list[$i]['name'] ?></li>
+                        <li><i class="fa fa-eye" aria-hidden="true"></i><?php echo $list[$i]['wr_hit'] ?></li> -->
                         <li><i class="fa fa-clock-o" aria-hidden="true"></i><?php echo date("Y.m.d", strtotime($list[$i]['wr_datetime'])) ?></li>
                       </ul>
                     </div>
                   </td>
-                  <td class="td_name"><?php echo $list[$i]['name'] ?></td>
-                  <td class="td_num"><?php echo $list[$i]['wr_hit'] ?></td>
+                  <!-- <td class="td_name"><?php echo $list[$i]['name'] ?></td> -->
+                  <!-- <td class="td_num"><?php echo $list[$i]['wr_hit'] ?></td> -->
                   <td class="td_datetime"><?php echo date("Y.m.d", strtotime($list[$i]['wr_datetime'])) ?></td>
                 </tr>
                 <?php } ?>
