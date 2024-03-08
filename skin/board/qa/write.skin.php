@@ -249,8 +249,10 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
         <script>
         $(document).ready(function(){
-          $('.qa-policy-check_label u').on('click', function(){
-            $('.qa-policy-content').slideDown();
+          $('.qa-policy-check_label u').on('click', function(event){
+            event.preventDefault();
+            event.stopPropagation();
+            // $('.qa-policy-content').slideDown();
           });
           $('.qa-policy-close').on('click', function(){
             $('.qa-policy-content').slideUp();
