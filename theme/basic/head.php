@@ -46,7 +46,7 @@ if(defined('_INDEX_')) { // index에서만 실행
                   <a href="/sub/dalton">돌튼 Dalton</a>
                 </li>
                 <li>
-                  <a href="">고객 리뷰</a>
+                  <a href="/sub/review">고객 리뷰</a>
                 </li>
                 <li>
                   <a href="/sub/greeting">인사말</a>
@@ -55,7 +55,7 @@ if(defined('_INDEX_')) { // index에서만 실행
                   <a href="/sub/history">주요 연혁</a>
                 </li>
                 <li>
-                  <a href="">오시는 길</a>
+                  <a href="/sub/map">오시는 길</a>
                 </li>
               </ul>
             </li>

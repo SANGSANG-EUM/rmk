@@ -10,6 +10,9 @@
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
   <style>
+  :root {
+    --point-color: #F6AB00;
+  }
   /* reset */
   html,body{width:100%;height:100%;overflow:overlay;}
   html{font-size:10px;}
@@ -39,7 +42,7 @@
   /* style */
   body{background:#fff;color:#111;height:100%;overflow:overlay;}
   .page-top {display: flex; justify-content: space-between; align-items: flex-end; padding:0 2rem; margin-bottom:2rem;}
-  .projectTit{font-size:3rem;font-weight:bold;color:#ea5404;}
+  .projectTit{font-size:3rem;font-weight:bold;color:var(--point-color);}
   .link-btn{display: block; padding: 10px; background-color: #333; color: #fff; text-align: center; font-weight: bold;}
 
   .prInfo {margin-bottom:2rem; padding: 0 2rem; }
@@ -48,16 +51,19 @@
   .prInfo-in p:before {content: "-";}
   .prInfo-in p:not(:first-child) {margin-top: 10px;}
 
+  #workHistory {display: none; padding-top: 10px;}
+  #workHistoryToggle {margin-top: -4px; height: 22px; border: 0; background: var(--point-color); color: #fff; line-height: 1; font-size: 10px; border-radius: 4px;}
+
   .wrapper{padding:5rem 0;}
   .wrapper > .container{display:flex;align-items:stretch;position:relative;}
   .wrapper > .container > .right{flex:1;padding:0 2rem;}
   .wrapper > .container > .right h2.title{margin:0 0 2rem;font-weight:400;font-size:1.8rem;color:#111;position:relative;padding-left:2rem;}
-  .wrapper > .container > .right h2.title:before{content:'';position:absolute;left:0;width:.4rem;height:100%;background-color: #ea5404;}
+  .wrapper > .container > .right h2.title:before{content:'';position:absolute;left:0;width:.4rem;height:100%;background-color: var(--point-color);}
   .wrapper > .container > .right h2.title .counter {display: block; margin-top: 5px; font-size:1.4rem;color:#000;}
   .wrapper > .container > .right table{width:100%;font-size:1.4rem;line-height:1.4;}.wrapper table th{padding:1rem;}
   .wrapper > .container > .right table td{padding:0;}
   .wrapper > .container > .right table thead{}
-  .wrapper > .container > .right table thead th{vertical-align: middle;font-weight:400;background-color:#ea5404;padding:1rem;font-size:1.4rem;color:rgba(255,255,255,.9);}
+  .wrapper > .container > .right table thead th{vertical-align: middle;font-weight:400;background-color:var(--point-color);padding:1rem;font-size:1.4rem;color:rgba(255,255,255,.9);}
   .wrapper > .container > .right table thead th+th{border-left:1px solid rgba(255,255,255,.3)}
   .wrapper > .container > .right table thead th:first-child{border-radius:1.5rem 0 0 0;}
   .wrapper > .container > .right table thead th:last-child{border-radius:0 1.5rem 0 0;}
@@ -84,6 +90,14 @@
   .wrapper > .container > .right table tbody tr.del .comment li,
   .wrapper > .container > .right table tbody tr.del .comment li strong{color:#999;font-size:1.3rem;}
   </style>
+
+  <script>
+  $(document).ready(function(){
+    $("#workHistoryToggle").on('click', function(){
+      $("#workHistory").slideToggle();
+    })
+  });
+  </script>
 </head>
 <body>
   <div class="wrapper">
@@ -96,8 +110,24 @@
         <p>퍼블 마감일 : 2024-03-22(금)</p>
         <hr>
         <br/>
-        <b>&lt;작업내역 요약&gt;</b>
-        <p>2024-03-05(화) : 서브페이지 컨텐츠 영역 작업 착수</p>
+        <b>&lt;작업내역 요약&gt; <button type="button" id="workHistoryToggle">Toggle</button></b>
+        <div id="workHistory">
+          <p><b>2024-03-05(화)</b> : 메인&서브페이지 컨텐츠 영역 작업 착수</p>
+          <p><b>2024-03-07(목)</b> : <br/>
+            <span style="display: block; padding-top: 5px; line-height: 1.3;">
+              ┖ 추가 디자인 전달됨(차별화기술, 새소식)<br/>
+              ┖ 메인&서브 PC 완료(추가 디자인 제외)
+            </span>
+          </p>
+          <p><b>2024-03-08(금)</b> : <br/>
+            <span style="display: block; padding-top: 5px; line-height: 1.3;">
+              ┖ 추가 디자인 작업 착수<br/>
+              ┖ 제품소개 개발 및 번역 관련 회의<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;·제품 상세페이지 관련 업체와 협의(송민섭 주임)<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;·번역비용부담 및 언어종류 확인(송민섭 주임)
+            </span>
+          </p>
+        </div>
       </div>
     </div>
 
@@ -186,7 +216,8 @@
               <td class="t_center"></td>
               <td>
                 <ul class="comment">
-                  <li>네이버 리뷰 연동 이슈로 구현 가능 여부 확인 대기</li>
+                  <li style="text-decoration: line-through;">네이버 리뷰 연동 이슈로 구현 가능 여부 확인 대기</li>
+                  <li>관리자에서 수기 등록으로 개발 진행(퍼블작업 진행)</li>
                 </ul>
               </td>
             </tr>
@@ -223,15 +254,16 @@
             <tr class="">
               <td>브랜드 스토리 > 오시는 길</td>
               <td class="t_center">콘텐츠</td>
-              <td><p class="target"><span class='link'></span></p></td>
+              <td><p class="target"><span class='link'>/sub/map</span></p></td>
               <td class="btn">
-                <a class="btnPc" href="" target="_blank">View</a>
+                <a class="btnPc" href="/sub/map" target="_blank">View</a>
               </td>
               <td class="t_center"></td>
               <td class="t_center"></td>
               <td class="t_center"></td>
               <td>
                 <ul class="comment">
+                  <li>고객지원 > 체험장 안내 페이지의 세종본사만 표시</li>
                 </ul>
               </td>
             </tr>
@@ -263,6 +295,7 @@
               <td>
                 <ul class="comment">
                   <li>(염)</li>
+                  <li>2024-03-08(금) : 상세내용 영역 관련 업체와 협의</li>
                 </ul>
               </td>
             </tr>
@@ -295,6 +328,7 @@
               <td>
                 <ul class="comment">
                   <li>(염)</li>
+                  <li>2024-03-08(금) : 상세내용 영역 관련 업체와 협의</li>
                 </ul>
               </td>
             </tr>
@@ -310,6 +344,7 @@
               <td class="t_center"></td>
               <td>
                 <ul class="comment">
+                  <li>다른 제품들과 동일한 틀 활용</li>
                 </ul>
               </td>
             </tr>
@@ -363,9 +398,9 @@
             <tr class="">
               <td>새소식 > 공지사항</td>
               <td class="t_center">게시판</td>
-              <td><p class="target"><span class='link'></span></p></td>
+              <td><p class="target"><span class='link'>/notice_kr</span></p></td>
               <td class="btn">
-                <a class="btnPc" href="" target="_blank">View</a>
+                <a class="btnPc" href="/notice_kr" target="_blank">View</a>
               </td>
               <td class="t_center">O</td>
               <td class="t_center"></td>
@@ -379,9 +414,9 @@
             <tr class="">
               <td>새소식 > 갤러리</td>
               <td class="t_center">게시판</td>
-              <td><p class="target"><span class='link'></span></p></td>
+              <td><p class="target"><span class='link'>/gallery_kr</span></p></td>
               <td class="btn">
-                <a class="btnPc" href="" target="_blank">View</a>
+                <a class="btnPc" href="/gallery_kr" target="_blank">View</a>
               </td>
               <td class="t_center">-</td>
               <td class="t_center"></td>
@@ -451,6 +486,21 @@
                 <ul class="comment">
                   <li>마케팅, 광고 동의 관련 기능 개발 필요</li>
                   <li>글 작성 시 메일 발송 안되는 오류 처리 필요</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="">
+              <td>기타 > 색각검사</td>
+              <td class="t_center">개발</td>
+              <td><p class="target"><span class='link'></span></p></td>
+              <td class="btn">
+                <a class="btnPc" href="" target="_blank">View</a>
+              </td>
+              <td class="t_center"></td>
+              <td class="t_center"></td>
+              <td class="t_center"></td>
+              <td>
+                <ul class="comment">
                 </ul>
               </td>
             </tr>
