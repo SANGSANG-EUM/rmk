@@ -1,3 +1,74 @@
+/* 브랜드 스토리 > 고객 리뷰 */
+.review-best {padding: 80px 0 30px; background-color: #FAFAFA;}
+.review-best.none {display: none;}
+.review-best-slider {margin-left: calc(50% - 760px); overflow: hidden;}
+.review-best-slide {display: flex; align-items: center; gap: 60px; width: 1020px;}
+.review-best-slctr {display: flex; align-items: center; justify-content: flex-end; gap: 15px; padding-top: 30px; padding-right: calc(50% - 760px); width: 100%;}
+.reivew-best-slpage {font-size: 14px; font-weight: 600; color: #d9d9d9; width: auto;}
+.reivew-best-slpage .swiper-pagination-current {color: #0f0f0f;}
+.reivew-best-slpage .swiper-pagination-total {color: #999;}
+.review-best-slbtn {display: flex; align-items: center; border: 0; background: none;}
+.review-best-thumb {width: 500px; height: 360px; overflow: hidden;}
+.review-best-thumb img {width: 100%; height: 100%; object-fit: cover; object-position: center;}
+.review-best-content {display: flex; flex-direction: column; gap: 30px; width: calc(100% - 560px);}
+.review-score {display: inline-block; width: 140px; height: 24px; background-position: center; background-size: contain}
+.review-score.score1 {background-image: url('/src/img/score1.png');}
+.review-score.score2 {background-image: url('/src/img/score2.png');}
+.review-score.score3 {background-image: url('/src/img/score3.png');}
+.review-score.score4 {background-image: url('/src/img/score4.png');}
+.review-score.score5 {background-image: url('/src/img/score5.png');}
+.review-best-tag {display: flex; align-items: center; flex-wrap: wrap; gap: 10px 20px; position: relative; font-size: 18px; font-weight: 300; color: #0f0f0f;}
+.review-best-tag p {position: relative;}
+.review-best-tag p::before {content: '# '; font-size: inherit; font-weight: 500;}
+.review-best-tag p::after {content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background-color: #0f0f0f;}
+.review-best-tag b {font-weight: 500;}
+.review-best-text {color: #333; line-height: 1.625;}
+.review-best-img {max-width: 500px; max-height: 400px;}
+.review-best-img img {max-width: 100%; max-height: 100%;}
+.review-best-slide .review-best-text {margin-top: 5px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;}
+.review-best-eval {display: flex; flex-wrap: wrap; gap: 10px;}
+.review-best-eval p {padding: 7px 11px; max-width: 100%; white-space: nowrap; background-color: #ECECEC; border-radius: 30px; font-size: 14px; line-height: 1;}
+.review-best-name {font-size: 16px; color: #666;}
+.review-best-slide .review-best-name {margin-top: 5px;}
+.review-content {padding-top: 90px;}
+.review-list {padding: 50px 0;}
+.review-list-top {display: flex; align-items: center; justify-content: space-between; gap: 30px; padding: 15px 5px;}
+.review-list-num {font-weight: 400;}
+.review-list-num span {font-weight: 600;}
+.review-list-order {display: flex; align-items: center; gap: 28px;}
+.review-list-order a {font-size: 15px; font-weight: 400; color: #bbb;}
+.review-list-order a.active {color: #0f0f0f;}
+.review-list-ul {border-top: 1px solid #E0E0E0;}
+.reivew-list-li {display: flex; gap: 15%; justify-content: space-between; padding: 30px 10px; border-bottom: 1px solid #E0E0E0;}
+.reivew-list-info {display: flex; flex-direction: column; justify-content: space-between;}
+.review-list-writer {display: flex; align-items: center;}
+.review-best-date {position: relative; margin-left: 14px; padding-left: 15px;}
+.review-best-date::before {content: ''; position: absolute;  top: 50%; left: 0; transform: translateY(-50%); width: 1px; height: 15px; background-color: #CECECE;}
+.reivew-list-li .review-best-tag {margin-bottom: -10px;}
+.reivew-list-li .review-best-score {text-align: right;}
+.reivew-list-li .review-best-name, .reivew-list-li .review-best-date {color: #333;}
+
+
+/* 아래 내용 게시판 페이징 소스 가져옴 */
+/* > Paging */
+.pg_wrap {clear: both; float: none; display: block; margin-top: 30px; text-align: center;}
+.pg_wrap {display: flex; align-items: center; justify-content: center;}  /* 이 내용만 새로 추가 */
+.pg_wrap:after {display: block; visibility: hidden; clear: both; content: "";} 
+.pg {text-align: center; font-size: 0;}
+.pg_page, .pg_current {display: inline-block; vertical-align: middle; padding: 0 7px; background: none;border: none;}
+.pg a:focus, .pg a:hover {text-decoration: none;}
+.pg_page {color: var(--color-gray4); font-size: 20px; height: auto; line-height: 28px;  min-width: auto; text-decoration: none; border-radius: 3px;}
+.pg_page:hover {background-color: transparent;}
+.pg_start {min-width: 13px; margin-right: 10px; background:url("/src/img/paging-first.png") no-repeat 50% 50%;}
+.pg_prev {min-width: 13px; margin-right: 20px; background: url("/src/img/paging-prev.png") no-repeat 50% 50%;}
+.pg_end {min-width: 13px; margin-left: 10px; background: url("/src/img/paging-end.png") no-repeat 50% 50%;}
+.pg_next {min-width: 13px; margin-left: 20px; background: url("/src/img/paging-next.png") no-repeat 50% 50%;}
+.pg_start:hover,.pg_prev:hover,.pg_end:hover,.pg_next:hover {background-color: transparent;}
+
+.pg_current {position: relative; min-width: auto; font-size: 20px; color: var(--color-black2); font-weight: bold; height: auto; line-height: inherit; border-radius: 0;}
+.pg_current::after {position: absolute; bottom: 0; left: 50%; width: 50%; height: 2px; margin-left: -25%; background: var(--color-black2); content:"";}
+
+
 /* 기술소개 > 색각이상이란? */
 .dys-visual {position: relative; background: url('/src/img/dys-vs.jpg') no-repeat center / cover;}
 .dys-visual-txt {display: flex; flex-direction: column; gap: 10px; position: absolute; bottom: 100px; max-width: 695px; font-size: 24px; font-weight: 500; color: #fff;}
@@ -90,7 +161,6 @@
 .difference-color-li__img-wr {display: flex; padding-top: 15px;}
 .difference-color-li__img {flex: 1;}
 .difference-color-li__img img {object-fit: cover; object-position: center;}
-
 
 
 /* 고객지원 > 가이드 */

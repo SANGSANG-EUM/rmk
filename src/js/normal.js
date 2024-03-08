@@ -77,4 +77,36 @@ $(document).ready(function () {
     }
     fixBtns.toggleClass('show', scrolled);
   });
+
+  // Best Review Slide
+  const reviewTarget = '.review-best-slider';
+  const reivewSlideCount = $('.review-best-slide').length;
+
+  console.log(reivewSlideCount)
+
+  if (reivewSlideCount > 1) {
+    const reviewOptions = {
+      slidesPerView: "auto",
+      spaceBetween: 100,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      loopAdditionalSlides: 1,
+      accessibility: true,
+      speed: 1000,
+      pagination: {
+        el: ".reivew-best-slpage",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".review-best-slbtn.next",
+        prevEl: ".review-best-slbtn_prev",
+      },
+    };
+    const reviewSlider = f.slider(reviewTarget, reviewOptions);
+  } else {
+    $('.review-best').addClass('none');
+  }
 });
