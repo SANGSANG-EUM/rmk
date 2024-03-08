@@ -63,6 +63,39 @@ $(document).ready(function () {
     }
   });
 
+  //Product View Picture
+  const productViewPictureTarget2 = '.product-v_pic .small .swiper-container';
+  const productViewPictureOptions2 = {
+    slidesPerView: 4,
+    spaceBetween: 8,
+    autoplay: {
+      delay: 3500,
+    },
+    speed: 1000,
+    navigation: {
+      prevEl: `${productViewPictureTarget2} .prev-btn`,
+      nextEl: `${productViewPictureTarget2} .next-btn`,
+    },
+    watchSlidesProgress: true,
+  };
+  const productViewPictureSlider2 = f.slider(productViewPictureTarget2, productViewPictureOptions2);
+
+  const productViewPictureTarget = '.product-v_pic .big .swiper-container';
+  const productViewPictureOptions = {
+    slidesPerView: 1,
+    autoplay: {
+      delay: 3500,
+    },
+    speed: 1000,
+    // pagination: {
+    //   el: `${productViewPictureTarget} .pagination`,
+    // },
+    thumbs: {
+      swiper: productViewPictureSlider2.swiper,
+    },
+  };
+  const productViewPictureSlider = f.slider(productViewPictureTarget, productViewPictureOptions);
+
   // Mouse Scroll
   $window.on('scroll', function(){
     let windowScrollTop = $window.scrollTop();
