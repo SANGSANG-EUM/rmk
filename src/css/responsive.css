@@ -1,153 +1,287 @@
-@media screen and (max-width:960px) {
-  html, body {font-size: 14px;}
+@media screen and (max-width:1680px) {
+  /* Main */
+  .main_visual .swiper-slide .txt-box {bottom: 15%;}
+  .main_visual .swiper-slide .txt-box .inner {width: 55%;}
+} /* End */
+
+@media screen and (max-width:1600px) {
+  /* Header */
+  #header .gnb .navi > ul {gap: 0 50px;}
+
+  #header .language {margin-left: 70px;}
+  #header .inspection {margin-left: 30px;}
+
+  /* Footer */
+  #footer {padding: 70px 0;}
+  #footer .lt {width: 40%; padding-right: 50px;}
+  #footer .rt {width: 60%;}
+  #footer .slg_t1 {font-size: 60px;}
+  #footer .slg_t2 {font-size: 24px;}
+  #footer .slg_t3 {width: 100%; font-size: 16px;}
+  #footer .slg_t3 br {display: none;}
+
+  /* Main */
+  .main_visual .swiper-slide .txt-box .t1 {font-size: 80px;}
+
+  .main_dalton-images {gap: 30px;}
+
+  .main_dalton-info .dalton_ex-item .txt {padding-right: 50px;}
+
+  .main_inspection .inner {padding-left: 45%;}
+  .main_inspection .main_sec-top {padding: 30px 0 0 70px;}
+  .main_inspection .main_sec-ct {margin-top: 100px; padding-left: 70px;}
+  .main_inspection-img {width: 45%;}
+} /* End */
+
+@media screen and (max-width:1290px) {
+  /* Common */
+  .container {padding-left: 40px; padding-right: 40px;}
+
+  .content_title1 {font-size: 46px;}
+
+  .link-btn .txt {font-size: 16px;}
+  .link-btn img {width: 15px;}
+
+  /* Footer */
+  #footer .slg_t1 {font-size: 48px;}
+  #footer .slg_t2 {font-size: 20px;}
+  #footer .slg_t3 {margin-top: 30px;}
+
+  .fix_btns > ul > li ~ li {margin-top: 10px;}
+  .fix_btns > ul > li .ui-btn {width: 60px; height: 60px;}
+  .fix_btns > ul > li .ui-btn.inspection-btn {background-size: 36px auto;}
+  .fix_btns > ul > li .ui-btn.naverStore-btn {background-size: 36px auto;}
+  .fix_btns > ul > li .ui-btn.amazon-btn {background-size: 35px auto;}
+  .fix_btns > ul > li .ui-btn.top-btn {background-size: 12px auto;}
+
+  /* Main */
+  #main .content-text {font-size: 38px;}
+  #main .content-text2 {font-size: 26px;}
+
+  .main_visual .swiper-slide .txt-box .inner {width: 70%;}
+
+  .main_dalton .content-text2 {margin-top: 30px;}
+  .main_dalton-info .dalton_logo .dalton-text-d {width: 81px;}
+  .main_dalton-info .dalton_logo .dalton-text {margin-left: 20px; width: 208px;}
+  .main_dalton-info .dalton_proud {gap: 30px;}
+  .main_dalton-info .dalton_proud-item {height: 300px; padding: 0 20px;}
+  .main_dalton-info .dalton_proud-item.round-top-right {border-radius: 0 200px 0 0;}
+  .main_dalton-info .dalton_proud-item .t2 {margin-top: 10px;}
+  .main_dalton-info .dalton_proud-item .t2 br {display: none;}
+
+  .main_dalton-info .dalton_ex {gap: 30px;}
+  .main_dalton-info .dalton_ex-item {height: auto; padding: 44px 20px;}
+  .main_dalton-info .dalton_ex-item .txt {position: inherit; bottom: inherit; right: inherit; margin-top: 20px; padding-right: 0; text-align: center;}
+  .main_dalton-info .dalton_ex-item .txt .t1 {font-size: 18px;}
+  .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 26px;}
+
+  .main_dalton-info .dalton_ex-item {border-radius: 0 !important;}
+
+  .main_product-types {gap: 30px 30px;}
+  .main_product-type-item.item3 .txt {top: 220px;}
+  .main_product .marquee_text .tbox span {font-size: 80px;}
+
+  .main_inspection {min-height: 45vw;}
+  .main_inspection .main_sec-ct {margin-top: 50px;}
+} /* End */
+
+@media screen and (max-width:1023px) {
+  /* Common */
+  .container {padding-left: 30px; padding-right: 30px;}
+
+  .content_title1 {font-size: 36px;}
+
+  /* Header */
+  #header {height: 60px;}
+  #header .logo > a {display: flex; align-items: center; width: 60px; height: 60px; padding-top: 0;}
+  #header .gnb .navi {display: none !important;}
+  #header .language {margin-left: 0;}
+  #header.type2 .logo > a {width: 80px;}
+
+  /* Footer */
+  #footer {padding: 50px 0;}
+  #footer .inner {display: block;}
+  #footer .lt {width: 100%; padding-right: 0;}
+  #footer .rt {width: 100%; margin-top: 30px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.3);}
+  #footer .slg_t1 {font-size: 28px;}
+  #footer .slg_t2 {margin-top: 10px; font-size: 18px;}
+  #footer .slg_t2 br {display: none;}
+  #footer .slg_t3 {margin-top: 10px; font-size: 16px;}
+  #footer .slg_t3 br {display: none;}
+  #footer .company_info {margin-top: 30px; padding-top: 30px;}
+  #footer .sitemap > ul > li > a {font-size: 18px;}
+
+  /* Main */
+  #main {padding-bottom: 100px;}
+
+  #main .content-text {font-size: 28px;}
+  #main .content-text2 {font-size: 22px;}
+  #main .content-text3 {font-size: 18px;}
+
+  .main_visual .swiper-slide {height: 70vh;}
+  .main_visual .swiper-slide .txt-box .t1 {font-size: 50px;}
+  .main_visual .swiper-slide .txt-box .t2 {font-size: 22px;}
+
+  .main_dalton {margin-top: 70px;}
+  .main_dalton-images {margin-top: 50px; padding-left: 50px; transform: none !important;}
+  .main_dalton-img-item {width: calc(100% / 3 - (60px / 3)); max-width: 100%; transform: none !important;}
+  .main_dalton-img-item.item2 {transform: translate3d(0, -50px, 0) !important;}
+
+  .main_dalton-info {margin-top: 70px;}
+  .main_dalton-info .dalton_logo {margin-bottom: 20px;}
+  .main_dalton-info .dalton_logo .dalton-text-d {width: 40px;}
+  .main_dalton-info .dalton_logo .dalton-text {margin-left: 10px; width: 120px;}
+  .main_dalton-info .dalton_proud {margin-top: 20px; gap: 20px;}
+  .main_dalton-info .dalton_proud-item {width: calc(100% / 3 - (40px / 3)); height: 200px;}
+  .main_dalton-info .dalton_proud-item.round-top-right {border-radius: 0 90px 0 0;}
+  .main_dalton-info .dalton_proud-item .t1 {font-size: 20px;}
+
+  .main_dalton-info .dalton_exp-beforeAfter {height: 300px;}
+
+  .main_dalton-info .dalton_exp {margin-top: 80px;}
+  .main_dalton-info .dalton_exp .content-text3 {margin-top: 10px;}
+  .main_dalton-info .dalton_exp-beforeAfter {margin-top: 20px;}
+
+  .main_dalton-info .dalton_ex {margin-top: 30px; padding-bottom: 70px;}
+  .main_dalton-info .dalton_ex-item {padding: 20px;}
+  .main_dalton-info .dalton_ex-item .txt .t1 {font-size: 16px;}
+  .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 20px;}
+
+  .main_product {margin-top: 70px;}
+  .main_product .main_sec-ct {margin-top: 100px;}
+  .main_product-type-item {transform: none !important; width: calc(33.333% - (60px / 3)); max-width: 100%;}
+  .main_product-type-item.item1 {}
+  .main_product-type-item.item2 {transform: translate3d(0, -100px, 0) !important;}
+  .main_product-type-item.item3 {transform: translate3d(0, 70px, 0) !important;}
+  .main_product-type-item .txt .t1 {font-size: 20px;}
+  .main_product-type-item .txt .t2 {font-size: 16px;}
+
+  .main_product .marquee_text {margin-top: 70px;}
+  .main_product .marquee_text .tbox span {font-size: 60px;}
+
+  .main_inspection {margin-top: 120px;}
+  .main_inspection .main_sec-top {padding-top: 0;}
+} /* End */
+
+@media screen and (max-width:767px) {
+  /* Common */
+  .container {padding-left: 20px; padding-right: 20px;}
+
+  .link-btn .txt {font-size: 14px;}
+  .link-btn img {width: 12px;}
+
+  /* Header */
+  #header .language,
+  #header .inspection,
+  .main_product .marquee_text,
+  .fix_btns {display: none !important;}
+
+  #header .language .ncSelect {font-size: 14px;}
+  #header .inspection {margin-left: 10px;}
+  #header .inspection-btn {font-size: 14px;}
+
+  /* Footer */
+  #footer .sitemap > ul > li > a {font-size: 16px;}
+  #footer .sitemap > ul > li > ul > li > a {font-size: 14px;}
+  #footer .company_info > ul > li {font-size: 14px;}
+
+  /* Main */
+  .content_title1 {font-size: 22px;}
+  #main .content-text {font-size: 18px;}
+  #main .content-text2 {font-size: 16px;}
+  #main .content-text3 {font-size: 14px;}
+
+  .main_visual .swiper-slide {height: 60vh;}
+  .main_visual .swiper-slide .txt-box .inner {width: 100%;}
+  .main_visual .swiper-slide .txt-box .t1 {font-size: 30px;}
+  .main_visual .swiper-slide .txt-box .t2 {margin-top: 15px; font-size: 16px;}
+
+  .main_dalton-images {padding-left: 0; gap: 10px;}
+  .main_dalton-img-item {width: calc(100% / 3 - (20px / 3));}
+  .main_dalton-img-item.item2 {transform: none !important;}
+
+  .main_dalton-info .dalton_proud {gap: 10px;}
+  .main_dalton-info .dalton_proud-item {width: calc(100% / 3 - (20px / 3)); padding: 0 10px; border-radius: 0 !important;}
+  .main_dalton-info .dalton_proud-item .t1 {font-size: 16px;}
+  .main_dalton-info .dalton_proud-item .t2 {font-size: 14px;}
+
+  .main_dalton-info .dalton_exp-beforeAfter {height: 150px;}
+
+  .main_dalton-info .dalton_ex { gap: 10px;}
+  .main_dalton-info .dalton_ex-item {width: calc(100% / 3 - (20px / 3)); padding: 10px;}
+  .main_dalton-info .dalton_ex-item .txt {margin-top: 10px;}
+  .main_dalton-info .dalton_ex-item .txt .t1 {font-size: 14px;}
+  .main_dalton-info .dalton_ex-item .txt .t2 {margin-top: 5px; font-size: 14px;}
+
+  .main_product .main_sec-top .inner {display: block;}
+  .main_product .main_sec-top .link-btn {display: block; width: 100%; margin-top: 10px; text-align: right;}
+
+  .main_product .main_sec-ct {margin-top: 30px;}
+  .main_product-types {gap: 10px;}
+  .main_product-type-item {width: calc(33.333% - (20px / 3));}
+  .main_product-type-item.item1 {transform: none !important;}
+  .main_product-type-item.item2 {transform: none !important;}
+  .main_product-type-item.item3 {transform: none !important;}
+  .main_product-type-item .img {position: relative;  height: 0; padding-bottom: 100%; border-radius: 0 !important;}
+  .main_product-type-item .img img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+  .main_product-type-item .txt {position: inherit !important; top: inherit !important; bottom: inherit !important; left: inherit !important; right: inherit !important; width: 100% !important; margin-top: 10px !important; text-align: left !important;}
+  .main_product-type-item .txt .t1 {font-size: 16px;}
+  .main_product-type-item .txt .t2 {font-size: 14px;}
+
+  .main_inspection {margin-top: 70px; min-height: auto;}
+  .main_inspection .inner {padding-left: 0;}
+  .main_inspection .main_sec-top {padding: 0;}
+  .main_inspection .main_sec-top .content-text3 {margin-top: 10px;}
+  .main_inspection .main_sec-ct {margin-top: 20px; padding-left: 0;}
+  .main_inspection-img {position: inherit; top: inherit; left: inherit; width: 70%;}
+  .main_inspection .main_sec-ct .link-btn {display: block; width: 100%; margin-top: 30px; text-align: left;}
 } /* End */
 
 @media screen and (max-width:480px) {
-  html, body {font-size: 10px;}
+  /* Footer */
+  #footer .slg_t1 {font-size: 16px;}
+  #footer .slg_t2 {font-size: 14px;}
+  #footer .slg_t3 {font-size: 12px;}
+
+  #footer .brand_logo {margin-top: 20px;}
+  #footer .brand_logo > li.dalton-logo {width: 90px;}
+  #footer .brand_logo > li.rmk-logo {width: 40px;}
+
+  #footer .sitemap > ul {gap: 20px 10px;}
+  #footer .sitemap > ul > li > ul {margin-top: 10px;}
+  #footer .sitemap > ul > li > a {font-size: 14px;}
+  #footer .sitemap > ul > li > ul > li > a {font-size: 12px;}
+
+  /* Main */
+  #main {padding-bottom: 70px;}
+
+  .main_dalton .main_sec-ct:after {height: 50%;}
+  .main_dalton .content-text2 {margin-top: 10px;}
+  .main_dalton-images {margin-top: 20px;}
+
+  #main .main_dalton .content-text br {display: none;}
+
+  .main_dalton-info .dalton_logo {margin-bottom: 10px;}
+  .main_dalton-info .dalton_logo .dalton-text-d {width: 26px;}
+  .main_dalton-info .dalton_logo .dalton-text {width: 90px;}
+  .main_dalton-info .dalton_proud {flex-direction: column; margin-top: 10px;}
+  .main_dalton-info .dalton_proud-item {width: 100%; height: auto; padding: 20px;}
+
+  .main_dalton-info .dalton_exp-beforeAfter .slider-circle {width: 40px; height: 40px; background-size: 20px auto;}
+  .main_dalton-info .dalton_exp-beforeAfter .slider-button {width: 40px; height: 40px; left: calc(50% - 20px); top: calc(50% - 20px);}
+
+  .main_dalton-info .dalton_ex {flex-direction: column; margin-top: 10px; padding-bottom: 50px;}
+  .main_dalton-info .dalton_ex-item {width: 100%; height: auto; padding: 20px;}
+  .main_dalton-info .dalton_ex-item .icon {width: 120px; max-width: 100%; margin: 0 auto;}
+
+  .main_product {margin-top: 50px;}
+
+  .main_product-types {display: block;}
+  .main_product-type-item {width: 100%;}
+  .main_product-type-item.item2 {margin-top: 30px;}
+  .main_product-type-item.item3 {margin-top: 30px;}
+
+  .main_inspection {margin-top: 50px;}
+  .main_inspection-img {width: 100%;}
+  
 } /* End */
-
-@keyframes productArrow {
-  0% {top: -38px;}
-  65% {top: -25px;}
-  100% {top: -38px;}
-}
-
-@keyframes productCircle {
-  0% {}
-  50% {margin-top: 200px;}
-  100% {}
-}
-
-/* 공통 */
-.content_title1 {font-size: 60px; font-weight: 800; color: var(--color-black2);}
-.content_title2 {font-size: 40px; font-weight: 700; color: var(--color-black2);}
-.content_text {margin-top: 45px; font-size: 24px; font-weight: 500; color: var(--color-black2);}
-
-/* 서브 공통 */
-.sub {padding-top: 90px; padding-bottom: 140px;}
-.sub-head {padding-top: 95px; padding-bottom: 65px;}
-.sub-head_title {font-size: 90px; font-weight: 700; color: var(--color-black2);}
-.sub-head_explan {margin-top: 35px; font-size: 60px; font-weight: 400; color: var(--color-black2);}
-.sub-body {}
-.sub-visual {width: 100%; height: 0; padding-bottom: 34.157%;}
-.sub-content {}
-
-/* 브랜드 스토리 > 돌튼 */
-#dalton {}
-.dalton-visual {background: url('/src/img/dalton-vs.jpg') no-repeat center center/cover;}
-.dalton-overview {margin-top: 120px;}
-.dalton-overview_list {margin-top: 100px;}
-.dalton-overview_row {display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 160px;}
-.dalton-overview_row2 {flex-direction: row-reverse;}
-.dalton-overview_row ~ .dalton-overview_row {margin-top: 150px;}
-.dalton-overview_content {flex: 1; color: var(--color-black2);}
-.dalton-overview_text1 {font-size: 24px; font-weight: 500;}
-.dalton-overview_text2 {margin-top: 20px; font-size: 40px; font-weight: 700;}
-.dalton-overview_text3 {margin-top: 50px;}
-.dalton-overview_text3 p {font-size: 18px; font-weight: 300; line-height: 1.55;}
-.dalton-overview_text3 p ~ p {margin-top: 30px;}
-.dalton-overview_image {width: 580px; overflow: hidden;}
-.dalton-overview_image.circle {border-radius: 50%;}
-.dalton-overview_image.h-circle {border-radius: 50% 50% 0 0;}
-.dalton-overview_image img {display: block;}
-.dalton-video {margin-top: 200px;}
-.dalton-video_thumb {position: relative; width: 100%; height: 0; margin-top: 40px; padding-bottom: 46.053%; background: url('/src/img/dalton-video-thumb.png') no-repeat center center/cover; cursor: pointer;}
-.dalton-video_thumb::after {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 100px; height: 100px; background: url('/src/img/dalton-video-play.png') no-repeat center center/cover; content:"";}
-.dalton-video_popup {display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 1000;}
-.dalton-video_frame {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 1300px; max-width: 90%; height: 0; padding-top: 38.5%; overflow: hidden; box-shadow: 5px 5px 20px rgba(0,0,0,0.3);}
-.dalton-video_frame iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
-
-/* 브랜드 스토리 > 고객리뷰 */
-
-/* 브랜드 스토리 > 인사말 */
-#greeting {}
-.greeting-visual {background: url('/src/img/greeting-vs.jpg') no-repeat center center/cover;}
-.greeting-mean {position: relative; margin-top: 120px; overflow: hidden;}
-.greeting-mean_paralax {position: absolute; left: calc((100% - 1520px) / 2); top: 50%; min-width: 150%; margin-left: -10px; font-size: 200px; font-weight: 400; color: var(--color-gray1); line-height: 1; z-index: -1;}
-.greeting-mean_paralax b {font-weight: 700;}
-.greeting-mean_title {display: inline-block; vertical-align: middle; position: relative; padding-right: 180px; font-size: 30px; font-weight: 800; color: var(--color-black2);}
-.greeting-mean_title::after {position: absolute; top: 50%; right: 0; width: 44.28%; height: 0; border-top: 1px solid var(--color-gray6); content:""; z-index: 0;}
-.greeting-mean_content {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; gap: 170px; margin-top: 50px;}
-.greeting-mean_box {display: flex;}
-.greeting-mean_box1 {flex-direction: column; justify-content: space-between; width: 650px; gap: 430px;}
-.greeting-mean_box2 {flex-direction: column-reverse; justify-content: flex-start; width: 700px; gap: 60px;}
-.greeting-mean_item {}
-.greeting-mean_item1 {}
-.greeting-mean_word {}
-.greeting-mean_word:not(:first-child) {margin-top: 25px;}
-.greeting-mean_en {font-size: 60px; font-weight: 800; color: var(--color-black2);}
-.greeting-mean_en b {font-weight: 800; color: var(--color-main);}
-.greeting-mean_kr {padding-top: 15px; font-size: 40px; font-weight: 300; color: var(--color-black2);}
-.greeting-mean_item2 {}
-.greeting-mean_item2 img {}
-.greeting-mean_item3 {}
-.greeting-mean_text1 {font-size: 26px; font-weight: 600; color: var(--color-black2); line-height: 1.55;}
-.greeting-mean_text2 {margin-top: 20px; font-size: 18px; font-weight: 300; color: var(--color-black2); line-height: 1.55;}
-.greeting-mean_text3 {margin-top: 26px; font-size: 18px; font-weight: 400; color: var(--color-black2);}
-.greeting-mean_item4 {border-radius: 999px 999px 0 0; overflow: hidden;}
-.greeting-mean_item4 img {}
-
-/* 브랜드 스토리 > 주요연혁 */
-#history {}
-.history-visual {background: url('/src/img/history-vs.jpg') no-repeat center center/cover;}
-.history-content {position: relative; margin-top: 120px; overflow: hidden;}
-.history-content::before {position: absolute; left: calc((100% - 1520px) / 2); top: 45px; width: 100%; height: 100%; background: linear-gradient(180deg, #FAFAFA 83.35%, rgba(250, 250, 250, 0) 100%); border-radius: 150px 0px 0px 0px; z-index: -1; content: "";}
-.history-box {position: relative; padding-left: 210px; padding-right: 200px; padding-top: 90px; padding-bottom: 130px;}
-.history-box_row {padding: 30px; font-size: 0;}
-.history-box_row:not(:last-child) {border-bottom: 1px dashed var(--color-gray10);}
-.history-box_item {display: inline-block; vertical-align: top;}
-.history-box_year {position: relative; width: 240px; padding: 0 28px; font-size: 40px; font-weight: 700; color: var(--color-black2);}
-.history-box_row:first-child .history-box_year::before {position: absolute; left: 0; top: 19px; width: 14px; height: 14px; background: var(--color-main); border-radius: 50%; content: "";}
-.history-box_text {width: calc(100% - 240px); padding-top: 14px;}
-.history-box_text p {font-size: 20px; font-weight: 300; color: var(--color-black2);}
-.history-box_text p b {}
-.history-box_text p ~ p {margin-top: 15px;}
-
-/* 제품소개 */
-#product {}
-.product-visual {margin-top: 40px; margin-bottom: 100px; padding: 200px 0 58px;}
-.product-visual.sunglasses {background: url('/src/img/product-bg.jpg') no-repeat center right;}
-.product-visual.lens {background: url('/src/img/product-lens-bg.jpg') no-repeat center right;}
-.product-visual_title {font-size: 100px; font-weight: 800; color: var(--color-black2); line-height: 1.3;}
-.product-visual_text1 {margin-top: 55px; font-size: 24px; font-weight: 500; color: var(--color-black2); line-height: 1.4;}
-.product-visual_text2 {margin-top: 20px; font-size: 16px; font-weight: 300; color: var(--color-black2); line-height: 1.6;}
-.product-visual_scroll {display: inline-block; vertical-align: middle; position: relative; width: 68px; height: 68px; margin-top: 194px; border-radius: 50%; border: 1px solid var(--color-gray6);}
-.product-visual_scroll::after {content:""; position: absolute; left: 50%; top: -34px; width: 16px; height: 71px; margin-left: -8px; background: url('/src/img/product-icon-down.png') no-repeat center bottom/cover; animation: productArrow 1.5s infinite both;}
-
-.product-content {}
-.product-search {position: relative; margin-bottom: 22px; text-align: right;}
-.product-search_btn {display: inline-block; padding: 5px 12px 4px; border: 1px solid var(--color-gray6); background: none; border-radius: 30px; font-size: 0;}
-.product-search_btn > * {display: inline-block; vertical-align: middle;}
-.product-search_btn i {width: 23px; height: 23px; margin-right: 4px; background: url('/src/img/product-icon-detail-bk.png') no-repeat center center/cover;}
-.product-search_btn p {font-size: 15px; font-weight: 400; color: var(--color-gray6);}
-.product-search_form {display: none; position: absolute; right: 0; top: calc(100% + 12px); width: 1145px; max-width: 100%; background: var(--color-white); border-radius: 20px; text-align: left; box-shadow: 0 0 30px rgba(0,0,0,0.1); overflow: hidden; z-index: 1;}
-.product-search_body {display: flex; justify-content: space-between; padding: 0 20px; border-bottom: 1px solid var(--color-gray7);}
-.product-search_box {width: 20%; padding: 30px;}
-.product-search_box:not(:first-child) {border-left: 1px solid var(--color-gray7);}
-.product-search_category {font-size: 18px; font-weight: 600; color: var(--color-black2);}
-.product-search_list {margin-top: 20px;}
-.product-search_item {}
-.product-search_item ~ .product-search_item {margin-top: 10px;}
-.product-search_item label {font-size: 16px; font-weight: 300; color: var(--color-black2);}
-.product-search_foot {padding: 20px 40px 26px; font-size: 0; text-align: right;}
-.product-search_foot > * {display: inline-block; vertical-align: middle; width: 127px; height: 41px; border-radius: 5px; font-size: 16px; font-weight: 500; text-align: center;}
-.product-search_foot > *:not(:first-child) {margin-left: 10px;}
-.product-search_reset {border: 1px solid var(--color-gray8); background: none; color: var(--color-gray6);}
-.product-search_submit {border: 1px solid var(--color-black3); background: var(--color-black3); color: var(--color-white);}
-
-.product-search.active .product-search_btn {background: var(--color-black3);}
-.product-search.active .product-search_btn p {color: var(--color-white);}
-.product-search.active .product-search_btn i {background-image: url('/src/img/product-icon-detail-wh.png');}
-.product-search.active .product-search_form {display: block;}
-
-.product-list {display: flex; align-items: start; flex-wrap: wrap; gap: 80px 40px; font-size: 0;}
-.product-list_item {width: calc((100% - 80px) / 3);}
-.product-list_thumb {display: flex; align-items: center; justify-content: center; width: 100%; height: 0; padding: 50% 0; background: var(--color-gray1); overflow: hidden;}
-.product-list_thumb img {display: block; transition: 0.5s;}
-.product-list_item:hover .product-list_thumb img {transform: scale(1.1);}
-.product-list_info {}
-.product-list_name {display: inline-block; margin-top: 18px; font-size: 20px; font-weight: 500; color: var(--color-black2); line-height: 1.3;}
-.product-list_price {display: block; margin-top: 10px; font-size: 16px; font-weight: 700; color: var(--color-black2);}
-.product-list_option {display: flex; flex-wrap: wrap; gap: 3px 20px; margin-top: 20px;}
-.product-list_option p {position: relative; font-size: 15px; font-weight: 300; color: var(--color-gray6);}
-.product-list_option p ~ p::before {content:"/"; position: absolute; left: -10px; top: 50%; transform: translate(-50%, -50%);}

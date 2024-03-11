@@ -248,16 +248,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         </form>
 
         <script>
-        $(document).ready(function(){
-          $('.qa-policy-check_label u').on('click', function(event){
-            event.preventDefault();
-            event.stopPropagation();
-            // $('.qa-policy-content').slideDown();
-          });
-          $('.qa-policy-close').on('click', function(){
-            $('.qa-policy-content').slideUp();
-          });
-        })
         <?php if($write_min || $write_max) { ?>
         // 글자수 제한
         var char_min = parseInt(<?php echo $write_min; ?>); // 최소
@@ -360,3 +350,58 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
     </div>
   </div>
 </div>
+
+<div id="qa-privacy_popup" class="layer-popup">
+  <div class="layer-popup_ct">
+    <div class="top">
+      <p class="tit">개인정보 수집 및 이용동의</p>
+      <button type="button" class="ui-btn close-btn" title="팝업 닫기">
+        <img src="/src/img/close.svg" alt="닫기">
+      </button>
+    </div>
+    <div class="mid">
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1<br/>
+      1
+    </div>
+    <div class="bot">
+      <button type="button" id="qa-policy-check_trigger" class="ui-btn confirm-btn">확인했습니다.</button>
+    </div>
+  </div>
+</div>
+
+<script type="module">
+import * as f from '/src/js/function.js';
+
+$(document).ready(function(){
+  const qaPrivacyPopup = "#qa-privacy_popup";
+
+  $('.qa-policy-check_label u').on('click', function(event){
+    event.preventDefault();
+    event.stopPropagation();
+
+    f.popupOpen(qaPrivacyPopup);
+    f.scrollBar(`${qaPrivacyPopup} .layer-popup_ct .mid`);  
+  });
+
+  $("#qa-policy-check_trigger").on('click', function(){
+    $("input[name=po_ck1]").prop('checked', true);
+
+    f.popupClose(qaPrivacyPopup);
+  });
+
+  $(qaPrivacyPopup).on('click', '.close-btn', function(){
+    f.popupClose(qaPrivacyPopup);
+  });
+});
+</script>

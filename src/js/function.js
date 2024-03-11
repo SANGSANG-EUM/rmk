@@ -154,13 +154,13 @@ export const arcodianF = () => {
 }
 
 // 팝업 열기
-export const popupOpen = (id) => {
-  $('#' + id).fadeIn(200).addClass("on");
+export const popupOpen = (t) => {
+  $(t).fadeIn(200).addClass("on");
 }
 
 // 팝업 닫기
 export const popupClose = (t) => {
-  t.fadeOut(200).removeClass("on");
+  $(t).fadeOut(200).removeClass("on");
 }
 
 /**
@@ -346,8 +346,8 @@ export const textTyping = (el) => {
 
 /* 스크롤시 특정영역 감지 */
 export const checkVisible = ( element, check = 'above' ) => {
-  const viewportHeight = $(window).height(); // Viewport Height
-  const scrolltop = $(window).scrollTop(); // Scroll Top
+  const viewportHeight = $(window).height();
+  const scrolltop = $(window).scrollTop();
   const y = $(element).offset().top;
   const elementHeight = $(element).height();   
   
@@ -370,4 +370,11 @@ export const scrollVisible = (element, callback) => {
   }
 
   isVisible && window.removeEventListener('scroll', scrollVisible);
+}
+
+/* mCustomScrollBar */
+export const scrollBar = (t) => {
+  $(t).mCustomScrollbar({
+    theme:"dark"
+  });
 }
