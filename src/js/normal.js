@@ -91,31 +91,14 @@ $(document).ready(function () {
     //   el: `${productViewPictureTarget} .pagination`,
     // },
     thumbs: {
-      swiper: productViewPictureSlider2.swiper,
+      swiper: productViewPictureSlider2?.swiper,
     },
   };
   const productViewPictureSlider = f.slider(productViewPictureTarget, productViewPictureOptions);
 
-  // Mouse Scroll
-  $window.on('scroll', function(){
-    let windowScrollTop = $window.scrollTop();
-    let scrolled = windowScrollTop >= 100;
-    
-    if(header.hasClass('main_header') ) {
-      if(scrolled) {
-        header.removeClass('type2', scrolled);
-      } else {
-        header.addClass('type2', scrolled);
-      }
-    }
-    fixBtns.toggleClass('show', scrolled);
-  });
-
   // Best Review Slide
   const reviewTarget = '.review-best-slider';
   const reivewSlideCount = $('.review-best-slide').length;
-
-  console.log(reivewSlideCount)
 
   if (reivewSlideCount > 1) {
     const reviewOptions = {
@@ -142,4 +125,19 @@ $(document).ready(function () {
   } else {
     $('.review-best').addClass('none');
   }
+
+  // Mouse Scroll
+  $window.on('scroll', function(){
+    let windowScrollTop = $window.scrollTop();
+    let scrolled = windowScrollTop >= 100;
+    
+    if(header.hasClass('main_header') ) {
+      if(scrolled) {
+        header.removeClass('type2', scrolled);
+      } else {
+        header.addClass('type2', scrolled);
+      }
+    }
+    fixBtns.toggleClass('show', scrolled);
+  });
 });

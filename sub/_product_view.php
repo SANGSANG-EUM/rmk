@@ -67,7 +67,7 @@
                 </div>
                 <div class="product-v_btns">
                   <a href="" class="ui-btn product-buy_btn" target="_blank">구매하기</a>
-                  <button type="button" class="ui-btn product-inq_btn">문의하기</button>
+                  <a href="/contact_kr/write" class="ui-btn product-inq_btn" target="_blank">문의하기</a>
                 </div>
                 <div class="product-v_spec open">
                   <button type="button" class="ui-btn product-spec_btn">
@@ -179,6 +179,6 @@ $(document).ready(function(){
   $(".product-spec_btn").on('click', function(){
     $(".product-v_spec").toggleClass('open');
     $(".product-v_spec .spec-list").slideToggle();
-  })
-})
+  });
+});
 </script>
