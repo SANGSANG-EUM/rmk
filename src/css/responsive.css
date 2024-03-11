@@ -191,7 +191,8 @@
   #main .content-text2 {font-size: 16px;}
   #main .content-text3 {font-size: 14px;}
 
-  .main_visual .swiper-slide {height: 60vh;}
+  .main_visual .swiper-slide {height: 50vh;}
+  .main_visual .swiper-slide .txt-box {bottom: 10%;}
   .main_visual .swiper-slide .txt-box .inner {width: 100%;}
   .main_visual .swiper-slide .txt-box .t1 {font-size: 30px;}
   .main_visual .swiper-slide .txt-box .t2 {margin-top: 15px; font-size: 16px;}
@@ -239,7 +240,10 @@
 
 @media screen and (max-width:480px) {
   /* Footer */
+  #footer .rt {margin-top: 20px; padding-top: 20px;}
+
   #footer .slg_t1 {font-size: 16px;}
+  #footer .slg_t1 br {display: none;}
   #footer .slg_t2 {font-size: 14px;}
   #footer .slg_t3 {font-size: 12px;}
 
@@ -247,10 +251,20 @@
   #footer .brand_logo > li.dalton-logo {width: 90px;}
   #footer .brand_logo > li.rmk-logo {width: 40px;}
 
-  #footer .sitemap > ul {gap: 20px 10px;}
+  #footer .sitemap > ul {gap: 20px 10px; justify-content: flex-start;}
+  #footer .sitemap > ul > li {width: calc(100% / 3 - (20px / 3));}
   #footer .sitemap > ul > li > ul {margin-top: 10px;}
   #footer .sitemap > ul > li > a {font-size: 14px;}
   #footer .sitemap > ul > li > ul > li > a {font-size: 12px;}
+
+  #footer .company_info {margin-top: 20px; padding-top: 20px;}
+  #footer .company_info > ul {gap: 5px 10px;}
+  #footer .company_info > ul > li {font-size: 12px; line-height: 1.5;}
+  #footer .company_info > ul > li:after {right: -5px;}
+
+  #footer .copy {margin-top: 10px; font-size: 12px;}
+
+  #footer .sns {margin-top: 20px;}
 
   /* Main */
   #main {padding-bottom: 70px;}
