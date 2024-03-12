@@ -31,6 +31,11 @@
   .main_inspection .main_sec-top {padding: 30px 0 0 70px;}
   .main_inspection .main_sec-ct {margin-top: 100px; padding-left: 70px;}
   .main_inspection-img {width: 45%;}
+
+  /* 서브 공통 */
+  .sub .wrapper {padding-left: 70px; padding-right: 70px;}
+  .sub-head_title {font-size: 70px;}
+  .content_title1 {font-size: 50px;}
 } /* End */
 
 @media screen and (max-width:1290px) {
@@ -83,6 +88,21 @@
 
   .main_inspection {min-height: 45vw;}
   .main_inspection .main_sec-ct {margin-top: 50px;}
+
+  /* 서브 공통 */
+  .sub .wrapper {padding-left: 40px; padding-right: 40px;}
+  .sub-head_title {font-size: 60px;}
+  .content_title1 {font-size: 40px;}
+
+  .sub-head {padding-top: 80px; padding-bottom: 40px;}
+
+  /* 브랜드 스토리 > 돌튼 */
+  .dalton-overview_row {gap: 50px;}
+  .dalton-overview_image {width: 350px;}
+  .dalton-overview_text1 {font-size: 20px;}
+  .dalton-overview_text2 {font-size: 30px;}
+  .dalton-overview_text3 {margin-top: 30px;}
+  .dalton-overview_text3 p ~ p {margin-top: 15px;}
 } /* End */
 
 @media screen and (max-width:1023px) {
@@ -97,6 +117,9 @@
   #header .gnb .navi {display: none !important;}
   #header .language {margin-left: 0;}
   #header.type2 .logo > a {width: 80px;}
+
+  #header .language,
+  #header .inspection {display: none !important;}
 
   .mo-menu_open {display: block;}
 
@@ -164,6 +187,25 @@
   .main_inspection {margin-top: 120px;}
   .main_inspection .main_sec-top {padding-top: 0;}
 
+  /* 서브 공통 */
+  .sub {padding-top: 60px; padding-bottom: 100px;}
+  .sub .wrapper {padding-left: 30px; padding-right: 30px;}
+  .sub-head {padding-top: 50px; padding-bottom: 30px;}
+  .sub-head_title {font-size: 50px;}
+  .content_title1 {font-size: 36px;}
+
+  /* 브랜드 스토리 > 돌튼 */
+  .dalton-overview {margin-top: 70px;}
+  .dalton-overview_list {margin-top: 70px;}
+  .dalton-overview_row {align-items: flex-start; gap: 30px;}
+  .dalton-overview_row ~ .dalton-overview_row {margin-top: 120px;}
+  .dalton-overview_image {width: 250px;}
+  .dalton-overview_text2 {margin-top: 10px;}
+  .dalton-overview_text3 {margin-top: 20px;}
+  .dalton-overview_text3 p {font-size: 16px;}
+  .dalton-video {margin-top: 120px;}
+  .dalton-video_thumb {margin-top: 20px;}
+
   /* 제품소개 > 상세 */
   .product-v_detail .sizeList .pc-view {display: none;}
   .product-v_detail .sizeList .mo-view {display: block;}
@@ -175,12 +217,6 @@
 
   .link-btn .txt {font-size: 14px;}
   .link-btn img {width: 12px;}
-
-  /* Header */
-  #header .language,
-  #header .inspection,
-  .main_product .marquee_text,
-  .fix_btns {display: none !important;}
 
   #header .language .ncSelect {font-size: 14px;}
   #header .inspection {margin-left: 10px;}
@@ -242,6 +278,22 @@
   .main_inspection .main_sec-ct {margin-top: 20px; padding-left: 0;}
   .main_inspection-img {position: inherit; top: inherit; left: inherit; width: 70%;}
   .main_inspection .main_sec-ct .link-btn {display: block; width: 100%; margin-top: 30px; text-align: left;}
+
+  /* 서브 공통 */
+  .sub .wrapper {padding-left: 20px; padding-right: 20px;}
+  .sub-head_title {font-size: 30px;}
+  .content_title1 {font-size: 22px;}
+
+  /* 브랜드 스토리 > 돌튼 */
+  .dalton-overview_row {flex-flow: column-reverse wrap;}
+  .dalton-overview_row ~ .dalton-overview_row {margin-top: 70px;}
+  .dalton-overview_row2 {position: relative; padding: 70px 0;}
+  .dalton-overview_row2:after {content: ""; display: block; position: absolute; top: 0; left: -20px; z-index: -1; width: calc(100% + 40px); height: 100%; background-color: #fafafa;}
+  .dalton-overview_text1 {font-size: 16px;}
+  .dalton-overview_text2 {font-size: 20px;}
+  .dalton-overview_text3 p {font-size: 14px;}
+  .dalton-video {margin-top: 70px;}
+  .dalton-video_thumb::after {width: 60px; height: 60px;}
 } /* End */
 
 @media screen and (max-width:480px) {
@@ -303,5 +355,13 @@
 
   .main_inspection {margin-top: 50px;}
   .main_inspection-img {width: 100%;}
-  
+
+  /* 서브 공통 */
+  .sub-head_title {font-size: 26px;}
+  .content_title1 {font-size: 20px;}
+  .dalton-overview_text1 {font-size: 14px;}
+  .dalton-overview_text2 {font-size: 18px;}
+  .dalton-overview_text3 p ~ p {margin-top: 10px;}
+
+  /* 브랜드 스토리 > 돌튼 */
 } /* End */

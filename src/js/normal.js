@@ -35,7 +35,7 @@ $(document).ready(function () {
   mobileNavi_dp1.on('click', function(){
     mobileNavi_dp2 = $(this).siblings("ul.depth2");
 
-    mobileNavi_dp2.slideToggle(300).closest("li").addClass('active').siblings().removeClass('active').find("ul.depth2").slideUp(300);
+    mobileNavi_dp2.slideToggle(300).closest("li").toggleClass('active').siblings().removeClass('active').find("ul.depth2").slideUp(300);
   });
 
 
