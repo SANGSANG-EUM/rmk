@@ -36,6 +36,13 @@
   .sub .wrapper {padding-left: 70px; padding-right: 70px;}
   .sub-head_title {font-size: 70px;}
   .content_title1 {font-size: 50px;}
+
+  /* 브랜드 스토리 > 고객 리뷰 */
+  .review-best-slider {margin-left: 0; padding-left: 70px;}
+  .review-best-slide {gap: 30px; width: 990px;}
+  .review-best-thumb {width: 500px; height: 360px;}
+  .review-best-content {width: calc(100% - 530px);}
+  .review-best-slctr {padding-right: 70px;}
 } /* End */
 
 @media screen and (max-width:1290px) {
@@ -93,6 +100,7 @@
   .sub .wrapper {padding-left: 40px; padding-right: 40px;}
   .sub-head_title {font-size: 60px;}
   .content_title1 {font-size: 40px;}
+  .content_title2 {font-size: 32px;}
 
   .sub-head {padding-top: 80px; padding-bottom: 40px;}
 
@@ -103,6 +111,23 @@
   .dalton-overview_text2 {font-size: 30px;}
   .dalton-overview_text3 {margin-top: 30px;}
   .dalton-overview_text3 p ~ p {margin-top: 15px;}
+
+  /* 브랜드 스토리 > 고객 리뷰 */
+  .review-best-slider {padding-left: 40px;}
+  .review-best-slide {align-items: flex-start; gap: 30px; width: 800px;}
+  .review-best-thumb {width: 400px; height: 260px;}
+  .review-best-content {width: calc(100% - 430px); gap: 10px}
+  .review-score {width: 100px;}
+  .review-best-tag {font-size: 16px;}
+  .review-best-text {font-size: 14px;}
+  .review-best-name {font-size: 14px;}
+  .review-best-date {font-size: 14px;}
+  .review-best-slctr {padding-right: 40px;}
+
+  .review-list {padding-bottom: 0;}
+  .review-list .review-best-content {width: auto;}
+  .reivew-list-li .review-best-tag {margin-bottom: 0;}
+  .review-best-eval {margin-top: 10px;}
 } /* End */
 
 @media screen and (max-width:1023px) {
@@ -193,6 +218,7 @@
   .sub-head {padding-top: 50px; padding-bottom: 30px;}
   .sub-head_title {font-size: 50px;}
   .content_title1 {font-size: 36px;}
+  .content_title2 {font-size: 28px;}
 
   /* 브랜드 스토리 > 돌튼 */
   .dalton-overview {margin-top: 70px;}
@@ -206,9 +232,27 @@
   .dalton-video {margin-top: 120px;}
   .dalton-video_thumb {margin-top: 20px;}
 
+  /* 브랜드 스토리 > 고객 리뷰 */
+  .review-best {padding-left: 30px; padding-right: 30px;}
+  .review-best-slider {overflow: hidden; padding: 0;}
+  .review-best-thumb {width: 300px; height: 220px;}
+  .review-best-content {width: calc(100% - 330px);}
+  .review-best-slide .review-best-text {-webkit-line-clamp: 3;}
+  .review-best-slctr {padding-right: 0;}
+
+  .review-content {padding-top: 70px;}
+  .review-list {padding-top: 30px;}
+  .reivew-list-li {gap: 7%;}
+  .review-score {width: 80px; height: 16px;}
+  .review-best-img {max-width: 400px; max-height: 300px;}
+
   /* 제품소개 > 상세 */
   .product-v_detail .sizeList .pc-view {display: none;}
   .product-v_detail .sizeList .mo-view {display: block;}
+
+  /* Paging */
+  .pg_page {font-size: 16px;}
+  .pg_current {font-size: 16px;}
 } /* End */
 
 @media screen and (max-width:767px) {
@@ -283,6 +327,7 @@
   .sub .wrapper {padding-left: 20px; padding-right: 20px;}
   .sub-head_title {font-size: 30px;}
   .content_title1 {font-size: 22px;}
+  .content_title2 {font-size: 20px;}
 
   /* 브랜드 스토리 > 돌튼 */
   .dalton-overview_row {flex-flow: column-reverse wrap;}
@@ -294,6 +339,24 @@
   .dalton-overview_text3 p {font-size: 14px;}
   .dalton-video {margin-top: 70px;}
   .dalton-video_thumb::after {width: 60px; height: 60px;}
+
+  /* 브랜드 스토리 > 고객 리뷰 */
+  #review .review-content .content_title2 br {display: none;}
+
+  .review-best {padding-left: 20px; padding-right: 20px;}
+  .review-list {padding-top: 10px;}
+  .review-list-num {font-size: 14px;}
+  .review-list-order {gap: 10px;}
+  .review-list-order a {font-size: 14px;}
+  .review-best {padding-top: 30px;}
+  .review-best-slide {flex-direction: column;}
+  .review-best-content {width: 100%;}
+  .review-best-eval {margin-top: 0;}
+  .reivew-list-li {flex-flow: column-reverse wrap; gap: 15px;}
+  .review-best-img {max-width: none; max-height: none;}
+  .review-best-img img {max-width: 300px; max-height: 250px;}
+  .reivew-list-info {flex-flow: row wrap; align-items: center; justify-content: space-between;}
+  .reivew-list-li .review-best-score {}
 } /* End */
 
 @media screen and (max-width:480px) {
@@ -363,5 +426,7 @@
   .dalton-overview_text2 {font-size: 18px;}
   .dalton-overview_text3 p ~ p {margin-top: 10px;}
 
-  /* 브랜드 스토리 > 돌튼 */
+  /* 브랜드 스토리 > 고객 리뷰 */
+  .review-best-eval {gap: 5px;}
+  .review-best-eval p {font-size: 12px;}
 } /* End */

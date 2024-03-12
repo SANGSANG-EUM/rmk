@@ -125,8 +125,7 @@ $(document).ready(function () {
 
   if (reivewSlideCount > 1) {
     const reviewOptions = {
-      slidesPerView: "auto",
-      spaceBetween: 100,
+      slidesPerView: "1",
       autoplay: {
         delay: 4000,
         disableOnInteraction: false,
@@ -143,6 +142,15 @@ $(document).ready(function () {
         nextEl: ".review-best-slbtn.next",
         prevEl: ".review-best-slbtn_prev",
       },
+      breakpoints: {
+        1291: {
+          spaceBetween: 100,
+        },
+        1024: {
+          slidesPerView: "auto",
+          spaceBetween: 50,
+        },
+      }
     };
     const reviewSlider = f.slider(reviewTarget, reviewOptions);
   } else {

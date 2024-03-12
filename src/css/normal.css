@@ -269,7 +269,55 @@
 .dalton-video_frame {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 1300px; max-width: 90%; height: 0; padding-top: 38.5%; overflow: hidden; box-shadow: 5px 5px 20px rgba(0,0,0,0.3);}
 .dalton-video_frame iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
-/* 브랜드 스토리 > 고객리뷰 */
+/* 브랜드 스토리 > 고객 리뷰 */
+.review-best {padding: 80px 0 30px; background-color: #FAFAFA;}
+.review-best.none {display: none;}
+.review-best-slider {margin-left: calc(50% - 760px); overflow: hidden;}
+.review-best-slide {display: flex; align-items: center; gap: 60px; width: 1020px;}
+.review-best-slctr {display: flex; align-items: center; justify-content: flex-end; gap: 15px; padding-top: 30px; padding-right: calc(50% - 760px); width: 100%;}
+.reivew-best-slpage {font-size: 14px; font-weight: 600; color: #d9d9d9; width: auto;}
+.reivew-best-slpage .swiper-pagination-current {color: #0f0f0f;}
+.reivew-best-slpage .swiper-pagination-total {color: #999;}
+.review-best-slbtn {display: flex; align-items: center; border: 0; background: none;}
+.review-best-thumb {width: 500px; height: 360px; overflow: hidden;}
+.review-best-thumb img {width: 100%; height: 100%; object-fit: cover; object-position: center;}
+.review-best-content {display: flex; flex-direction: column; gap: 30px; width: calc(100% - 560px);}
+.review-score {display: inline-block; width: 140px; height: 24px; background-repeat: no-repeat; background-position: center; background-size: contain}
+.review-score.score1 {background-image: url('/src/img/score1.png');}
+.review-score.score2 {background-image: url('/src/img/score2.png');}
+.review-score.score3 {background-image: url('/src/img/score3.png');}
+.review-score.score4 {background-image: url('/src/img/score4.png');}
+.review-score.score5 {background-image: url('/src/img/score5.png');}
+.review-best-tag {display: flex; align-items: center; flex-wrap: wrap; gap: 10px 20px; position: relative; font-size: 18px; font-weight: 300; color: #0f0f0f;}
+.review-best-tag p {position: relative;}
+.review-best-tag p::before {content: '# '; font-size: inherit; font-weight: 500;}
+.review-best-tag p::after {content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background-color: #0f0f0f;}
+.review-best-tag b {font-weight: 500;}
+.review-best-text {color: #333; line-height: 1.625;}
+.review-best-img {max-width: 500px; max-height: 400px;}
+.review-best-img img {max-width: 100%; max-height: 100%;}
+.review-best-slide .review-best-text {margin-top: 5px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;}
+.review-best-eval {display: flex; flex-wrap: wrap; gap: 10px;}
+.review-best-eval p {padding: 7px 11px; max-width: 100%; white-space: nowrap; background-color: #ECECEC; border-radius: 30px; font-size: 14px; line-height: 1;}
+.review-best-name {font-size: 16px; color: #666;}
+.review-best-slide .review-best-name {margin-top: 5px;}
+.review-content {padding-top: 90px;}
+.review-list {padding: 50px 0;}
+.review-list-top {display: flex; align-items: center; justify-content: space-between; gap: 30px; padding: 15px 5px;}
+.review-list-num {font-weight: 400;}
+.review-list-num span {font-weight: 600;}
+.review-list-order {display: flex; align-items: center; gap: 28px;}
+.review-list-order a {font-size: 15px; font-weight: 400; color: #bbb;}
+.review-list-order a.active {color: #0f0f0f;}
+.review-list-ul {border-top: 1px solid #E0E0E0;}
+.reivew-list-li {display: flex; gap: 15%; justify-content: space-between; padding: 30px 10px; border-bottom: 1px solid #E0E0E0;}
+.reivew-list-info {display: flex; flex-direction: column; justify-content: space-between;}
+.review-list-writer {display: flex; align-items: center;}
+.review-best-date {position: relative; margin-left: 14px; padding-left: 15px;}
+.review-best-date::before {content: ''; position: absolute;  top: 50%; left: 0; transform: translateY(-50%); width: 1px; height: 15px; background-color: #CECECE;}
+.reivew-list-li .review-best-tag {margin-bottom: -10px;}
+.reivew-list-li .review-best-score {text-align: right;}
+.reivew-list-li .review-best-name, .reivew-list-li .review-best-date {color: #333;}
 
 /* 브랜드 스토리 > 인사말 */
 #greeting {}
@@ -464,57 +512,6 @@
 
 .product-v_detail .tableCont {margin-top: 40px;}
 .product-v_detail .tableCont .ui-table tbody td:first-child {width: 140px; text-align: center;}
-
-/* 브랜드 스토리 > 고객 리뷰 */
-.review-best {padding: 80px 0 30px; background-color: #FAFAFA;}
-.review-best.none {display: none;}
-.review-best-slider {margin-left: calc(50% - 760px); overflow: hidden;}
-.review-best-slide {display: flex; align-items: center; gap: 60px; width: 1020px;}
-.review-best-slctr {display: flex; align-items: center; justify-content: flex-end; gap: 15px; padding-top: 30px; padding-right: calc(50% - 760px); width: 100%;}
-.reivew-best-slpage {font-size: 14px; font-weight: 600; color: #d9d9d9; width: auto;}
-.reivew-best-slpage .swiper-pagination-current {color: #0f0f0f;}
-.reivew-best-slpage .swiper-pagination-total {color: #999;}
-.review-best-slbtn {display: flex; align-items: center; border: 0; background: none;}
-.review-best-thumb {width: 500px; height: 360px; overflow: hidden;}
-.review-best-thumb img {width: 100%; height: 100%; object-fit: cover; object-position: center;}
-.review-best-content {display: flex; flex-direction: column; gap: 30px; width: calc(100% - 560px);}
-.review-score {display: inline-block; width: 140px; height: 24px; background-position: center; background-size: contain}
-.review-score.score1 {background-image: url('/src/img/score1.png');}
-.review-score.score2 {background-image: url('/src/img/score2.png');}
-.review-score.score3 {background-image: url('/src/img/score3.png');}
-.review-score.score4 {background-image: url('/src/img/score4.png');}
-.review-score.score5 {background-image: url('/src/img/score5.png');}
-.review-best-tag {display: flex; align-items: center; flex-wrap: wrap; gap: 10px 20px; position: relative; font-size: 18px; font-weight: 300; color: #0f0f0f;}
-.review-best-tag p {position: relative;}
-.review-best-tag p::before {content: '# '; font-size: inherit; font-weight: 500;}
-.review-best-tag p::after {content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background-color: #0f0f0f;}
-.review-best-tag b {font-weight: 500;}
-.review-best-text {color: #333; line-height: 1.625;}
-.review-best-img {max-width: 500px; max-height: 400px;}
-.review-best-img img {max-width: 100%; max-height: 100%;}
-.review-best-slide .review-best-text {margin-top: 5px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;}
-.review-best-eval {display: flex; flex-wrap: wrap; gap: 10px;}
-.review-best-eval p {padding: 7px 11px; max-width: 100%; white-space: nowrap; background-color: #ECECEC; border-radius: 30px; font-size: 14px; line-height: 1;}
-.review-best-name {font-size: 16px; color: #666;}
-.review-best-slide .review-best-name {margin-top: 5px;}
-.review-content {padding-top: 90px;}
-.review-list {padding: 50px 0;}
-.review-list-top {display: flex; align-items: center; justify-content: space-between; gap: 30px; padding: 15px 5px;}
-.review-list-num {font-weight: 400;}
-.review-list-num span {font-weight: 600;}
-.review-list-order {display: flex; align-items: center; gap: 28px;}
-.review-list-order a {font-size: 15px; font-weight: 400; color: #bbb;}
-.review-list-order a.active {color: #0f0f0f;}
-.review-list-ul {border-top: 1px solid #E0E0E0;}
-.reivew-list-li {display: flex; gap: 15%; justify-content: space-between; padding: 30px 10px; border-bottom: 1px solid #E0E0E0;}
-.reivew-list-info {display: flex; flex-direction: column; justify-content: space-between;}
-.review-list-writer {display: flex; align-items: center;}
-.review-best-date {position: relative; margin-left: 14px; padding-left: 15px;}
-.review-best-date::before {content: ''; position: absolute;  top: 50%; left: 0; transform: translateY(-50%); width: 1px; height: 15px; background-color: #CECECE;}
-.reivew-list-li .review-best-tag {margin-bottom: -10px;}
-.reivew-list-li .review-best-score {text-align: right;}
-.reivew-list-li .review-best-name, .reivew-list-li .review-best-date {color: #333;}
-
 
 /* 아래 내용 게시판 페이징 소스 가져옴 */
 /* > Paging */
