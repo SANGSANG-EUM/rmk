@@ -163,6 +163,10 @@
 
   .main_inspection {margin-top: 120px;}
   .main_inspection .main_sec-top {padding-top: 0;}
+
+  /* 제품소개 > 상세 */
+  .product-v_detail .sizeList .pc-view {display: none;}
+  .product-v_detail .sizeList .mo-view {display: block;}
 } /* End */
 
 @media screen and (max-width:767px) {
