@@ -363,6 +363,29 @@
 .history-box_text p b {}
 .history-box_text p ~ p {margin-top: 15px;}
 
+/* 브랜드 스토리 > 오시는길, 고객지원 > 체험장 안내 */
+.location-list-wr {padding-bottom: 20px;}
+.location-list-ul {border-top: 1px solid #666;}
+.location-list-li {display: flex; padding: 75px 0; border-bottom: 1px solid #666;}
+.location-list-li__l {width: 250px; font-size: 40px; font-weight: 700; color: #0f0f0f;}
+.location-list-li__l p {line-height: 1;}
+.location-list-li__r {width: calc(100% - 250px);}
+.location-info-ul {display: flex; flex-direction: column; gap: 15px; padding-bottom: 35px;}
+.location-info-li {display: flex; font-size: 24px;}
+.location-info__key {width: 115px; font-weight: 500; color: #0f0f0f;}
+.location-info__val {width: calc(100% - 115px); font-weight: 300; color: #666;}
+.location-list-btm {display: flex; align-items: flex-end; justify-content: space-between; gap: 40px;}
+.location-noti {display: flex; align-items: flex-start; gap: 10px;}
+.location-noti-icon {padding: 5px 10px; font-weight: 500; color: #fff; line-height: 1; border-radius: 30px; background-color: #F6AB00;}
+.location-noti-cnt {line-height: 1.6;}
+.location-map-btn {display: flex; align-items: center; justify-content: center; gap: 5px; flex-shrink: 0; border: 0; background: none; font-weight: 500; color: #0f0f0f;}
+.location-map-btn img {width: 20px;}
+.location-map {height: 0; opacity: 0; visibility: hidden; border-radius: 10px; overflow: hidden; transition: .5s;}
+.location-map.open {height: 500px; opacity: 1; visibility: visible; margin-top: 20px;}
+.location-map .root_daum_roughmap {width: 100%;}
+.location-map .root_daum_roughmap .wrap_map {height: 500px;}
+.location-map .root_daum_roughmap .wrap_controllers, .location-map .root_daum_roughmap .border1, .location-map .root_daum_roughmap .border2,.location-map .root_daum_roughmap .border3, .location-map .root_daum_roughmap .border4 {display: none;}
+
 /* 제품소개 */
 #product {}
 .product-visual {margin-top: 40px; margin-bottom: 100px; padding: 200px 0 58px;}
@@ -672,30 +695,6 @@
 .guide-info-txt {font-size: 18px; font-weight: 300; color: #333; line-height: 1.5;}
 .guide-info-txt span {color: #999; line-height: 1.8;}
 .guide-step03-img {box-shadow: 0 0 25px 5px rgba(0, 0, 0, .05);}
-
-
-/* 고객지원 > 체험장 안내 */
-.location-list-wr {padding-bottom: 20px;}
-.location-list-ul {border-top: 1px solid #666;}
-.location-list-li {display: flex; padding: 75px 0; border-bottom: 1px solid #666;}
-.location-list-li__l {width: 250px; font-size: 40px; font-weight: 700; color: #0f0f0f;}
-.location-list-li__l p {line-height: 1;}
-.location-list-li__r {width: calc(100% - 250px);}
-.location-info-ul {display: flex; flex-direction: column; gap: 15px; padding-bottom: 35px;}
-.location-info-li {display: flex; font-size: 24px;}
-.location-info__key {width: 115px; font-weight: 500; color: #0f0f0f;}
-.location-info__val {width: calc(100% - 115px); font-weight: 300; color: #666;}
-.location-list-btm {display: flex; align-items: flex-end; justify-content: space-between; gap: 40px;}
-.location-noti {display: flex; align-items: flex-start; gap: 10px;}
-.location-noti-icon {padding: 5px 10px; font-weight: 500; color: #fff; line-height: 1; border-radius: 30px; background-color: #F6AB00;}
-.location-noti-cnt {line-height: 1.6;}
-.location-map-btn {display: flex; align-items: center; justify-content: center; gap: 5px; flex-shrink: 0; border: 0; background: none; font-weight: 500; color: #0f0f0f;}
-.location-map-btn img {width: 20px;}
-.location-map {height: 0; opacity: 0; visibility: hidden; border-radius: 10px; overflow: hidden; transition: .5s;}
-.location-map.open {height: 500px; opacity: 1; visibility: visible; margin-top: 20px;}
-.location-map .root_daum_roughmap {width: 100%;}
-.location-map .root_daum_roughmap .wrap_map {height: 500px;}
-.location-map .root_daum_roughmap .wrap_controllers, .location-map .root_daum_roughmap .border1, .location-map .root_daum_roughmap .border2,.location-map .root_daum_roughmap .border3, .location-map .root_daum_roughmap .border4 {display: none;}
 
 @keyframes productArrow {
   0% {top: -38px;}
