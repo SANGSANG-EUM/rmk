@@ -16,6 +16,29 @@ $(document).ready(function () {
   // Nice Select
   $('.ncSelect').niceSelect();
 
+  // Mobile Menu
+  const mobileMenu_open = $(".mo-menu_open");
+  const mobileMenu_close = $(".mo-menu_close");
+  const mobileMenu = $(".mo-menu");
+
+  const mobileNavi_dp1 = $(".mo-navi > ul > li > a");
+  let mobileNavi_dp2;
+
+  mobileMenu_open.on('click', function(){
+    mobileMenu.fadeIn(300);
+  });
+
+  mobileMenu_close.on('click', function(){
+    mobileMenu.fadeOut(300);
+  });
+
+  mobileNavi_dp1.on('click', function(){
+    mobileNavi_dp2 = $(this).siblings("ul.depth2");
+
+    mobileNavi_dp2.slideToggle(300).closest("li").addClass('active').siblings().removeClass('active').find("ul.depth2").slideUp(300);
+  });
+
+
   // Main Visual
   const mainVisualTarget = '.main_visual .swiper-container';
   const mainVisualSlideCount = $(mainVisualTarget).find('.swiper-slide').length;
