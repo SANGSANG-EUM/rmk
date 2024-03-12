@@ -43,6 +43,9 @@
   .review-best-thumb {width: 500px; height: 360px;}
   .review-best-content {width: calc(100% - 530px);}
   .review-best-slctr {padding-right: 70px;}
+
+  /* 브랜드 스토리 > 인사말 */
+  .greeting-mean_box1 {gap: 320px;}
 } /* End */
 
 @media screen and (max-width:1290px) {
@@ -128,6 +131,10 @@
   .review-list .review-best-content {width: auto;}
   .reivew-list-li .review-best-tag {margin-bottom: 0;}
   .review-best-eval {margin-top: 10px;}
+
+  /* 브랜드 스토리 > 인사말 */
+  .greeting-mean_box1 {gap: 250px;}
+  .greeting-mean_paralax {top: 56%; left: 0; font-size: 130px;}
 } /* End */
 
 @media screen and (max-width:1023px) {
@@ -216,7 +223,7 @@
   .sub {padding-top: 60px; padding-bottom: 100px;}
   .sub .wrapper {padding-left: 30px; padding-right: 30px;}
   .sub-head {padding-top: 50px; padding-bottom: 30px;}
-  .sub-head_title {font-size: 50px;}
+  .sub-head_title {font-size: 42px;}
   .content_title1 {font-size: 36px;}
   .content_title2 {font-size: 28px;}
 
@@ -245,6 +252,24 @@
   .reivew-list-li {gap: 7%;}
   .review-score {width: 80px; height: 16px;}
   .review-best-img {max-width: 400px; max-height: 300px;}
+
+  /* 브랜드 스토리 > 인사말 */
+  .greeting-mean {margin-top: 70px;}
+  .greeting-mean_content {flex-direction: column;}
+  .greeting-mean_box1 {flex-direction: row-reverse; width: 100%; gap: 30px;}
+  .greeting-mean_box1 .greeting-mean_item1 {width: calc(100% - 359px);}
+  .greeting-mean_box1 .greeting-mean_item2 {width: 350px;}
+  .greeting-mean_box2 {flex-direction: row; width: 100%; gap: 30px;}
+  .greeting-mean_box2 .greeting-mean_item3 {width: calc(100% - 300px);}
+  .greeting-mean_box2 .greeting-mean_item4 {width: 300px;}
+  .greeting-mean_text1 {font-size: 20px;}
+  .greeting-mean_text1 br {display: none;}
+  .greeting-mean_text2 {font-size: 16px;}
+  .greeting-mean_text3 {font-size: 16px;}
+  .greeting-mean_en {font-size: 30px;}
+  .greeting-mean_kr {padding-top: 5px; font-size: 18px;}
+  .greeting-mean_word:not(:first-child) {margin-top: 15px;}
+  .greeting-mean_paralax {top: 43%; left: 0; margin-left: 0; font-size: 10vw; text-align: center; min-width: auto; width: 100%; transform: none !important;}
 
   /* 제품소개 > 상세 */
   .product-v_detail .sizeList .pc-view {display: none;}
@@ -315,6 +340,8 @@
   .main_product-type-item .txt .t1 {font-size: 16px;}
   .main_product-type-item .txt .t2 {font-size: 14px;}
 
+  .main_product .marquee_text {display: none;}
+
   .main_inspection {margin-top: 70px; min-height: auto;}
   .main_inspection .inner {padding-left: 0;}
   .main_inspection .main_sec-top {padding: 0;}
@@ -330,6 +357,7 @@
   .content_title2 {font-size: 20px;}
 
   /* 브랜드 스토리 > 돌튼 */
+  .dalton-overview_list {margin-top: 30px;}
   .dalton-overview_row {flex-flow: column-reverse wrap;}
   .dalton-overview_row ~ .dalton-overview_row {margin-top: 70px;}
   .dalton-overview_row2 {position: relative; padding: 70px 0;}
@@ -357,6 +385,25 @@
   .review-best-img img {max-width: 300px; max-height: 250px;}
   .reivew-list-info {flex-flow: row wrap; align-items: center; justify-content: space-between;}
   .reivew-list-li .review-best-score {}
+
+  /* 브랜드 스토리 > 인사말 */
+  .greeting-mean_title {display: block; width: 100%; padding-right: 80px; font-size: 24px;}
+  .greeting-mean_title::after {display: none;}
+  .greeting-mean_content {gap: 70px; margin-top: 20px;}
+  .greeting-mean_box1 {flex-direction: column-reverse; gap: 20px;}
+  .greeting-mean_box1 .greeting-mean_item1 {width: 100%;}
+  .greeting-mean_box1 .greeting-mean_item2 {width: 300px; max-width: 100%;}
+  .greeting-mean_word {}
+  .greeting-mean_box2 {flex-direction: column-reverse; gap: 20px;}
+  .greeting-mean_box2 .greeting-mean_item3 {width: 100%;}
+  .greeting-mean_box2 .greeting-mean_item4 {position: relative; width: 300px; max-width: 100%; height: 200px; border-radius: 0;}
+  .greeting-mean_box2 .greeting-mean_item4 img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+  .greeting-mean_en {font-size: 22px;}
+  .greeting-mean_kr {font-size: 16px;}
+  .greeting-mean_text1 {font-size: 16px;}
+  .greeting-mean_text2 {margin-top: 10px; font-size: 14px;}
+  .greeting-mean_text3 {margin-top: 10px; font-size: 14px;}
+  .greeting-mean_paralax {display: none;}
 } /* End */
 
 @media screen and (max-width:480px) {
