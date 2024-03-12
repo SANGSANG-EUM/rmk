@@ -98,6 +98,8 @@
   #header .language {margin-left: 0;}
   #header.type2 .logo > a {width: 80px;}
 
+  .mo-menu_open {display: block;}
+
   /* Footer */
   #footer {padding: 50px 0;}
   #footer .inner {display: block;}

@@ -70,6 +70,11 @@
 #header .inspection-btn img {margin: -1px 3px 0 0; vertical-align: top;}
 #header .inspection-btn:hover {background-color: var(--color-main);}
 
+.mo-menu_open {display: none; position: relative; width: 24px;}
+.mo-menu_open:after {content: ""; display: block; position: absolute; top: -17px; left: -13px; width: 50px; height: 50px;}
+.mo-menu_open > span {display: block; width: 100%; height: 2px; background-color: var(--color-black3);}
+.mo-menu_open > span ~ span {margin-top: 5px;}
+
 #header.type2 {background: none;}
 #header.type2:before {content: ""; display: block; position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 90px; background: rgba(255,255,255,0); background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 88%); opacity: 0.2;}
 #header.type2 .logo > a {width: 158px;}
@@ -77,7 +82,28 @@
 #header.type2 .gnb .navi > ul > li > a:after {border-color: var(--color-white);}
 #header.type2 .language .ncSelect {color: var(--color-white); background-image: url('../img/arrow-down-w.svg');}
 #header.type2 .language .icon {background-image: url('../img/language-w.svg');}
+#header.type2 .mo-menu_open > span {background-color: var(--color-white);}
 
+.mo-menu {display: none; position: fixed; top: 0; left: 0; z-index: 300; width: 100%; height: 100vh; background: rgb(0,0,0); background: linear-gradient(0deg, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.8) 100%); -webkit-backdrop-filter: saturate(100%) blur(4px); backdrop-filter: saturate(100%) blur(4px);}
+.mo-menu .inner {position: relative; padding-top: 5px;}
+.mo-menu_close {position: absolute; top: 20px; right: 0; z-index: 10;}
+
+.mo-tnb {display: flex; align-items: center; justify-content: flex-start; gap: 10px; padding: 10px 0;}
+.mo-tnb .language {position: relative;}
+.mo-tnb .language .ncSelect {height: 35px; line-height: 35px; border: 0; font-size: 14px; font-weight: 400; color: var(--color-white); background-image: url('../img/arrow-down-w.svg');}
+.mo-tnb .language .ncSelect .list {color: var(--color-black2);}
+.mo-tnb .language .icon {position: absolute; top: 50%; left: 0; z-index: 1; width: 20px; height: 20px; margin-top: -10px; background: url('../img/language-w.svg') no-repeat center / contain;}
+.mo-tnb .inspection-btn {width: 110px; height: 35px; font-size: 14px; font-weight: 400; color: var(--color-white);}
+
+.mo-navi {margin-top: 50px; text-align: center;}
+.mo-navi > ul {}
+.mo-navi > ul > li {border-radius: 10px;}
+.mo-navi > ul > li > a {display: block; padding: 15px 0; font-size: 16px; font-weight: 400; color: var(--color-white);}
+.mo-navi ul.depth2 {display: none; padding-bottom: 15px;}
+.mo-navi ul.depth2 > li {}
+.mo-navi ul.depth2 > li > a {display: block; padding: 10px 0; font-size: 15px; font-weight: 300; color: var(--color-white);}
+.mo-navi > ul > li.active {background-color: rgba(0,0,0,0.5);}
+.mo-navi > ul > li.active > a {color: var(--color-main);}
 
 /* Footer */
 #footer {padding: 100px 0 120px; background-color: var(--color-gray6);}
