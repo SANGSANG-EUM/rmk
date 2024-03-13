@@ -596,9 +596,9 @@
 .difference-img {flex-shrink: 0; position: relative; margin-right: 40px; margin-bottom: -200px; width: clamp(260px, 35vw, 540px); height: clamp(260px, 35vw, 540px); border-radius: 50%; overflow: hidden; border: 1px solid #ebebeb;}
 .difference-cert {padding: 150px 0 110px; background-color: #F8F8F8;}
 .difference-cert-wr {display: flex; gap: 94px;}
-.difference-cert-big {position: relative; width: 35%; height: 32vw; box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .05);}
+.difference-cert-big {position: relative; width: 35%; height: 32vw; box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .05); background-color: var(--color-white);}
 .difference-cert-ul {display: flex; flex-wrap: wrap; gap: 20px; width: calc(75% - 94px);}
-.difference-cert-li {position: relative; width: calc(100% / 4 - 60px / 4); height: 15.8vw; box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .05);}
+.difference-cert-li {position: relative; width: calc(100% / 4 - 60px / 4); height: 15.8vw; box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .05); background-color: var(--color-white);}
 .difference-filter {padding: 160px 0 85px;}
 .difference-filter-wr {padding-top: 80px;}
 .difference-filter-ul {display: flex; gap: 8vw; justify-content: space-between; padding: 140px 0 80px;}
@@ -606,12 +606,13 @@
 .difference-filter-li__img {position: relative; margin: 30px 0 20px; width: 100%; height: min(15vw, 270px);}
 .difference-filter-li:not(:last-child) .difference-filter-li__img {border-radius: 0 1000px 1000px 0; overflow: hidden;}
 .difference-img img, .difference-cert-big img, .difference-cert-li img, .difference-filter-li__img img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; object-fit: cover;}
+.difference-cert-big img, .difference-cert-li img {object-fit: contain;}
 .difference-filter-li__txt {text-align: center;}
 .difference-filter-txt-wr {line-height: 1.6;}
 .difference-filter-txt-wr .guide-info-tit {padding-bottom: 20px;}
 .difference-compare {padding: 85px 0 145px;}
 .difference-compare-ul {display: flex; gap: 40px; padding-top: 80px;}
-.difference-compare-li {flex: 1;}
+.difference-compare-li {width: calc(50% - 20px);}
 .difference-compare-box {display: flex; align-items: center; gap: 50px; margin-top: 15px; padding: 40px; background-color: #fff; color: #0f0f0f; box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, .05);}
 .difference-compare-img {display: flex; align-items: center; justify-content: center; width: 235px; height: 235px; border-radius: 50%; border: 8px solid #EDEDED; background-color: #fff;}
 .difference-compare-txt-ul {display: flex; flex-direction: column; gap: 10px;}

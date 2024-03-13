@@ -45,6 +45,7 @@
   .sub-head_title {font-size: 70px;}
   .content_title1 {font-size: 50px;}
   .content_text {font-size: 22px;}
+  .sub-mid-tit {font-size: 36px;}
 
   /* 브랜드 스토리 > 고객 리뷰 */
   .review-best-slider {margin-left: 0; padding-left: 70px;}
@@ -103,6 +104,14 @@
   .dys-exp2-li__img {height: 0; padding-bottom: 100%;}
   .dys-exp2-li .dys-exp-txt--01 {font-size: 20px; padding: 20px 0 10px;}
   .dys-exp2-li .dys-exp-txt--02 {padding-top: 10px; font-size: 16px;}
+
+  /* 기술소개 > 차별화기술 */
+  .difference-overview-wr {padding-top: 70px;}
+  .difference-overview-txt2 {font-size: 30px;}
+
+  .difference-compare-box {gap: 20px; padding: 20px;}
+  .difference-compare-img {width: 200px; height: 200px;}
+  .difference-comapre-txt-li {font-size: 18px;}
 } /* End */
 
 @media screen and (max-width:1290px) {
@@ -166,6 +175,7 @@
   .content_text {font-size: 20px; margin-top: 20px;}
 
   .sub-head {padding-top: 80px; padding-bottom: 40px;}
+  .sub-mid-tit {font-size: 28px;}
 
   /* 브랜드 스토리 > 돌튼 */
   .dalton-overview_row {gap: 50px;}
@@ -251,6 +261,27 @@
   .dys-exp2-li .dys-exp-txt--01 {font-size: 18px;}
 
   .dys-sunglasses-wr .dys-exp-txt--01 {padding: 40px 0 25px;}
+
+  /* 기술소개 > 차별화기술 */
+  .difference-overview-wr {padding-top: 50px; gap: 80px;}
+  .difference-overview-txt2 {font-size: 26px;}
+  .difference-img {margin-bottom: -150px;}
+
+  .difference-cert {padding-top: 120px;}
+  .difference-cert-wr {gap: 50px;}
+  .difference-cert-ul {width: calc(75% - 50px);}
+
+  .guide-info-tit {font-size: 20px;}
+  .difference-filter {padding: 120px 0 0;}
+  .difference-filter-wr {padding-top: 50px;}
+  .difference-filter-ul {padding-top: 50px;}
+  .difference-filter-li__img {margin: 10px 0;}
+  .difference-filter-li__txt {text-align: left;}
+
+  .difference-compare-ul {padding-top: 50px;}
+  .difference-compare {padding: 120px 0 0;}
+
+  .difference-color {margin-top: 120px; padding: 70px 0;}
 
   @keyframes productArrow {
     0% {top: -45px;}
@@ -351,6 +382,7 @@
   .content_title1 {font-size: 36px;}
   .content_title2 {font-size: 28px;}
   .content_text {font-size: 18px;}
+  .sub-mid-tit {font-size: 22px;}
 
   /* 브랜드 스토리 > 돌튼 */
   .dalton-overview {margin-top: 70px;}
@@ -489,6 +521,30 @@
   .dys-sunglasses-wr {padding-top: 40px; gap: 40px;}
   .dys-sunglasses-wr .dys-exp-txt--01 {padding: 20px 0 10px;}
 
+  /* 기술소개 > 차별화기술 */
+  .guide-info-tit {font-size: 18px;}
+  .guide-info-txt {font-size: 16px;}
+
+  .difference-overview {padding: 70px 0 50px;}
+  .difference-img {margin-bottom: 0;}
+  .difference-overview-wr {padding-top: 30px; gap: 50px;}
+  .difference-overview-txt2 {padding: 20px 0; font-size: 22px;}
+
+  .difference-cert {padding: 50px 0;}
+  .difference-cert-wr {gap: 20px;}
+  .difference-cert-ul {gap: 20px; width: calc(75% - 20px);}
+
+  .difference-filter {padding-top: 70px;}
+  .difference-filter-wr {padding-top: 30px;}
+  .difference-filter-ul {padding: 30px 0 50px;}
+
+  .difference-compare {padding-top: 70px;}
+  .difference-compare-ul {flex-flow: column wrap; padding-top: 30px;}
+  .difference-compare-li {width: 100%;}
+
+  .difference-color {margin-top: 70px; padding: 50px 0;}
+  .difference-color-li {padding-top: 30px;}
+
   /* Paging */
   .pg_page {font-size: 16px;}
   .pg_current {font-size: 16px;}
@@ -586,6 +642,8 @@
   .content_title1 {font-size: 22px;}
   .content_title2 {font-size: 20px;}
   .content_text {font-size: 16px;}
+  .content_text br {display: none;}
+  .sub-mid-tit {font-size: 18px;}
 
   /* 브랜드 스토리 > 돌튼 */
   .dalton-overview_list {margin-top: 30px;}
@@ -731,6 +789,24 @@
   .dys-sunglasses-r {display: flex; flex-flow: row wrap; width: 100%; gap: 20px; margin-top: 20px;}
   .dys-sunglasses-r .dys-sunglassses-img {width: 180px; height: 250px; border-radius: 0;}
   .dys-sunglasses-r .dys-exp-txt-wr {width: calc(100% - 200px);}
+
+  /* 기술소개 > 차별화기술 */
+  .difference-overview-wr {flex-flow: column-reverse wrap; gap: 30px;}
+  .difference-img {width: 100%; height: 250px; margin-right: 0; border-radius: 0;}
+  .difference-overview-txt2 {font-size: 18px;}
+  .guide-info-tit {font-size: 16px;}
+  .guide-info-txt {font-size: 14px;}
+
+  .difference-cert-wr {gap: 10px;}
+  .difference-cert-ul {gap: 10px; width: calc(75% - 10px);}
+
+  .difference-filter-ul {gap: 20px; padding-bottom: 30px;}
+  .difference-filter-ul .guide-info-tit {font-size: 14px;}
+  
+  .difference-compare-img {width: 120px; height: 120px;}
+  .difference-comapre-txt-li {font-size: 14px;}
+  .difference-comapre-txt-li__key {width: 100px;}
+  .difference-comapre-txt-li__val {width: calc(100% - 100px);}
 } /* End */
 
 @media screen and (max-width:480px) {
@@ -854,4 +930,14 @@
   .dys-sunglasses-r {display: block; margin-top: 10px;}
   .dys-sunglasses-r .dys-sunglassses-img {width: 100%; height: 180px;}
   .dys-sunglasses-r .dys-exp-txt-wr {width: 100%;}
+
+  /* 기술소개 > 차별화기술 */
+  .difference-cert-wr {flex-flow: column wrap; }
+  .difference-cert-big {width: 100%; height: 110vw !important;}
+  .difference-cert-ul {width: 100%; height: auto !important;}
+  .difference-cert-li {width: calc(100% / 2 - 10px / 2); height: 54vw;}
+
+  .difference-compare-box {flex-flow: column wrap;}
+  .difference-compare-img {width: 100%; border-radius: 0;}
+  .difference-compare-txt-ul {width: 100%;}
 } /* End */
