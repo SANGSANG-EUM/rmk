@@ -377,7 +377,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 
 /* faq - list */
 .bo_top_info {display: none;}
-.faq_wrap {padding-bottom: 170px; border: 0;}
+.faq_wrap {border: 0;}
 
 #bo_cate {margin-bottom: 55px;}
 #bo_cate_ul {display: flex; gap: 50px; padding-top: 18px; border-top: 1px solid #E2E2E2;}
@@ -397,16 +397,32 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 
 /* Responsive */
 @media screen and (max-width:1290px){
-  
+  #bo_cate_ul {gap: 30px;}
+  #bo_cate a {font-size: 20px;}
+
+  .faq_in {padding: 0 30px;}
+  .faq_icon {top: 26px; width: 45px; height: 45px; font-size: 20px;}
+
+  .faq_q {padding: 30px;}
+  .faq_q_txt {padding-left: 25px; font-size: 20px;}
+
+  .faq_a {padding: 30px 0;}
 } /*@media End*/
 
 @media screen and (max-width:1023px){
-  .faq_q{padding: 30px 55px 30px 60px;}
-  .faq_q_txt{font-size: 16px;}
+  #bo_cate {margin-bottom: 30px;}
+  #bo_cate_ul {gap: 20px;}
+  #bo_cate a {font-size: 16px;}
   .bo_cate_link{width: 80px; font-size: 12px;}
+
+  .faq_icon {top: 29px; width: 30px; height: 30px; font-size: 16px;}
   .faq_arrow{top: 28px;}
+  .faq_in {padding: 0 20px;}
   .faq_in.active .faq_arrow{top: 35px;}
   .faq_arrow i.arrow{padding: 5px;}
+
+  .faq_q_txt{padding-left: 10px; font-size: 16px;}
+  
   .faq_a_txt{font-size: 16px;}
 } /*@media End*/
 
@@ -428,4 +444,17 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   #bo_vc header .bo_vc_winfo .bo_vc_time{font-size: 12px;}
   #bo_vc .cmt_contents{font-size: 14px;}
   .bo_vc_act li a{font-size: 12px; height: 25px; line-height: 25px; padding: 0 10px;}
+} /*@media End*/
+
+@media screen and (max-width:480px){
+  #bo_cate_ul {gap: 15px;}
+  #bo_cate a {font-size: 14px;}
+
+  .faq_ul {gap: 10px;}
+  .faq_in {padding: 0 10px;}
+  .faq_icon {top: 17px; width: 20px; height: 20px; font-size: 12px;}
+
+  .faq_q {padding: 15px 20px; background-size: 14px;}
+
+  .faq_a {padding: 15px 0;}
 } /*@media End*/
