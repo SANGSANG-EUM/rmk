@@ -252,6 +252,7 @@
   .sub .wrapper {padding-left: 30px; padding-right: 30px;}
   .sub-head {padding-top: 50px; padding-bottom: 30px;}
   .sub-head_title {font-size: 42px;}
+  .sub-head_explan {margin-top: 10px; font-size: 32px;}
   .content_title1 {font-size: 36px;}
   .content_title2 {font-size: 28px;}
 
@@ -315,6 +316,7 @@
   .location-map-btn {position: absolute; top: 25px; right: 0; z-index: 10;}
   .location-map-btn img {width: 16px;}
   .location-map.open {height: 350px;}
+  .location-map .root_daum_roughmap .wrap_map {height: 350px;}
 
   /* 제품소개 > 상세 */
   .product-v_detail .sizeList .pc-view {display: none;}
@@ -398,6 +400,7 @@
   /* 서브 공통 */
   .sub .wrapper {padding-left: 20px; padding-right: 20px;}
   .sub-head_title {font-size: 30px;}
+  .sub-head_explan {margin-top: 5px; font-size: 18px;}
   .content_title1 {font-size: 22px;}
   .content_title2 {font-size: 20px;}
 
@@ -454,6 +457,19 @@
   .history-content::before {display: none;}
   .history-box {margin-top: 20px; padding: 10px 20px; background-color: #fafafa;}
   .history-box_row {padding: 10px 0;}
+
+  /* 브랜드 스토리 > 오시는길, 고객지원 > 체험장 안내 */
+  .location-list-li__l {font-size: 16px;}
+  .location-info-li {flex-direction: column; font-size: 14px;}
+  .location-info__key {width: 100%;}
+  .location-info__val {width: 100%; margin-top: 5px;}
+  .location-noti {flex-direction: column; gap: 0;}
+  .location-noti-icon {font-size: 12px;}
+  .location-noti-cnt {margin-top: 5px; font-size: 14px;}
+  .location-map-btn {top: 30px; font-size: 14px;}
+  .location-map-btn img {width: 12px;}
+  .location-map.open {height: 250px;}
+  .location-map .root_daum_roughmap .wrap_map {height: 250px;}
 } /* End */
 
 @media screen and (max-width:480px) {
