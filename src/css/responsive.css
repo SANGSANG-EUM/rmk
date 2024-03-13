@@ -8,6 +8,10 @@
 } /* End */
 
 @media screen and (max-width:1600px) {
+  /* Common */
+  .ui-table thead th {font-size: 16px;}
+  .ui-table tbody td {font-size: 16px;}
+
   /* Header */
   #header .gnb .navi > ul {gap: 0 50px;}
 
@@ -37,6 +41,7 @@
 
   /* 서브 공통 */
   .sub .wrapper {padding-left: 70px; padding-right: 70px;}
+  #product_view.sub .wrapper {padding-left: 0; padding-right: 0;}
   .sub-head_title {font-size: 70px;}
   .content_title1 {font-size: 50px;}
 
@@ -64,6 +69,27 @@
   .product-visual .bg{right: -350px;}
   .product-visual_title {font-size: 70px;}
   .product-visual_text1 {font-size: 20px;}
+
+  /* 제품소개 > 상세 */
+  .product-v_cTitle {margin-bottom: 20px; font-size: 22px;}
+
+  .product-v_info .name {font-size: 30px;}
+  .product-v_info .price {margin-top: 10px; font-size: 20px;}
+  .product-v_info .expl {margin-top: 15px; font-size: 15px;}
+  .product-v_btns .ui-btn {height: 60px; font-size: 16px;}
+  .product-spec_btn {height: 50px;}
+  .product-spec_btn .txt {font-size: 18px;}
+  .product-v_spec .spec-list > li {font-size: 15px;}
+
+  .product-v_detail .textList .tContents.tNumber > ul > li {padding-right: 50px;}
+  .product-v_detail .textList .tContents.tNumber .num {width: 60px; height: 60px; line-height: 60px; margin-bottom: 10px; font-size: 24px;}
+  .product-v_detail .textList .tContents .tit {margin-bottom: 10px; font-size: 18px;}
+  .product-v_detail .textList .tContents .expl {font-size: 16px;}
+
+  .product-v_detail .lensType .type-ct .name {margin: 0 auto 30px;}
+  .product-v_detail .lensType .type-ct .name span {font-size: 16px;}
+  .product-v_detail .lensType .type-ct .info .tit {font-size: 16px;}
+  .product-v_detail .lensType .type-ct .info .expl {font-size: 16px;}
 } /* End */
 
 @media screen and (max-width:1290px) {
@@ -119,6 +145,7 @@
 
   /* 서브 공통 */
   .sub .wrapper {padding-left: 40px; padding-right: 40px;}
+  #product_view.sub .wrapper {padding-left: 0; padding-right: 0;}
   .sub-head_title {font-size: 60px;}
   .sub-head_explan {margin-top: 20px; font-size: 40px;}
   .content_title1 {font-size: 40px;}
@@ -182,6 +209,17 @@
   .product-list_name {font-size: 18px;}
   .product-list_price {font-size: 15px;}
   .product-list_option p {font-size: 14px;}
+
+  /* 제품소개 > 상세 */
+  .product-v_info .name {font-size: 26px;}
+  .product-v_btns .ui-btn {height: 50px; font-size: 14px;}
+
+  .product-v_rel .rel-lsit {padding-bottom: 30px;}
+
+  .product-v_detail .textList .tContents.tNumber > ul > li {padding-right: 30px;}
+
+  .product-v_detail .lensCont .lt {padding-right: 20px;}
+  .product-v_detail .lensCont .rt {padding-left: 20px;}
 
   @keyframes productArrow {
     0% {top: -45px;}
@@ -275,6 +313,7 @@
   /* 서브 공통 */
   .sub {padding-top: 60px; padding-bottom: 100px;}
   .sub .wrapper {padding-left: 30px; padding-right: 30px;}
+  #product_view.sub .wrapper {padding-left: 0; padding-right: 0;}
   .sub-head {padding-top: 50px; padding-bottom: 30px;}
   .sub-head_title {font-size: 42px;}
   .sub-head_explan {margin-top: 10px; font-size: 32px;}
@@ -378,6 +417,25 @@
   .product-v_detail .sizeList .pc-view {display: none;}
   .product-v_detail .sizeList .mo-view {display: block;}
 
+  .product-v_top {margin-top: 0;}
+  .product-v_top .inner {display: block;}
+  .product-v_top .lt {width: 100%;}
+  .product-v_top .rt {width: 100%; margin-top: 50px; padding: 0;}
+  .product-v_summary {width: 100%;}
+
+  .product-v_detail .textList .tContents.tNumber > ul {display: block;}
+  .product-v_detail .textList .tContents.tNumber > ul > li {width: 100%; padding-right: 0;}
+  .product-v_detail .textList .tContents.tNumber > ul > li ~ li {margin-top: 30px;}
+
+  .product-v_detail .lensType .type-ct > ul {display: block;}
+  .product-v_detail .lensType .type-ct > ul > li {width: 100%; padding-left: 0 !important; padding-right: 0 !important;}
+  .product-v_detail .lensType .type-ct > ul > li ~ li {margin-top: 50px;}
+  .product-v_detail .lensType .type-ct .wrp {}
+
+  .product-v_detail .lensCont {display: block;}
+  .product-v_detail .lensCont .lt {width: 100%; padding-left: 0 !important; padding-right: 0 !important;}
+  .product-v_detail .lensCont .rt {width: 100%; padding-left: 0 !important; padding-right: 0 !important; margin-top: 50px;}
+
   /* Paging */
   .pg_page {font-size: 16px;}
   .pg_current {font-size: 16px;}
@@ -390,6 +448,10 @@
   .link-btn .txt {font-size: 14px;}
   .link-btn img {width: 12px;}
 
+  .ui-table thead th {font-size: 14px;}
+  .ui-table tbody td {font-size: 14px;}
+
+  /* Header */
   #header .language .ncSelect {font-size: 14px;}
   #header .inspection {margin-left: 10px;}
   #header .inspection-btn {font-size: 14px;}
@@ -455,6 +517,7 @@
 
   /* 서브 공통 */
   .sub .wrapper {padding-left: 20px; padding-right: 20px;}
+  #product_view.sub .wrapper {padding-left: 0; padding-right: 0;}
   .sub-head_title {font-size: 30px;}
   .sub-head_explan {margin-top: 5px; font-size: 18px;}
   .content_title1 {font-size: 22px;}
@@ -546,6 +609,35 @@
   .product-list_name {font-size: 15px;}
   .product-list_price {font-size: 13px;}
   .product-list_option p {font-size: 12px;}
+
+  /* 제품소개 > 상세 */
+  .product-v_cTitle {font-size: 20px;}
+
+  .product-v_info .name {font-size: 22px;}
+  .product-v_info .price {font-size: 18px;}
+  .product-v_info .expl {font-size: 14px;}
+
+  .product-spec_btn .txt {font-size: 16px;}
+  .product-v_spec .spec-list > li {font-size: 14px;}
+
+  .product-v_rel .rel-lsit {gap: 20px 10px;}
+  .product-v_rel .rel-lsit .product-list_item {width: calc((100% - 10px) / 2);}
+
+  .product-v_detail .sec-mt {margin-top: 70px;}
+  
+  .product-v_detail .dalton-logo {margin-bottom: 0;}
+  .product-v_detail .dalton-logo img {width: 150px;}
+
+  .product-v_detail .textList .tContents.tNumber .num {width: 40px; height: 40px; line-height: 40px; font-size: 18px; margin-bottom: 15px;}
+  .product-v_detail .textList .tContents .tit {font-size: 16px; margin-bottom: 5px;}
+  .product-v_detail .textList .tContents .expl {font-size: 14px;}
+  .product-v_detail .textList .tContents.tNumber .expl {font-size: 14px;}
+
+  .product-v_detail .lensType .type-ct .info {margin-top: 30px;}
+  .product-v_detail .lensType .type-ct .info .tit {font-size: 14px;}
+  .product-v_detail .lensType .type-ct .info .expl {font-size: 14px;}
+
+  .product-v_detail .tableCont .ui-table tbody td:first-child {width: 80px;}
 } /* End */
 
 @media screen and (max-width:480px) {
@@ -631,4 +723,15 @@
   /* 제품소개 */
   .product-list {flex-flow: column wrap; gap: 30px 0;}
   .product-list_item {width: 100%;}
+
+  /* 제품소개 > 상세 */
+  .product-v_cTitle {font-size: 18px; margin-bottom: 20px; padding-bottom: 10px;}
+  
+  .product-v_detail .lensType .type-ct .info > ul {display: block;}
+  .product-v_detail .lensType .type-ct .info > ul > li {width: 100%; padding-right: 10px;}
+  .product-v_detail .lensType .type-ct .info > ul > li ~ li {margin-top: 10px;}
+
+  .product-v_detail .textList .tContents .tit {font-size: 15px;}
+  .product-v_detail .textList .tContents > ul > li ~ li {margin-top: 20px;}
+  .product-v_detail .textList .tContents > ul > li.bd-top-dash {margin-top: 20px; padding-top: 20px;}
 } /* End */
