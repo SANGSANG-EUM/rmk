@@ -1,6 +1,9 @@
 <div id="product" class="sub">
   <div class="sub-body">
     <section class="product-visual sunglasses sub-content">
+      <div class="bg">
+        <img src="/src/img/product-bg.jpg" alt="">
+      </div>
       <div class="wrapper">
         <p class="product-visual_title">색약 선글라스</p>
         <p class="product-visual_text1">알엠케이에서는 성인과 아동을 위한 <br/>다양한 색약 선글라스를 선보입니다.</p>

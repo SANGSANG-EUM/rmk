@@ -1,6 +1,9 @@
 <div id="product" class="sub">
   <div class="sub-body">
     <section class="product-visual lens sub-content">
+      <div class="bg">
+        <img src="/src/img/product-lens-bg.jpg" alt="">
+      </div>
       <div class="wrapper">
         <p class="product-visual_title">색약 안경렌즈</p>
         <p class="product-visual_text1">알엠케이는 국내 및 해외에서 다양한 <br/>특허와 기술을 인정받았습니다.</p>
