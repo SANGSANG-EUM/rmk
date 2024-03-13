@@ -604,6 +604,10 @@
   .ui-table thead th {font-size: 14px;}
   .ui-table tbody td {font-size: 14px;}
 
+  .layer-popup_ct {height: 400px; padding: 20px; font-size: 12px;}
+  .layer-popup_ct .tit {font-size: 16px;}
+  .layer-popup_ct .bot .confirm-btn {font-size: 14px;}
+
   /* Header */
   #header .language .ncSelect {font-size: 14px;}
   #header .inspection {margin-left: 10px;}
