@@ -536,26 +536,6 @@
 .product-v_detail .tableCont {margin-top: 40px;}
 .product-v_detail .tableCont .ui-table tbody td:first-child {width: 140px; text-align: center;}
 
-/* 아래 내용 게시판 페이징 소스 가져옴 */
-/* > Paging */
-.pg_wrap {clear: both; float: none; display: block; margin-top: 30px; text-align: center;}
-.pg_wrap {display: flex; align-items: center; justify-content: center;}  /* 이 내용만 새로 추가 */
-.pg_wrap:after {display: block; visibility: hidden; clear: both; content: "";} 
-.pg {text-align: center; font-size: 0;}
-.pg_page, .pg_current {display: inline-block; vertical-align: middle; padding: 0 7px; background: none;border: none;}
-.pg a:focus, .pg a:hover {text-decoration: none;}
-.pg_page {color: var(--color-gray4); font-size: 20px; height: auto; line-height: 28px;  min-width: auto; text-decoration: none; border-radius: 3px;}
-.pg_page:hover {background-color: transparent;}
-.pg_start {min-width: 13px; margin-right: 10px; background:url("/src/img/paging-first.png") no-repeat 50% 50%;}
-.pg_prev {min-width: 13px; margin-right: 20px; background: url("/src/img/paging-prev.png") no-repeat 50% 50%;}
-.pg_end {min-width: 13px; margin-left: 10px; background: url("/src/img/paging-end.png") no-repeat 50% 50%;}
-.pg_next {min-width: 13px; margin-left: 20px; background: url("/src/img/paging-next.png") no-repeat 50% 50%;}
-.pg_start:hover,.pg_prev:hover,.pg_end:hover,.pg_next:hover {background-color: transparent;}
-
-.pg_current {position: relative; min-width: auto; font-size: 20px; color: var(--color-black2); font-weight: bold; height: auto; line-height: inherit; border-radius: 0;}
-.pg_current::after {position: absolute; bottom: 0; left: 50%; width: 50%; height: 2px; margin-left: -25%; background: var(--color-black2); content:"";}
-
-
 /* 기술소개 > 색각이상이란? */
 .dys-visual {position: relative; background: url('/src/img/dys-vs.jpg') no-repeat center / cover;}
 .dys-visual-txt {display: flex; flex-direction: column; gap: 10px; position: absolute; bottom: 100px; max-width: 695px; font-size: 24px; font-weight: 500; color: #fff;}
@@ -606,7 +586,6 @@
 .dys-sunglassses-img img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; object-fit: cover;}
 .dys-sunglasses-wr .dys-exp-txt--01 {padding: 64px 0 26px;}
 
-
 /* 기술소개 > 차별화기술 */
 .sub-mid-tit {font-size: 40px; font-weight: 700; color: #0f0f0f;}
 .difference-visual {position: relative; background: url('/src/img/difference-vs.jpg') no-repeat center / cover;}
@@ -648,7 +627,6 @@
 .difference-color-li__img-wr {display: flex; padding-top: 15px;}
 .difference-color-li__img {flex: 1;}
 .difference-color-li__img img {object-fit: cover; object-position: center;}
-
 
 /* 고객지원 > 가이드 */
 .guide-step01 .guide-wr {border-top: 1px solid #666;}
@@ -695,6 +673,25 @@
 .guide-info-txt {font-size: 18px; font-weight: 300; color: #333; line-height: 1.5;}
 .guide-info-txt span {color: #999; line-height: 1.8;}
 .guide-step03-img {box-shadow: 0 0 25px 5px rgba(0, 0, 0, .05);}
+
+/* 아래 내용 게시판 페이징 소스 가져옴 */
+/* > Paging */
+.pg_wrap {clear: both; float: none; display: block; margin-top: 30px; text-align: center;}
+.pg_wrap {display: flex; align-items: center; justify-content: center;}  /* 이 내용만 새로 추가 */
+.pg_wrap:after {display: block; visibility: hidden; clear: both; content: "";} 
+.pg {text-align: center; font-size: 0;}
+.pg_page, .pg_current {display: inline-block; vertical-align: middle; padding: 0 7px; background: none;border: none;}
+.pg a:focus, .pg a:hover {text-decoration: none;}
+.pg_page {color: var(--color-gray4); font-size: 20px; height: auto; line-height: 28px;  min-width: auto; text-decoration: none; border-radius: 3px;}
+.pg_page:hover {background-color: transparent;}
+.pg_start {min-width: 13px; margin-right: 10px; background:url("/src/img/paging-first.png") no-repeat 50% 50%;}
+.pg_prev {min-width: 13px; margin-right: 20px; background: url("/src/img/paging-prev.png") no-repeat 50% 50%;}
+.pg_end {min-width: 13px; margin-left: 10px; background: url("/src/img/paging-end.png") no-repeat 50% 50%;}
+.pg_next {min-width: 13px; margin-left: 20px; background: url("/src/img/paging-next.png") no-repeat 50% 50%;}
+.pg_start:hover,.pg_prev:hover,.pg_end:hover,.pg_next:hover {background-color: transparent;}
+
+.pg_current {position: relative; min-width: auto; font-size: 20px; color: var(--color-black2); font-weight: bold; height: auto; line-height: inherit; border-radius: 0;}
+.pg_current::after {position: absolute; bottom: 0; left: 50%; width: 50%; height: 2px; margin-left: -25%; background: var(--color-black2); content:"";}
 
 @keyframes productArrow {
   0% {top: -38px;}
