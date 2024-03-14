@@ -7,6 +7,14 @@ $(document).ready(function () {
   const header = $("#header") // 헤더
   const fixBtns = $(".fix_btns"); //우측 고정 버튼
 
+  // scroll animation
+  const lenis = new Lenis()
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+  requestAnimationFrame(raf)
+
   // Match Height
   $(".match_h > *").matchHeight();
 
