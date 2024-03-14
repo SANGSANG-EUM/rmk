@@ -10,25 +10,19 @@ parse_str($rq_uri0[1], $getParams);
 $_GET = array_merge($_GET, $getParams);
 unset($_GET['uri']);
 $_GET['qstrUri'] = http_build_query($_GET);
+include_once G5_THEME_PATH.'/head.eng.php';
 
-include_once(G5_THEME_PATH.'/head.php');
-
-$URI['rt'] = $rq_uri[1];
+$URI['rt'] = $rq_uri[2];
 $URI['pram'] = "";
-for ($i = 2; $i < count($rq_uri); $i++) {
-  $URI['pram'] .= "/{".($i - 2)."}";
+for ($i = 3; $i < count($rq_uri); $i++) {
+  $URI['pram'] .= "/{" . ($i - 3) . "}";
 }
 
 $route = new Route($member, $g5, $config, $mb);
 if (file_exists("./_{$URI['rt']}.php")) {
-  // 로그인 상태에서만 myPage 접근 _20230515_SY
-  if (!($_SESSION['ss_mb_id']) && strstr($URI['rt'], 'mypage')) {
-    goto_url(G5_BBS_URL.'/login.php');
-  } else {
-    $route->add("/{$URI['rt']}{$URI['pram']}", "./_{$URI['rt']}.php");
-  }
+  $route->add("/{$URI['rt']}{$URI['pram']}", "./_{$URI['rt']}.php");
 } else {
-  $route->notFound("../_404.php");
+  $route->notFound("../../_404.php");
 }
 
 /*
@@ -38,4 +32,4 @@ if (file_exists("./_{$URI['rt']}.php")) {
   그래서 사용할때는 $idx = $params[0]; 이렇게 처리해서 사용
 */
 
-include_once G5_THEME_PATH.'/tail.php';
+include_once G5_THEME_PATH . '/tail.eng.php';

@@ -30,7 +30,7 @@ if(defined('_INDEX_')) { // index에서만 실행
   <div class="container">
     <div class="inner">
       <h1 class="logo">
-        <a href="/">
+        <a href="/eng">
           <img src="/src/img/logo.svg" alt="RMK 로고">
         </a>
       </h1>
@@ -38,61 +38,61 @@ if(defined('_INDEX_')) { // index에서만 실행
         <div class="navi">
           <ul>
             <li>
-              <a href="/sub/dalton">브랜드 스토리</a>
+              <a href="/eng/sub/dalton">브랜드 스토리</a>
               <ul class="depth2">
                 <li>
-                  <a href="/sub/dalton">돌튼 Dalton</a>
+                  <a href="/eng/sub/dalton">돌튼 Dalton</a>
                 </li>
                 <li>
-                  <a href="/sub/review">고객 리뷰</a>
+                  <a href="/eng/sub/review">고객 리뷰</a>
                 </li>
                 <li>
-                  <a href="/sub/greeting">인사말</a>
+                  <a href="/eng/sub/greeting">인사말</a>
                 </li>
                 <li>
-                  <a href="/sub/history">주요 연혁</a>
+                  <a href="/eng/sub/history">주요 연혁</a>
                 </li>
                 <li>
-                  <a href="/sub/map">오시는 길</a>
+                  <a href="/eng/sub/map">오시는 길</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/sub/sunglasses">제품소개</a>
+              <a href="/eng/sub/sunglasses">제품소개</a>
               <ul class="depth2">
                 <li>
-                  <a href="/sub/sunglasses">색약 선글라스</a>
+                  <a href="/eng/sub/sunglasses">색약 선글라스</a>
                 </li>
                 <li>
-                  <a href="/sub/lens">색약 안경렌즈</a>
+                  <a href="/eng/sub/lens">색약 안경렌즈</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/sub/dyschromatopsia">기술소개</a>
+              <a href="/eng/sub/dyschromatopsia">기술소개</a>
               <ul class="depth2">
                 <li>
-                  <a href="/sub/dyschromatopsia">색각이상이란?</a>
+                  <a href="/eng/sub/dyschromatopsia">색각이상이란?</a>
                 </li>
                 <li>
-                  <a href="/sub/difference">차별화 기술</a>
+                  <a href="/eng/sub/difference">차별화 기술</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/sub/guide">고객지원</a>
+              <a href="/eng/sub/guide">고객지원</a>
               <ul class="depth2">
                 <li>
-                  <a href="/sub/guide">가이드</a>
+                  <a href="/eng/sub/guide">가이드</a>
                 </li>
                 <li>
-                  <a href="/faq_kr">FAQ</a>
+                  <a href="/faq_eng">FAQ</a>
                 </li>
                 <li>
-                  <a href="/sub/location">체험장 안내</a>
+                  <a href="/eng/sub/location">체험장 안내</a>
                 </li>
                 <li>
-                  <a href="/contact_kr/write">문의하기</a>
+                  <a href="/contact_eng/write">문의하기</a>
                 </li>
               </ul>
             </li>
@@ -142,19 +142,19 @@ if(defined('_INDEX_')) { // index에서만 실행
                 <a href="javascript:void(0);">브랜드 스토리</a>
                 <ul class="depth2">
                   <li>
-                    <a href="/sub/dalton">돌튼 Dalton</a>
+                    <a href="/eng/sub/dalton">돌튼 Dalton</a>
                   </li>
                   <li>
-                    <a href="/sub/review">고객 리뷰</a>
+                    <a href="/eng/sub/review">고객 리뷰</a>
                   </li>
                   <li>
-                    <a href="/sub/greeting">인사말</a>
+                    <a href="/eng/sub/greeting">인사말</a>
                   </li>
                   <li>
-                    <a href="/sub/history">주요 연혁</a>
+                    <a href="/eng/sub/history">주요 연혁</a>
                   </li>
                   <li>
-                    <a href="/sub/map">오시는 길</a>
+                    <a href="/eng/sub/map">오시는 길</a>
                   </li>
                 </ul>
               </li>
@@ -162,10 +162,10 @@ if(defined('_INDEX_')) { // index에서만 실행
                 <a href="javascript:void(0);">제품소개</a>
                 <ul class="depth2">
                   <li>
-                    <a href="/sub/sunglasses">색약 선글라스</a>
+                    <a href="/eng/sub/sunglasses">색약 선글라스</a>
                   </li>
                   <li>
-                    <a href="/sub/lens">색약 안경렌즈</a>
+                    <a href="/eng/sub/lens">색약 안경렌즈</a>
                   </li>
                 </ul>
               </li>
@@ -173,10 +173,10 @@ if(defined('_INDEX_')) { // index에서만 실행
                 <a href="javascript:void(0);">기술소개</a>
                 <ul class="depth2">
                   <li>
-                    <a href="/sub/dyschromatopsia">색각이상이란?</a>
+                    <a href="/eng/sub/dyschromatopsia">색각이상이란?</a>
                   </li>
                   <li>
-                    <a href="/sub/difference">차별화 기술</a>
+                    <a href="/eng/sub/difference">차별화 기술</a>
                   </li>
                 </ul>
               </li>
@@ -184,16 +184,16 @@ if(defined('_INDEX_')) { // index에서만 실행
                 <a href="javascript:void(0);">고객지원</a>
                 <ul class="depth2">
                   <li>
-                    <a href="/sub/guide">가이드</a>
+                    <a href="/eng/sub/guide">가이드</a>
                   </li>
                   <li>
-                    <a href="/faq_kr">FAQ</a>
+                    <a href="/faq_eng">FAQ</a>
                   </li>
                   <li>
-                    <a href="/sub/location">체험장 안내</a>
+                    <a href="/eng/sub/location">체험장 안내</a>
                   </li>
                   <li>
-                    <a href="/contact_kr/write">문의하기</a>
+                    <a href="/contact_eng/write">문의하기</a>
                   </li>
                 </ul>
               </li>

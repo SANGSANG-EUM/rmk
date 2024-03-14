@@ -49,75 +49,75 @@ if(G5_COMMUNITY_USE === false) {
           <div class="sitemap">
             <ul>
               <li>
-                <a href="/sub/dalton">브랜드 스토리</a>
+                <a href="/eng/sub/dalton">브랜드 스토리</a>
                 <ul>
                   <li>
-                    <a href="/sub/dalton">돌튼 Dalton</a>
+                    <a href="/eng/sub/dalton">돌튼 Dalton</a>
                   </li>
                   <li>
-                    <a href="/sub/review">고객 리뷰</a>
+                    <a href="/eng/sub/review">고객 리뷰</a>
                   </li>
                   <li>
-                    <a href="/sub/greeting">인사말</a>
+                    <a href="/eng/sub/greeting">인사말</a>
                   </li>
                   <li>
-                    <a href="/sub/history">주요 연혁</a>
+                    <a href="/eng/sub/history">주요 연혁</a>
                   </li>
                   <li>
-                    <a href="/sub/map">오시는 길</a>
+                    <a href="/eng/sub/map">오시는 길</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/sub/sunglasses">제품소개</a>
+                <a href="/eng/sub/sunglasses">제품소개</a>
                 <ul>
                   <li>
-                    <a href="/sub/sunglasses">색약 선글라스</a>
+                    <a href="/eng/sub/sunglasses">색약 선글라스</a>
                   </li>
                   <li>
-                    <a href="/sub/lens">색약 안경렌즈</a>
+                    <a href="/eng/sub/lens">색약 안경렌즈</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/sub/dyschromatopsia">기술소개</a>
+                <a href="/eng/sub/dyschromatopsia">기술소개</a>
                 <ul>
                   <li>
-                    <a href="/sub/dyschromatopsia">색각이상이란?</a>
+                    <a href="/eng/sub/dyschromatopsia">색각이상이란?</a>
                   </li>
                   <li>
-                    <a href="/sub/difference">차별화 기술</a>
+                    <a href="/eng/sub/difference">차별화 기술</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/news_kr">새소식</a>
+                <a href="/news_eng">새소식</a>
                 <ul>
                   <li>
-                    <a href="/news_kr">보도자료</a>
+                    <a href="/news_eng">보도자료</a>
                   </li>
                   <li>
-                    <a href="/notice_kr">공지사항</a>
+                    <a href="/notice_eng">공지사항</a>
                   </li>
                   <li>
-                    <a href="/gallery_kr">갤러리</a>
+                    <a href="/gallery_eng">갤러리</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/sub/guide">고객지원</a>
+                <a href="/eng/sub/guide">고객지원</a>
                 <ul>
                   <li>
-                    <a href="/sub/guide">가이드</a>
+                    <a href="/eng/sub/guide">가이드</a>
                   </li>
                   <li>
-                    <a href="/faq_kr">FAQ</a>
+                    <a href="/faq_eng">FAQ</a>
                   </li>
                   <li>
-                    <a href="/sub/location">체험장 안내</a>
+                    <a href="/eng/sub/location">체험장 안내</a>
                   </li>
                   <li>
-                    <a href="/contact_kr/write">문의하기</a>
+                    <a href="/contact_eng/write">문의하기</a>
                   </li>
                 </ul>
               </li>
