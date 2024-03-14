@@ -100,9 +100,9 @@ if(defined('_INDEX_')) { // index에서만 실행
         </div>
         <div class="language">
           <i class="icon"></i>
-          <select name="" id="" class="ui-sel ncSelect">
-            <option value="kor" selected>KOR</option>
-            <option value="eng">ENG</option>
+          <select name="" id="" class="ui-sel ncSelect" onchange="window.open(value,'_self');">
+            <option value="/" selected>KOR</option>
+            <option value="/eng">ENG</option>
           </select>
         </div>
         <div class="inspection">
@@ -129,9 +129,9 @@ if(defined('_INDEX_')) { // index에서만 실행
           <div class="mo-tnb">
             <div class="language">
               <i class="icon"></i>
-              <select name="" id="" class="ui-sel ncSelect">
-                <option value="kor" selected>KOR</option>
-                <option value="eng">ENG</option>
+              <select name="" id="" class="ui-sel ncSelect" onchange="window.open(value,'_self');">
+                <option value="/" selected>KOR</option>
+                <option value="/eng">ENG</option>
               </select>
             </div>
             <button type="button" class="ui-btn round-bottom round-top-left inspection-btn"><img src="/src/img/inspection-w.svg" alt="">색각검사</button>

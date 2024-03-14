@@ -100,9 +100,9 @@ if(defined('_INDEX_')) { // index에서만 실행
         </div>
         <div class="language">
           <i class="icon"></i>
-          <select name="" id="" class="ui-sel ncSelect">
-            <option value="kor">KOR</option>
-            <option value="eng" selected>ENG</option>
+          <select name="" id="" class="ui-sel ncSelect" onchange="window.open(value,'_self');">
+            <option value="/">KOR</option>
+            <option value="/eng" selected>ENG</option>
           </select>
         </div>
         <div class="inspection">
@@ -129,71 +129,71 @@ if(defined('_INDEX_')) { // index에서만 실행
           <div class="mo-tnb">
             <div class="language">
               <i class="icon"></i>
-              <select name="" id="" class="ui-sel ncSelect">
-                <option value="kor" selected>KOR</option>
-                <option value="eng">ENG</option>
+              <select name="" id="" class="ui-sel ncSelect" onchange="window.open(value,'_self');">
+                <option value="/">KOR</option>
+                <option value="/eng" selected>ENG</option>
               </select>
             </div>
-            <button type="button" class="ui-btn round-bottom round-top-left inspection-btn"><img src="/src/img/inspection-w.svg" alt="">색각검사</button>
+            <button type="button" class="ui-btn round-bottom round-top-left inspection-btn"><img src="/src/img/inspection-w.svg" alt="">Color blind test</button>
           </div>
           <div class="mo-navi">
             <ul>
               <li>
-                <a href="javascript:void(0);">브랜드 스토리</a>
+                <a href="javascript:void(0);">Brand Story</a>
                 <ul class="depth2">
                   <li>
-                    <a href="/eng/sub/dalton">돌튼 Dalton</a>
+                    <a href="/eng/sub/dalton">Dalton</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/review">고객 리뷰</a>
+                    <a href="/eng/sub/review">Review</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/greeting">인사말</a>
+                    <a href="/eng/sub/greeting">Greeting</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/history">주요 연혁</a>
+                    <a href="/eng/sub/history">History</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/map">오시는 길</a>
+                    <a href="/eng/sub/map">Directions</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="javascript:void(0);">제품소개</a>
+                <a href="javascript:void(0);">Product</a>
                 <ul class="depth2">
                   <li>
-                    <a href="/eng/sub/sunglasses">색약 선글라스</a>
+                    <a href="/eng/sub/sunglasses">Color blind Sunglasses</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/lens">색약 안경렌즈</a>
+                    <a href="/eng/sub/lens">Color blind eyeglasses</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="javascript:void(0);">기술소개</a>
+                <a href="javascript:void(0);">Technology</a>
                 <ul class="depth2">
                   <li>
-                    <a href="/eng/sub/dyschromatopsia">색각이상이란?</a>
+                    <a href="/eng/sub/dyschromatopsia">Color vision abnormality</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/difference">차별화 기술</a>
+                    <a href="/eng/sub/difference">Differentiating Technology</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="javascript:void(0);">고객지원</a>
+                <a href="javascript:void(0);">Support</a>
                 <ul class="depth2">
                   <li>
-                    <a href="/eng/sub/guide">가이드</a>
+                    <a href="/eng/sub/guide">Guide</a>
                   </li>
                   <li>
                     <a href="/faq_eng">FAQ</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/location">체험장 안내</a>
+                    <a href="/eng/sub/location">Location</a>
                   </li>
                   <li>
-                    <a href="/contact_eng/write">문의하기</a>
+                    <a href="/contact_eng/write">Contact us</a>
                   </li>
                 </ul>
               </li>
