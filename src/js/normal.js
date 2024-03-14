@@ -152,6 +152,7 @@ $(document).ready(function () {
       },
       breakpoints: {
         1291: {
+          slidesPerView: "auto",
           spaceBetween: 100,
         },
         1024: {

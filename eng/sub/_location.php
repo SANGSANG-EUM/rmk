@@ -3,8 +3,8 @@
 <div id="location" class="sub">
   <div class="sub-head">
     <div class="wrapper">
-      <h1 class="sub-head_title">체험장 안내</h1>
-      <p class="sub-head_explan">돌튼 체험장 위치를 알려드립니다.</p>
+      <h1 class="sub-head_title">Location</h1>
+      <p class="sub-head_explan">We would like to inform you of the location of the Dalton Experience Center.</p>
     </div>
   </div>
   <div class="sub-body">
@@ -14,23 +14,23 @@
           <ul class="location-list-ul">
             <li class="location-list-li">
               <div class="location-list-li__l">
-                <p>세종본사</p>
+                <p>Sejong Head Office</p>
               </div>
               <div class="location-list-li__r">
                 <ul class="location-info-ul">
                   <li class="location-info-li">
-                    <p class="location-info__key">주소</p>
-                    <p class="location-info__val">세종시 집현중앙7로 6, 대명벨리온 A동 507호</p>
+                    <p class="location-info__key">Address</p>
+                    <p class="location-info__val">Room 507, Building A, Daemyung Bellion, 6 Jiphyeonjungang 7-ro, Sejong-si</p>
                   </li>
                   <li class="location-info-li">
-                    <p class="location-info__key">전화번호</p>
+                    <p class="location-info__key">Tel</p>
                     <p class="location-info__val">044-864-1837</p>
                   </li>
                 </ul>
                 <div class="location-list-btm">
                   <div class="location-noti">
-                    <p class="location-noti-icon">안내사항</p>
-                    <p class="location-noti-cnt">평소 직원들 모두 외근으로 자리를 비울 때가 있으니 일정 협의 후 방문해 주시기 바랍니다.</p>
+                    <p class="location-noti-icon">notification</p>
+                    <p class="location-noti-cnt">All employees are usually away from work, so please discuss the schedule before visiting.</p>
                   </div>
                   <button type="button" class="location-map-btn open">
                     <img src="/src/img/location-icon_map.svg" alt="">
@@ -51,23 +51,23 @@
             </li>
             <li class="location-list-li">
               <div class="location-list-li__l">
-                <p>서울 체험장</p>
+                <p>Seoul Experience Center</p>
               </div>
               <div class="location-list-li__r">
                 <ul class="location-info-ul">
                   <li class="location-info-li">
-                    <p class="location-info__key">주소</p>
-                    <p class="location-info__val">블루스퀘어 신한카드홀(본관) 2층 소담상회 블루</p>
+                    <p class="location-info__key">Address</p>
+                    <p class="location-info__val">Blue Square Shinhan Card Hall (Main Building) 2nd floor Sodam Sanghoe Blue</p>
                   </li>
                   <li class="location-info-li">
-                    <p class="location-info__key">운영시간</p>
-                    <p class="location-info__val">오전 11시~오후 8시 (매주 월요일 휴무)</p>
+                    <p class="location-info__key">operating time</p>
+                    <p class="location-info__val">11:00 AM - 8:00 PM (Closed every Monday)</p>
                   </li>
                 </ul>
                 <div class="location-list-btm">
                   <div class="location-noti">
-                    <p class="location-noti-icon">안내사항</p>
-                    <p class="location-noti-cnt">단순체험장으로 상담은 불가하며 체험만 가능합니다.</p>
+                    <p class="location-noti-icon">notification</p>
+                    <p class="location-noti-cnt">As this is a simple experience center, consultation is not possible and only experience is possible.</p>
                   </div>
                   <button type="button" class="location-map-btn">
                     <img src="/src/img/location-icon_map.svg" alt="">
@@ -88,23 +88,23 @@
             </li>
             <li class="location-list-li">
               <div class="location-list-li__l">
-                <p>리움미술관</p>
+                <p>Leeum Art Museum</p>
               </div>
               <div class="location-list-li__r">
                 <ul class="location-info-ul">
                   <li class="location-info-li">
-                    <p class="location-info__key">주소</p>
-                    <p class="location-info__val">서울특별시 용산구 이태원로55길 60-16</p>
+                    <p class="location-info__key">Address</p>
+                    <p class="location-info__val">60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul</p>
                   </li>
                   <li class="location-info-li">
-                    <p class="location-info__key">운영시간</p>
-                    <p class="location-info__val">오전 10시~오후 6시 (매주 월요일 휴무)</p>
+                    <p class="location-info__key">operating time</p>
+                    <p class="location-info__val">10:00 AM - 6:00 PM (Closed every Monday)</p>
                   </li>
                 </ul>
                 <div class="location-list-btm">
                   <div class="location-noti">
-                    <p class="location-noti-icon">안내사항</p>
-                    <p class="location-noti-cnt">미술관 관람 시 색약안경을 무료로 빌려드립니다.</p>
+                    <p class="location-noti-icon">notification</p>
+                    <p class="location-noti-cnt">When visiting the museum, you can borrow colored glasses free of charge.</p>
                   </div>
                   <button type="button" class="location-map-btn">
                     <img src="/src/img/location-icon_map.svg" alt="">
@@ -125,23 +125,23 @@
             </li>
             <li class="location-list-li">
               <div class="location-list-li__l">
-                <p>호암미술관</p>
+                <p>Hoam Art Museum</p>
               </div>
               <div class="location-list-li__r">
                 <ul class="location-info-ul">
                   <li class="location-info-li">
-                    <p class="location-info__key">주소</p>
-                    <p class="location-info__val">경기도 용인시 처인구 포곡읍 에버랜드로562번길 38</p>
+                    <p class="location-info__key">Address</p>
+                    <p class="location-info__val">38 Everland-ro 562beon-gil, Pogok-eup, Cheoin-gu, Yongin-si, Gyeonggi-do</p>
                   </li>
                   <li class="location-info-li">
-                    <p class="location-info__key">운영시간</p>
-                    <p class="location-info__val">오전 10시~오후 6시 (매주 월요일 휴무)</p>
+                    <p class="location-info__key">operating time</p>
+                    <p class="location-info__val">10:00 AM - 6:00 PM (Closed every Monday)</p>
                   </li>
                 </ul>
                 <div class="location-list-btm">
                   <div class="location-noti">
-                    <p class="location-noti-icon">안내사항</p>
-                    <p class="location-noti-cnt">미술관 관람 시 색약안경을 무료로 빌려드립니다.</p>
+                    <p class="location-noti-icon">notification</p>
+                    <p class="location-noti-cnt">When visiting the museum, you can borrow colored glasses free of charge.</p>
                   </div>
                   <button type="button" class="location-map-btn">
                     <img src="/src/img/location-icon_map.svg" alt="">
@@ -169,23 +169,23 @@
 
 <script>
   // 지도 여닫기
-  $('.location-map-btn').find('span').text('지도열기');
-  $('.location-map-btn.open').find('span').text('지도닫기');
+  $('.location-map-btn').find('span').text('Open map');
+  $('.location-map-btn.open').find('span').text('Close map');
 
   $('.location-map-btn').on('click', function(){
     if ($(this).hasClass('open')) {
       $('.location-map-btn').removeClass('open');
-      $('.location-map-btn').find('span').text('지도열기');
+      $('.location-map-btn').find('span').text('Open map');
       // $('.location-map').stop().slideUp();
       $('.location-map').removeClass('open');
     } else {
       $('.location-map-btn').removeClass('open');
-      $('.location-map-btn').find('span').text('지도열기');
+      $('.location-map-btn').find('span').text('Open map');
       // $('.location-map').stop().slideUp();
       $('.location-map').removeClass('open');
 
       $(this).addClass('open');
-      $(this).find('span').text('지도닫기');
+      $(this).find('span').text('Close map');
       // $(this).closest('.location-list-btm').siblings('.location-map').stop().slideDown();
       $(this).closest('.location-list-btm').siblings('.location-map').addClass('open');
     }

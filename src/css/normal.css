@@ -190,8 +190,8 @@
 
 .main_dalton-info .dalton_proud {display: flex; flex-flow: row wrap; gap: 40px; margin-top: 100px;}
 .main_dalton-info .dalton_proud-item {display: flex; flex-flow: column wrap; align-items: center; justify-content: center; width: calc(100% / 3 - 80px / 3); height: 350px; text-align: center; background-color: #fff; box-shadow: 0 0 250px 300px rgba(0,0,0,0.015);}
-.main_dalton-info .dalton_proud-item .t1 {font-size: 26px; font-weight: 600; color: var(--color-black2);}
-.main_dalton-info .dalton_proud-item .t2 {font-size: 16px; font-weight: 400; color: var(--color-gray5);}
+.main_dalton-info .dalton_proud-item .t1 {margin-top: 35px; font-size: 26px; font-weight: 600; color: var(--color-black2);}
+.main_dalton-info .dalton_proud-item .t2 {margin-top: 16px; font-size: 16px; font-weight: 400; color: var(--color-gray5); line-height: 1.5;}
 
 .main_dalton-info .dalton_exp {margin-top: 200px;}
 .main_dalton-info .dalton_exp .content-text3 {margin-top: 30px; text-align: right;}

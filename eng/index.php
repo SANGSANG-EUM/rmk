@@ -20,10 +20,10 @@ include_once(G5_THEME_PATH.'/head.eng.php');
               <div class="wrapper">
                 <div class="inner">
                   <div class="t1">
-                    <p class="typing-txt">세상의 아름다움을 선명하게 보여주다.</p>
+                    <p class="typing-txt">Clearly showing the beauty of the world.</p>
                     <p class="typing"></p>
                   </div>
-                  <p class="t2">모두를 위한 색약보정 아이웨어 전문, 알엠케이</p>
+                  <p class="t2">RMK, specialized in color blindness correction eyewear for everyone</p>
                 </div>
               </div>
             </div>
@@ -38,8 +38,8 @@ include_once(G5_THEME_PATH.'/head.eng.php');
       <div class="container">
         <div class="wrapper">
           <div class="inner">
-            <p class="content_title1">색약인 아이를 위해, <br/>연구원 아빠가 만든 색약보정 선글라스 Dalton</p>
-            <p class="content-text2">돌튼 선글라스는 <br/>하늘을 더 <b>파랗게,</b> 단풍은 더 <b>붉게,</b> <br/>국화는 더 <b>노랗게</b> 보여줍니다.</p>
+            <p class="content_title1">For children with color blindness, Dalton, <br/>color blindness correction sunglasses <br/>made by a researcher’s father.</p>
+            <p class="content-text2">Dalton sunglasses <br/>The sky is <b>bluer</b>, the autumn leaves are <b>redder</b>, <br/>Chrysanthemums appear more <b>yellow</b>.</p>
           </div>
         </div>
       </div>
@@ -65,29 +65,35 @@ include_once(G5_THEME_PATH.'/head.eng.php');
                 <img src="/src/img/dalton-text.svg" class="dalton-text" alt="dalton">
               </div>
 
-              <p class="content-text">알엠케이의 <b>색상 보정 안경 브랜드 ‘돌튼’</b>은 <br/><b>돌터니즘</b>의 <b>John Dalton</b>에서 탄생했습니다.</p>
+              <p class="content-text">RMK’s <b>color correction eyewear brand ‘Dalton’</b> <br/>was born from <b>John Dalton</b> of Daltonism.</p>
 
               <div class="dalton_proud">
                 <div class="round-right dalton_proud-item">
-                  <div class="icon"></div>
-                  <div class="t1">국내 최초 개발</div>
-                  <div class="t2">국내 순수 기술로 최초 개발된 <br/>색약 보정 안경입니다.</div>
+                  <div class="icon">
+                    <img src="/src/img/dalton_proud-icon1.png" alt="">
+                  </div>
+                  <div class="t1">First developed in Korea</div>
+                  <div class="t2">These are color blindness correction glasses <br/>that were first developed <br/>with pure domestic technology.</div>
                 </div>
                 <div class="round-top dalton_proud-item">
-                  <div class="icon"></div>
-                  <div class="t1">선명한 컬러</div>
-                  <div class="t2">사물을 바라볼 때 <br/>더욱 선명한 컬러를 재현합니다.</div>
+                  <div class="icon">
+                    <img src="/src/img/dalton_proud-icon2.png" alt="">
+                  </div>
+                  <div class="t1">Vivid Color</div>
+                  <div class="t2">Reproduces more vivid colors <br/>when looking at objects.</div>
                 </div>
                 <div class="round-top-right dalton_proud-item">
-                  <div class="icon"></div>
-                  <div class="t1">컬러 선글라스</div>
-                  <div class="t2">대중적인 선글라스로서 누구나 <br/>컬러 선글라스를 즐길 수 있습니다.</div>
+                  <div class="icon">
+                    <img src="/src/img/dalton_proud-icon3.png" alt="">
+                  </div>
+                  <div class="t1">Colored Sunglasses</div>
+                  <div class="t2">As popular sunglasses, anyone can enjoy <br/>colored sunglasses.</div>
                 </div>
               </div>
 
               <div class="dalton_exp">
-                <p class="content_title1">돌튼의 효과를 경험하고 싶지만 <br/>외출이 힘드신가요?</p>
-                <p class="content-text3"><b>착용 전후 사진</b>을 아래에서 비교해보시고, <br/>이전에 느끼지 못했던 <b>경험을 누리세요.</b></p>
+                <p class="content_title1">Do you want to experience the effects of Dalton <br/>but have trouble getting out?</p>
+                <p class="content-text3"><b>Compare the before and after</b> photos below <br/>and <b>enjoy an experience</b> you never felt before.</p>
 
                 <div class="dalton_exp-beforeAfter">
                   <div class="background-img img"></div>
@@ -103,21 +109,21 @@ include_once(G5_THEME_PATH.'/head.eng.php');
                     <div class="icon"><img src="/src/img/dalton-ex-img1.png" alt=""></div>
                     <div class="txt">
                       <p class="t1">General</p>
-                      <p class="t2">일반 색각</p>
+                      <p class="t2">normal color vision</p>
                     </div>
                   </div>
                   <div class="round-left dalton_ex-item">
                     <div class="icon"><img src="/src/img/dalton-ex-img2.png" alt=""></div>
                     <div class="txt">
                       <p class="t1">Color weakness</p>
-                      <p class="t2">적록색약</p>
+                      <p class="t2">red-green color blindness</p>
                     </div>
                   </div>
                   <div class="dalton_ex-item">
                     <div class="icon"><img src="/src/img/dalton-ex-img3.png" alt=""></div>
                     <div class="txt">
                       <p class="t1 medium"><span class="mark">*</span>Dalton</p>
-                      <p class="t2">돌튼 착용 후</p>
+                      <p class="t2">After wearing Dalton</p>
                     </div>
                   </div>
                 </div>
@@ -134,9 +140,9 @@ include_once(G5_THEME_PATH.'/head.eng.php');
       <div class="container">
         <div class="wrapper">
           <div class="inner">
-            <p class="content_title1">색약보정 아이웨어 돌튼의 제품은 <br/>색을 선물해드립니다.</p>
+            <p class="content_title1">Dalton’s color blindness correction <br/>eyewear products give you the gift of color.</p>
             <a href="/sub/product" class="ui-btn link-btn">
-              <span class="txt">제품 보러가기</span>
+              <span class="txt">View product</span>
               <img src="/src/img/link-icon.svg" alt="">
             </a>
           </div>
@@ -153,8 +159,8 @@ include_once(G5_THEME_PATH.'/head.eng.php');
                   <img src="/src/img/main-product-img1.jpg" alt="">
                 </div>
                 <div class="txt">
-                  <p class="t1">클립온</p>
-                  <p class="t2">안경테(금속 프레임)/클립온/색약보정렌즈</p>
+                  <p class="t1">clip-on</p>
+                  <p class="t2">Glasses frame (metal frame)/clip-on/<br/>color blindness correction lens</p>
                 </div>
               </div>
               <div class="main_product-type-item item2">
@@ -162,8 +168,8 @@ include_once(G5_THEME_PATH.'/head.eng.php');
                   <img src="/src/img/main-product-img2.jpg" alt="">
                 </div>
                 <div class="txt">
-                  <p class="t1">금속프레임</p>
-                  <p class="t2">안경테(금속 프레임)/색약보정렌즈</p>
+                  <p class="t1">metal frame</p>
+                  <p class="t2">Glasses frame (metal frame)/<br/>color blindness correction lens</p>
                 </div>
               </div>
               <div class="main_product-type-item item3">
@@ -171,8 +177,8 @@ include_once(G5_THEME_PATH.'/head.eng.php');
                   <img src="/src/img/main-product-img3.jpg" alt="">
                 </div>
                 <div class="txt">
-                  <p class="t1">아세테이트 프레임</p>
-                  <p class="t2">안경테(아세테이트 프레임)/색약보정렌즈</p>
+                  <p class="t1">acetate frame</p>
+                  <p class="t2">Glasses frame (acetate frame)/<br/>color blindness correction lens</p>
                 </div>
               </div>
             </div>
@@ -201,15 +207,15 @@ include_once(G5_THEME_PATH.'/head.eng.php');
       <div class="wrapper">
         <div class="inner">
           <div class="main_sec-top">
-            <p class="content_title1">온라인 색약테스트로 <br/>본인의 색약 유형을 알아보세요!</p>
-            <p class="content-text3"><b>결과를 바탕으로 가장 적합한 색약 안경 제품을 찾아드립니다.</b></p>
+            <p class="content_title1">Find out your color blindness type with an online color blindness test!</p>
+            <p class="content-text3"><b>Based on the results, we will find the most suitable color blindness glasses product.</b></p>
           </div>
           <div class="main_sec-ct">
             <div class="main_inspection-img">
               <img src="/src/img/main_inspection-img.jpg" alt="">
             </div>
             <button type="button" class="ui-btn link-btn">
-              <span class="txt">색각 검사하기</span>
+              <span class="txt">Color blind test</span>
               <img src="/src/img/link-icon.svg" alt="">
             </button>
           </div>

@@ -78,6 +78,14 @@ var g5_admin_url = "<?php echo G5_ADMIN_URL; ?>";
 <?php } ?>
 </script>
 <?php
+$current_url = $_SERVER["PHP_SELF"];
+$parsed_url = parse_url($current_url);
+$path_parts = explode('/', $parsed_url['path']);
+$curlang = $path_parts[1];
+
+$cur_bo_table0 = explode('_', $bo_table);
+$cur_bo_table = $cur_bo_table0[1];
+
 /* JS 파일 연결 */
 add_javascript('<script src="'.G5_JS_URL.'/jquery-1.12.4.min.js"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/jquery-migrate-1.4.1.min.js"></script>', 0);
@@ -116,7 +124,9 @@ add_stylesheet('<link rel="stylesheet" href="'.EUM_PLUGIN_URL.'/swiper/swiper-bu
 add_stylesheet('<link rel="stylesheet" href="'.EUM_CSS_URL.'/fonts.css">', 0);
 add_stylesheet('<link rel="stylesheet" href="'.EUM_CSS_URL.'/common.css">', 0);
 add_stylesheet('<link rel="stylesheet" href="'.EUM_CSS_URL.'/normal.css">', 0);
-add_stylesheet('<link rel="stylesheet" href="'.EUM_CSS_URL.'/normal2.css">', 0);
+if( $curlang == 'eng' || $cur_bo_table == 'eng') {
+  add_stylesheet('<link rel="stylesheet" href="'.EUM_CSS_URL.'/normal_eng.css">', 0);
+}
 add_stylesheet('<link rel="stylesheet" href="'.EUM_CSS_URL.'/responsive.css">', 0);
 
 if(G5_IS_MOBILE) {
@@ -126,7 +136,7 @@ if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
 </head>
-<body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
+<body <?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
 <?php
 if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력해준다.
     $sr_admin_msg = '';

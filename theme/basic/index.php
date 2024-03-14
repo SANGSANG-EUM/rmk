@@ -77,17 +77,23 @@ include_once(G5_THEME_PATH.'/head.php');
 
               <div class="dalton_proud">
                 <div class="round-right dalton_proud-item">
-                  <div class="icon"></div>
+                  <div class="icon">
+                    <img src="/src/img/dalton_proud-icon1.png" alt="">
+                  </div>
                   <div class="t1">국내 최초 개발</div>
                   <div class="t2">국내 순수 기술로 최초 개발된 <br/>색약 보정 안경입니다.</div>
                 </div>
                 <div class="round-top dalton_proud-item">
-                  <div class="icon"></div>
+                  <div class="icon">
+                    <img src="/src/img/dalton_proud-icon2.png" alt="">
+                  </div>
                   <div class="t1">선명한 컬러</div>
                   <div class="t2">사물을 바라볼 때 <br/>더욱 선명한 컬러를 재현합니다.</div>
                 </div>
                 <div class="round-top-right dalton_proud-item">
-                  <div class="icon"></div>
+                  <div class="icon">
+                    <img src="/src/img/dalton_proud-icon3.png" alt="">
+                  </div>
                   <div class="t1">컬러 선글라스</div>
                   <div class="t2">대중적인 선글라스로서 누구나 <br/>컬러 선글라스를 즐길 수 있습니다.</div>
                 </div>

@@ -1,7 +1,7 @@
 <div id="review" class="sub">
   <div class="sub-head">
     <div class="wrapper">
-      <h1 class="sub-head_title">고객 리뷰</h1>
+      <h1 class="sub-head_title">Customer Reviews</h1>
     </div>
   </div>
   <div class="sub-body">
@@ -19,16 +19,14 @@
                 <div class="review-score score4"></div>
               </div>
               <div class="review-best-tag">
-                <p><b>프레임</b> 금속테</p>
-                <p><b>렌즈</b> 적색(고기능)</p>
+                <p><b>frame</b> metal frame</p>
+                <p><b>lens</b> red(high function)</p>
               </div>
-              <p class="review-best-text">리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이
-                표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다.
-                리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다.</p>
+              <p class="review-best-text">The review content is displayed.</p>
               <div class="review-best-eval">
-                <p>무게 적당해요</p>
-                <p>마감처리 깔끔해요</p>
-                <p>착용감 편해요</p>
+                <p>The weight is appropriate</p>
+                <p>The finish is neat</p>
+                <p>comfortable to wear</p>
               </div>
               <p class="review-best-name">abcd12**</p>
             </div>
@@ -43,15 +41,14 @@
                 <div class="review-score score4"></div>
               </div>
               <div class="review-best-tag">
-                <p><b>프레임</b> 금속테</p>
-                <p><b>렌즈</b> 적색(고기능)</p>
+                <p><b>frame</b> metal frame</p>
+                <p><b>lens</b> red(high function)</p>
               </div>
-              <p class="review-best-text">리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이
-                표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니..</p>
+              <p class="review-best-text">The review content is displayed.</p>
               <div class="review-best-eval">
-                <p>무게 적당해요</p>
-                <p>마감처리 깔끔해요</p>
-                <p>착용감 편해요</p>
+                <p>The weight is appropriate</p>
+                <p>The finish is neat</p>
+                <p>comfortable to wear</p>
               </div>
               <p class="review-best-name">abcd12**</p>
             </div>
@@ -65,15 +62,14 @@
                 <div class="review-score score4"></div>
               </div>
               <div class="review-best-tag">
-                <p><b>프레임</b> 금속테</p>
-                <p><b>렌즈</b> 적색(고기능)</p>
+                <p><b>frame</b> metal frame</p>
+                <p><b>lens</b> red(high function)</p>
               </div>
-              <p class="review-best-text">리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이
-                표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니..</p>
+              <p class="review-best-text">The review content is displayed.</p>
               <div class="review-best-eval">
-                <p>무게 적당해요</p>
-                <p>마감처리 깔끔해요</p>
-                <p>착용감 편해요</p>
+                <p>The weight is appropriate</p>
+                <p>The finish is neat</p>
+                <p>comfortable to wear</p>
               </div>
               <p class="review-best-name">abcd12**</p>
             </div>
@@ -92,16 +88,16 @@
     </section>
     <section class="review-content sub-content">
       <div class="wrapper">
-        <p class="content_title2">알엠케이 사용자들의 다양하고 솔직한 <br />리뷰를 확인해보세요.</p>
+        <p class="content_title2">Check out the diverse and <br/>honest reviews from RMK users.</p>
         <div class="review-list">
           <div class="review-list-top">
             <div class="review-list-num">
-              총 <span>100</span>개
+              Total <span>100</span>
             </div>
             <div class="review-list-order">
-              <a href="" class="active">최신순</a>
-              <a href="">평점 높은순</a>
-              <a href="">평점 낮은순</a>
+              <a href="" class="active">Newest</a>
+              <a href="">Highest rating</a>
+              <a href="">Lowest rating</a>
             </div>
           </div>
           <!-- 리뷰 노출 갯수 : 한 페이지에 10개씩 -->
@@ -109,20 +105,17 @@
             <li class="reivew-list-li">
               <div class="review-best-content">
                 <div class="review-best-tag">
-                  <p><b>프레임</b> 금속테</p>
-                  <p><b>렌즈</b> 적색(고기능)</p>
+                  <p><b>frame</b> metal frame</p>
+                  <p><b>lens</b> red(high function)</p>
                 </div>
-                <p class="review-best-text">리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이
-                  표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다.
-                  리뷰내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰
-                  내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다.</p>
+                <p class="review-best-text">The review content is displayed.</p>
                 <div class="review-best-img">
                   <img src="/src/img/main-dalton-img1.jpg" alt="">
                 </div>
                 <div class="review-best-eval">
-                  <p>무게 적당해요</p>
-                  <p>마감처리 깔끔해요</p>
-                  <p>착용감 편해요</p>
+                  <p>The weight is appropriate</p>
+                  <p>The finish is neat</p>
+                  <p>comfortable to wear</p>
                 </div>
               </div>
               <div class="reivew-list-info">
@@ -138,17 +131,14 @@
             <li class="reivew-list-li">
               <div class="review-best-content">
                 <div class="review-best-tag">
-                  <p><b>프레임</b> 금속테</p>
-                  <p><b>렌즈</b> 적색(고기능)</p>
+                  <p><b>frame</b> metal frame</p>
+                  <p><b>lens</b> red(high function)</p>
                 </div>
-                <p class="review-best-text">리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이
-                  표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰
-                  내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰 내용이
-                  표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다.</p>
+                <p class="review-best-text">The review content is displayed.</p>
                 <div class="review-best-eval">
-                  <p>무게 적당해요</p>
-                  <p>마감처리 깔끔해요</p>
-                  <p>착용감 편해요</p>
+                  <p>The weight is appropriate</p>
+                  <p>The finish is neat</p>
+                  <p>comfortable to wear</p>
                 </div>
               </div>
               <div class="reivew-list-info">
@@ -164,20 +154,17 @@
             <li class="reivew-list-li">
               <div class="review-best-content">
                 <div class="review-best-tag">
-                  <p><b>프레임</b> 금속테</p>
-                  <p><b>렌즈</b> 적색(고기능)</p>
+                  <p><b>frame</b> metal frame</p>
+                  <p><b>lens</b> red(high function)</p>
                 </div>
-                <p class="review-best-text">리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이
-                  표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰
-                  내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 표시됩니다. 리뷰 내용이
-                  표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다. 리뷰 내용이 표시됩니다.</p>
+                <p class="review-best-text">The review content is displayed.</p>
                 <div class="review-best-img">
                   <img src="/src/img/main-product-img1.jpg" alt="">
                 </div>
                 <div class="review-best-eval">
-                  <p>무게 적당해요</p>
-                  <p>마감처리 깔끔해요</p>
-                  <p>착용감 편해요</p>
+                  <p>The weight is appropriate</p>
+                  <p>The finish is neat</p>
+                  <p>comfortable to wear</p>
                 </div>
               </div>
               <div class="reivew-list-info">

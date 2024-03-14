@@ -38,8 +38,8 @@ if(G5_COMMUNITY_USE === false) {
       <div class="inner">
         <div class="lt">
           <p class="slg_t1">Universal <br/>Color Visions</p>
-          <p class="slg_t2">RMK는 유니버설 컬러 비전 기술을 통해 <br/><b>삶의 비전</b>을 제시합니다.</p>
-          <p class="slg_t3">색각이상이 있는 아이들도 누구나 예술가 · 소방관 · 의사 · 비행사가 될 수 있는 세상, <br/>모두가 선명하고 다양하게 볼 수 있는 세상, <br/>알엠케이가 꿈꾸는 세상입니다.</p>
+          <p class="slg_t2">RMK presents a <b>vision of life</b> through <br/>universal color vision technology.</p>
+          <p class="slg_t3">A world where anyone, even children with color vision deficiency, can become an artist, firefighter, doctor, or pilot; a world where everyone can see clearly and diversely; this is the world that RMK dreams of.</p>
           <ul class="brand_logo">
             <li class="dalton-logo"><img src="/src/img/dalton-logo-w.svg" alt="Dalton Logo"></li>
             <li class="rmk-logo"><img src="/src/img/logo-w.svg" alt="RMK Logo"></li>
@@ -49,75 +49,75 @@ if(G5_COMMUNITY_USE === false) {
           <div class="sitemap">
             <ul>
               <li>
-                <a href="/eng/sub/dalton">브랜드 스토리</a>
+                <a href="/eng/sub/dalton">Brand Story</a>
                 <ul>
                   <li>
-                    <a href="/eng/sub/dalton">돌튼 Dalton</a>
+                    <a href="/eng/sub/dalton">Dalton</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/review">고객 리뷰</a>
+                    <a href="/eng/sub/review">Review</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/greeting">인사말</a>
+                    <a href="/eng/sub/greeting">Greeting</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/history">주요 연혁</a>
+                    <a href="/eng/sub/history">History</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/map">오시는 길</a>
+                    <a href="/eng/sub/map">Directions</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/eng/sub/sunglasses">제품소개</a>
+                <a href="/eng/sub/sunglasses">Product</a>
                 <ul>
                   <li>
-                    <a href="/eng/sub/sunglasses">색약 선글라스</a>
+                    <a href="/eng/sub/sunglasses">Color blind Sunglasses</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/lens">색약 안경렌즈</a>
+                    <a href="/eng/sub/lens">Color blind eyeglasses</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/eng/sub/dyschromatopsia">기술소개</a>
+                <a href="/eng/sub/dyschromatopsia">Technology</a>
                 <ul>
                   <li>
-                    <a href="/eng/sub/dyschromatopsia">색각이상이란?</a>
+                    <a href="/eng/sub/dyschromatopsia">Color vision abnormality</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/difference">차별화 기술</a>
+                    <a href="/eng/sub/difference">Differentiating Technology</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/news_eng">새소식</a>
+                <a href="/news_eng">News</a>
                 <ul>
                   <li>
-                    <a href="/news_eng">보도자료</a>
+                    <a href="/news_eng">Press</a>
                   </li>
                   <li>
-                    <a href="/notice_eng">공지사항</a>
+                    <a href="/notice_eng">Notice</a>
                   </li>
                   <li>
-                    <a href="/gallery_eng">갤러리</a>
+                    <a href="/gallery_eng">Gallery</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/eng/sub/guide">고객지원</a>
+                <a href="/eng/sub/guide">Support</a>
                 <ul>
                   <li>
-                    <a href="/eng/sub/guide">가이드</a>
+                    <a href="/eng/sub/guide">Guide</a>
                   </li>
                   <li>
                     <a href="/faq_eng">FAQ</a>
                   </li>
                   <li>
-                    <a href="/eng/sub/location">체험장 안내</a>
+                    <a href="/eng/sub/location">Location</a>
                   </li>
                   <li>
-                    <a href="/contact_eng/write">문의하기</a>
+                    <a href="/contact_eng/write">Contact us</a>
                   </li>
                 </ul>
               </li>
@@ -125,17 +125,17 @@ if(G5_COMMUNITY_USE === false) {
           </div>
           <div class="company_info">
             <ul>
-              <li>세종시 집현중앙7로 6, 세종대명벨리온 A동 507호 (집현동, 지식산업센터)</li>
-              <li><b>대표이사</b> : 유민기</li>
-              <li><b>사업자등록번호</b> : 230-81-11728</li>
-              <li><b>전화번호</b> : 044-864-1837</li>
+              <li>Room 507, Building A, Sejong Daemyung Bellion, 6 Jiphyeonjungang 7-ro, Sejong City (Jiphyeon-dong, Knowledge Industry Center)</li>
+              <li><b>CEO</b> : Yoo Min-ki</li>
+              <li><b>Company Registration Number</b> : 230-81-11728</li>
+              <li><b>Tel</b> : 044-864-1837</li>
               <li><b>E-mail</b> ceo@rmkinc.com</li>
-              <li><b>의료기기제조업허가</b> : 제6790호</li>
-              <li><b>벤처기업</b> : 제20200301008호</li>
-              <li><b>예비사회적기업</b> 세종 제2019-28호</li>
+              <li><b>Medical device manufacturing license</b> : No. 6790</li>
+              <li><b>venture company</b> : No.20200301008</li>
+              <li><b>Prospective social enterprise</b> Sejong No. 2019-28</li>
             </ul>
           </div>
-          <p class="copy">©2024 (주)알엠케이 RMKinc.com</p>
+          <p class="copy">©2024 RMK inc. rmkinc.com</p>
           <div class="sns">
             <ul>
               <li>
