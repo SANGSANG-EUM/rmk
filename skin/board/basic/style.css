@@ -384,8 +384,24 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 .pg_current::after {position: absolute; bottom: 0; left: 50%; width: 50%; height: 2px; margin-left: -25%; background: var(--color-black2); content:"";}
 
 /* Responsive */
+@media screen and (max-width:1600px){
+  #bo_v_title .bo_v_tit {font-size: 24px;}
+  #bo_v_file {display: block;}
+  #bo_v_file ul {display: flex; flex-flow: row wrap; gap: 10px;}
+  #bo_v_file li {margin-top: 0;}
+  #bo_v_file a {width: 100%; padding: 10px 50px 10px 38px; font-size: 16px;}
+  #bo_v_file a:before {left: 10px; top: 10px; width: 20px; height: 20px; background-size: contain;}
+  #bo_v_file a:after {right: 10px; top: 8px; width: 24px; height: 24px; background-size: contain;}
+} /*@media End*/
+
 @media screen and (max-width:1290px){
-  
+  #bo_v_oth .bo_v_nb li::after {width: 41px; height: 10px;}
+  #bo_v_oth .bo_v_nb li .bo_v_nb_btn {font-size: 16px;}
+  #bo_v_oth .bo_v_nb li .bo_v_nb_txt {font-size: 16px;}
+  #bo_v_oth .bo_v_nb li.btn_prv > * {padding-left: 50px;}
+  #bo_v_oth .bo_v_nb li.btn_next > * {padding-right: 50px;}
+  #bo_v_oth .bo_v_back_btn {font-size: 16px;}
+  #bo_v_oth .bo_v_back_btn i {width: 20px; height: 14px; margin: -2px 5px 0 0; background-size: contain;}
 } /*@media End*/
 
 @media screen and (max-width:1023px){
@@ -432,8 +448,30 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   .bo_vc_w .btn_confirm .bo_v_cmt_captcha{float: none; text-align: left;}
   .bo_vc_w .btn_confirm .bo_btn1{margin-top: 10px;}
 
+  #bo_v {padding-top: 50px;}
+
   #bo_vc header .bo_vc_winfo .bo_vc_name{font-size: 14px;}
   #bo_vc header .bo_vc_winfo .bo_vc_time{font-size: 12px;}
   #bo_vc .cmt_contents{font-size: 14px;}
   .bo_vc_act li a{font-size: 12px; height: 25px; line-height: 25px; padding: 0 10px;}
+  #bo_v header {padding: 20px 0;}
+  .profile_info_ct_ul > li strong {font-size: 12px;}
+  #bo_v_file {padding: 0;}
+  #bo_v_file a {font-size: 13px;}
+  #bo_v_file .bo_v_file_size {font-size: 10px;}
+  #bo_v_file a {padding: 10px 35px 10px 30px;}
+  #bo_v_file a:before {width: 16px; height: 16px;}
+  #bo_v_file a:after {top: 10px; width: 18px; height: 18px;}
+
+  #bo_v_atc {padding: 30px 0 50px;}
+  #bo_v_con {font-size: 14px;}
+  #bo_v_oth .bo_v_nb li.btn_prv a,
+  #bo_v_oth .bo_v_nb li.btn_prv p {display: block; width: 24px; height: 20px;}
+  #bo_v_oth .bo_v_nb li.btn_next a,
+  #bo_v_oth .bo_v_nb li.btn_next p {display: block; width: 24px; height: 20px;}
+  #bo_v_oth .bo_v_nb li .bo_v_nb_txt {font-size: 0;}
+  #bo_v_oth .bo_v_nb li .bo_v_nb_btn {font-size: 0; width: auto;}
+  #bo_v_oth .bo_v_nb li::after {width: 24px; height: 5px;}
+  #bo_v_oth .bo_v_nb li.btn_prv > * {padding-left: 30px;}
+  #bo_v_oth .bo_v_nb li.btn_next > * {padding-right: 30px;}
 } /*@media End*/

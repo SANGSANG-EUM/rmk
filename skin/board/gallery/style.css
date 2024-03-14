@@ -464,7 +464,6 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   #bo_gall .gall_info_ul > li{font-size: 12px;}
   #bo_gall .gall_info_date{font-size: 12px;}
 
-  /*댓글*/
   #bo_v_title .bo_v_cate{font-size: 12px; padding: 3px 7px; height: auto; line-height: 1.5;}
   #bo_v_title .bo_v_tit{font-size: 18px;}
   #bo_v_oth .bo_v_nb li .bo_v_nb_btn{width: 50px; font-size: 0;}
@@ -491,8 +490,10 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   #bo_v_file a:after {top: 10px; width: 18px; height: 18px;}
   #bo_v_atc {padding: 30px 0 50px;}
   #bo_v_con {font-size: 14px;}
-  #bo_v_oth .bo_v_nb li.btn_prv {width: 24px; height: 5px;}
-  #bo_v_oth .bo_v_nb li.btn_next {width: 24px; height: 5px;}
+  #bo_v_oth .bo_v_nb li.btn_prv a,
+  #bo_v_oth .bo_v_nb li.btn_prv p {display: block; width: 24px; height: 20px;}
+  #bo_v_oth .bo_v_nb li.btn_next a,
+  #bo_v_oth .bo_v_nb li.btn_next p {display: block; width: 24px; height: 20px;}
   #bo_v_oth .bo_v_nb li .bo_v_nb_txt {font-size: 0;}
   #bo_v_oth .bo_v_nb li .bo_v_nb_btn {font-size: 0; width: auto;}
   #bo_v_oth .bo_v_nb li::after {width: 24px; height: 5px;}
