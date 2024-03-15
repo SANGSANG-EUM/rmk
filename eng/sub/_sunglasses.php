@@ -5,9 +5,9 @@
         <img src="/src/img/product-bg.jpg" alt="">
       </div>
       <div class="wrapper">
-        <p class="product-visual_title">색약 선글라스</p>
-        <p class="product-visual_text1">알엠케이에서는 성인과 아동을 위한 <br/>다양한 색약 선글라스를 선보입니다.</p>
-        <p class="product-visual_text2">돌튼 색약보정 선글라스는 온라인에서 간편하게 구입하실 수 있는 <br/>세계 최고 성능의 색약 선글라스입니다.</p>
+        <p class="product-visual_title">Color blind Sunglasses</p>
+        <p class="product-visual_text1">RMK offers a variety of color-blind sunglasses for adults and children.</p>
+        <p class="product-visual_text2">Dalton color blindness correction sunglasses are the world's best performing color blindness sunglasses that can be easily purchased online.</p>
         <div class="product-visual_scroll"></div>
       </div>
     </section>
@@ -16,108 +16,108 @@
         <!-- 제품 검색 영역 -->
         <div class="product-search">
           <a href="javascript:void(0)" class="product-search_btn">
-            <i></i><p>상세검색</p>
+            <i></i><p>Filter</p>
           </a>
           <div class="product-search_form">  
             <form action="">
               <div class="product-search_body">
                 <div class="product-search_box">
-                  <p class="product-search_category">프레임 컬러</p>
+                  <p class="product-search_category">Frame Color</p>
                   <ul class="product-search_list">
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category1-1">
-                      <label for="sch-category1-1">블랙</label>
+                      <label for="sch-category1-1">Black</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category1-2">
-                      <label for="sch-category1-2">골드</label>
+                      <label for="sch-category1-2">Gold</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category1-3">
-                      <label for="sch-category1-3">앤틱브라운</label>
+                      <label for="sch-category1-3">Antique Brown</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category1-4">
-                      <label for="sch-category1-4">실버</label>
+                      <label for="sch-category1-4">Silver</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category1-5">
-                      <label for="sch-category1-5">샌드골드</label>
+                      <label for="sch-category1-5">Sand Gold</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category1-6">
-                      <label for="sch-category1-6">쿨 그레이</label>
+                      <label for="sch-category1-6">Cool Gray</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category1-7">
-                      <label for="sch-category1-7">마룬 레드</label>
+                      <label for="sch-category1-7">Maroon Red</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category1-8">
-                      <label for="sch-category1-8">아주르 블루</label>
+                      <label for="sch-category1-8">Azure Blue</label>
                     </li>
                   </ul>
                 </div>
                 <div class="product-search_box">
-                  <p class="product-search_category">렌즈 종류</p>
+                  <p class="product-search_category">Lens type</p>
                   <ul class="product-search_list">
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category2" id="sch-category2-1">
-                      <label for="sch-category2-1">밸런스(녹색)</label>
+                      <label for="sch-category2-1">Balance(green)</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category2" id="sch-category2-2">
-                      <label for="sch-category2-2">스트롱(적색)</label>
+                      <label for="sch-category2-2">Strong(red)</label>
                     </li>
                   </ul>
                 </div>
                 <div class="product-search_box">
-                  <p class="product-search_category">소재</p>
+                  <p class="product-search_category">Material</p>
                   <ul class="product-search_list">
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category3" id="sch-category3-1">
-                      <label for="sch-category3-1">아세테이트</label>
+                      <label for="sch-category3-1">Acetate</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category3-2">
-                      <label for="sch-category3-2">메탈</label>
+                      <label for="sch-category3-2">Metal</label>
                     </li>
                   </ul>
                 </div>
                 <div class="product-search_box">
-                  <p class="product-search_category">연령</p>
+                  <p class="product-search_category">Age group</p>
                   <ul class="product-search_list">
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category4" id="sch-category4-1">
-                      <label for="sch-category4-1">성인용</label>
+                      <label for="sch-category4-1">For adults</label>
                     </li>
                     <li class="product-search_item check-wrap">
                       <input type="checkbox" name="sch-category1" id="sch-category4-2">
-                      <label for="sch-category4-2">아동용</label>
+                      <label for="sch-category4-2">For children</label>
                     </li>
                   </ul>
                 </div>
                 <div class="product-search_box">
-                  <p class="product-search_category">정렬</p>
+                  <p class="product-search_category">Sort</p>
                   <ul class="product-search_list">
                     <li class="product-search_item radio-wrap">
                       <input type="radio" name="sch-category5" id="sch-category5-1">
-                      <label for="sch-category5-1">신상품순</label>
+                      <label for="sch-category5-1">New products</label>
                     </li>
                     <li class="product-search_item radio-wrap">
                       <input type="radio" name="sch-category5" id="sch-category5-2">
-                      <label for="sch-category5-2">낮은 가격순</label>
+                      <label for="sch-category5-2">Low price</label>
                     </li>
                     <li class="product-search_item radio-wrap">
                       <input type="radio" name="sch-category5" id="sch-category5-3">
-                      <label for="sch-category5-3">높은 가격순</label>
+                      <label for="sch-category5-3">High price</label>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="product-search_foot">
-                <button type="reset" class="product-search_reset">초기화</button>
-                <button type="submit" class="product-search_submit">검색</button>
+                <button type="reset" class="product-search_reset">Reset</button>
+                <button type="submit" class="product-search_submit">Search</button>
               </div>
             </form>
           </div>
@@ -131,8 +131,8 @@
               <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -145,8 +145,8 @@
               <img src="/src/img/product-thumb2.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -158,8 +158,8 @@
               <img src="/src/img/product-thumb3.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -171,8 +171,8 @@
               <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -184,8 +184,8 @@
               <img src="/src/img/product-thumb2.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -197,8 +197,8 @@
               <img src="/src/img/product-thumb3.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -210,8 +210,8 @@
               <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -223,8 +223,8 @@
               <img src="/src/img/product-thumb2.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -236,8 +236,8 @@
               <img src="/src/img/product-thumb3.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -249,8 +249,8 @@
               <img src="/src/img/product-thumb.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -262,8 +262,8 @@
               <img src="/src/img/product-thumb2.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>
@@ -275,8 +275,8 @@
               <img src="/src/img/product-thumb3.jpg" alt="제품 이미지">
             </a>
             <div class="product-list_info">
-              <a href="/sub/product_view" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-              <p class="product-list_price"><span>520,000</span>원</p>
+              <a href="/sub/product_view" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+              <p class="product-list_price">￦<span>520,000</span></p>
               <div class="product-list_option">
                 <p>+ 4 Color</p>
                 <p>+ 2 Lenses</p>

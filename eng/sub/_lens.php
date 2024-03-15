@@ -5,9 +5,9 @@
         <img src="/src/img/product-lens-bg.jpg" alt="">
       </div>
       <div class="wrapper">
-        <p class="product-visual_title">색약 안경렌즈</p>
-        <p class="product-visual_text1">알엠케이는 국내 및 해외에서 다양한 <br/>특허와 기술을 인정받았습니다.</p>
-        <p class="product-visual_text2">알엠케이에서는 1등급 의료기기 제조 신고를 마친 전문 안경원용 <br/>색약 안경렌즈도 제조하고 있습니다.</p>
+        <p class="product-visual_title">Color blind eyeglasses</p>
+        <p class="product-visual_text1">RMK has been recognized for various patents and technologies both domestically and overseas.</p>
+        <p class="product-visual_text2">RMK also manufactures color-blind eyeglass lenses for professional opticians that have completed the first-class medical device manufacturing report.</p>
         <div class="product-visual_scroll"></div>
       </div>
     </section>
@@ -22,7 +22,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <!-- } loop -->
@@ -32,7 +32,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -41,7 +41,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -50,7 +50,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -59,7 +59,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -68,7 +68,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -77,7 +77,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -86,7 +86,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -95,7 +95,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -104,7 +104,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -113,7 +113,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
           <div class="product-list_item">
@@ -122,7 +122,7 @@
             </a>
             <div class="product-list_info">
               <a href="/sub/product_view" class="product-list_name">DALTON 1.56CC V1</a>
-              <p class="product-list_price">별도 문의</p>
+              <p class="product-list_price">Contact us for price</p>
             </div>
           </div>
         </div>
