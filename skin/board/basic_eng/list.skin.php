@@ -16,8 +16,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 <div id="notice-list" class="sub">
   <div class="sub-head">
     <div class="wrapper">
-      <h1 class="sub-head_title">공지사항</h1>
-      <p class="sub-head_explan">알엠케이의 안내사항입니다.</p>
+      <h1 class="sub-head_title">Notice</h1>
+      <p class="sub-head_explan">These are RMK’s instructions.</p>
     </div>
   </div>
   <div class="sub-body">
@@ -186,7 +186,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                   <td class="td_datetime"><?php echo date("Y.m.d", strtotime($list[$i]['wr_datetime'])) ?></td>
                 </tr>
                 <?php } ?>
-                <?php if (count($list) == 0) { echo '<tr><td colspan="'.$colspan.'" class="empty_table">게시물이 없습니다.</td></tr>'; } ?>
+                <?php if (count($list) == 0) { echo '<tr><td colspan="'.$colspan.'" class="empty_table">There are no posts.</td></tr>'; } ?>
               </tbody>
             </table>
           </div>

@@ -16,11 +16,11 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
     <div class="wrapper">
       <?php 
       if(strpos($bo_table, 'news') !== false) { ?>
-      <h1 class="sub-head_title">보도자료</h1>
-      <p class="sub-head_explan">알엠케이의 새소식을 확인하세요.</p>
+      <h1 class="sub-head_title">Press</h1>
+      <p class="sub-head_explan">Check out the latest news from RMK.</p>
       <?php } else { ?>
-      <h1 class="sub-head_title">갤러리</h1>
-      <p class="sub-head_explan">알엠케이의 갤러리입니다.</p>
+      <h1 class="sub-head_title">Gallery</h1>
+      <p class="sub-head_explan">This is RMK’s gallery.</p>
       <?php } ?>
     </div>
   </div>
@@ -200,7 +200,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                 </div>
               </li>
               <?php } ?>
-              <?php if (count($list) == 0) { echo "<li class=\"empty_list\">게시물이 없습니다.</li>"; } ?>
+              <?php if (count($list) == 0) { echo "<li class=\"empty_list\">There are no posts.</li>"; } ?>
             </ul>
           </div>
           

@@ -378,3 +378,10 @@ export const scrollBar = (t) => {
     theme:"dark"
   });
 }
+
+/* Scroll to top */
+export const scrollTop = () => {
+  $("body,html").animate({
+      scrollTop: 0
+  }, 400);
+}

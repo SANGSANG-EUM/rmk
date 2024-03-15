@@ -8,10 +8,21 @@ if ($board['bo_use_category']) {
     $is_category = true;
     $category_href = get_pretty_url($bo_table);
 
-    $category_option .= '<li><a href="'.$category_href.'"';
-    if ($sca=='')
+    $bo_lang = explode('_', $bo_table);
+
+    if($bo_lang[1] == 'eng') {
+      $category_option .= '<li><a href="'.$category_href.'"';
+      if ($sca=='') {
         $category_option .= ' id="bo_cate_on"';
-    $category_option .= '>전체</a></li>';
+      }
+      $category_option .= '>All</a></li>';
+    } else {
+      $category_option .= '<li><a href="'.$category_href.'"';
+      if ($sca=='') {
+        $category_option .= ' id="bo_cate_on"';
+      }
+      $category_option .= '>전체</a></li>';
+    }
 
     $categories = explode('|', $board['bo_category_list']); // 구분자가 , 로 되어 있음
     for ($i=0; $i<count($categories); $i++) {

@@ -166,6 +166,11 @@ $(document).ready(function () {
     $('.review-best').addClass('none');
   }
 
+  // Top Buttin
+  $(".top-btn").click(function() {
+    f.scrollTop();
+  })
+
   // Mouse Scroll
   $window.on('scroll', function(){
     let windowScrollTop = $window.scrollTop();

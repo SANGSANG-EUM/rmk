@@ -21,7 +21,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
   <div class="sub-head">
     <div class="wrapper">
       <h1 class="sub-head_title">FAQ</h1>
-      <p class="sub-head_explan">이용에 궁금하신 점이 있으신가요?</p>
+      <p class="sub-head_explan">Do you have any questions about use?</p>
     </div>
   </div>
 
@@ -144,7 +144,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                 </div>
               </li>
               <?php } ?>
-              <?php if (count($list) == 0) { echo "<li class=\"empty_list\">게시물이 없습니다.</li>"; } ?>
+              <?php if (count($list) == 0) { echo "<li class=\"empty_list\">There are no posts.</li>"; } ?>
             </ul>
           </div>
 
