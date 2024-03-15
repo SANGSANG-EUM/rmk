@@ -88,9 +88,9 @@ $(document).ready(function () {
     $('.foreground-img').css('width', `calc(${sliderPos}%)`)
     // Update the position of the slider button
     if ($(window).width() > 767) {
-      $('.slider-button').css('left', `calc(${sliderPos}% - 23px)`)
+      $('.slider-button').css('left', `calc(${sliderPos}% - 32px)`)
     } else {
-      $('.slider-button').css('left', `calc(${sliderPos}% - 13px)`)
+      $('.slider-button').css('left', `calc(${sliderPos}% - 32px)`)
     }
   });
 
