@@ -167,6 +167,88 @@ if(G5_COMMUNITY_USE === false) {
 </div>
 <!-- } 푸터 끝 -->
 
+<!-- 색각검사 팝업 { -->
+<div id="inspection_popup" class="layer-popup">
+  <div class="layer-popup_ct">
+    <div class="top">
+      <p class="tit">색각검사</p>
+      <button type="button" class="ui-btn close-btn" title="팝업 닫기">
+        <img src="/src/img/close-w.svg" alt="닫기">
+      </button>
+    </div>
+    <div class="mid">
+      <div class="cbTest_wrap">
+        <div class="cbTest-img">
+          <img src="/src/img/t-cbtest-img1.jpg" alt="">
+        </div>
+        <div class="cbTest-chkList">
+          <ul>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt1">
+                <label for="cbt1">1</label>
+              </div>
+            </li>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt2">
+                <label for="cbt2">2</label>
+              </div>
+            </li>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt3">
+                <label for="cbt3">3</label>
+              </div>
+            </li>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt4">
+                <label for="cbt4">4</label>
+              </div>
+            </li>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt5">
+                <label for="cbt5">5</label>
+              </div>
+            </li>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt6">
+                <label for="cbt6">6</label>
+              </div>
+            </li>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt7">
+                <label for="cbt7">7</label>
+              </div>
+            </li>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt8">
+                <label for="cbt8">8</label>
+              </div>
+            </li>
+            <li>
+              <div class="cbTest-chkList_btn">
+                <input type="radio" name="cbt" id="cbt9">
+                <label for="cbt9">9</label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bot">
+      <button type="button" id="qa-policy-check_trigger" class="ui-btn step-btn1">이전</button>
+      <button type="button" id="qa-policy-check_trigger" class="ui-btn step-btn2">다음</button>
+    </div>
+  </div>
+</div>
+<!-- } 색각검사 팝업 -->
+
 <?php
 if ($config['cf_analytics']) {
     echo $config['cf_analytics'];
