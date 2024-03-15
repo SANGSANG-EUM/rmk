@@ -22,3 +22,8 @@
 
 .product-v_detail .lensType .type-ct .info > ul {flex-flow: column wrap;}
 .product-v_detail .lensType .type-ct .info > ul > li {width: 100%;}
+
+.difference-compare-box {flex-flow: column wrap;}
+.difference-compare-txt-ul {width: 100%;}
+.difference-comapre-txt-li__key {width: auto;}
+.difference-comapre-txt-li__val {width: auto; padding-left: 10px; font-weight: 300;}
