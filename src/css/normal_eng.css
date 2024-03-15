@@ -19,3 +19,6 @@
 .product-visual_text1 {width: 40%;}
 .product-visual_text2 {width: 40%;}
 .product-visual_scroll {margin-top: 120px;}
+
+.product-v_detail .lensType .type-ct .info > ul {flex-flow: column wrap;}
+.product-v_detail .lensType .type-ct .info > ul > li {width: 100%;}

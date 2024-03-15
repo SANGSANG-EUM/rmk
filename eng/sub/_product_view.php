@@ -61,30 +61,30 @@
             <div class="rt">
               <div class="product-v_summary">
                 <div class="product-v_info">
-                  <p class="name">돌튼 클립온 선글라스(GR)</p>
-                  <p class="price">500,000원</p>
-                  <div class="expl">돌튼이 선보이는 색약보정 선글라스를 소개합니다. 2022년 서울국제발명전시회 금상 수상에 빛나는 첨단 기술로 제작된 색약보정렌즈는 색약인 분들의 색구분에 도움을 줍니다. 신비한 붉은빛이 감도는 돌튼스트롱 렌즈는 색각검사 및 업무상 색 구분이 중요한 경우에 적합합니다. 누구에게나 잘 어울리는 세련된 펜타곤 셰이프 프레임의 안경테는 착용하시는 분의 개성을 살려줍니다. 시력이 나쁘신 분들을 위해 특별히 고안된 클립온은 제품 손상 없이 손쉽게 착탈하실 수 있습니다.</div>
+                  <p class="name">Dalton clip-on sunglasses(GR)</p>
+                  <p class="price">￦500,000</p>
+                  <div class="expl">Introducing color blindness correction sunglasses from Dalton. Color blindness correction lenses made with cutting-edge technology, which won the Gold Award at the 2022 Seoul International Invention Exhibition, help people with color blindness distinguish between colors. Dalton Strong lenses, which have a mysterious red glow, are suitable for color vision tests and when color discrimination is important at work. The sophisticated pentagon-shaped frame that goes well with anyone brings out the personality of the wearer. The clip-on, specially designed for people with poor eyesight, can be easily attached and removed without damaging the product.</div>
                 </div>
                 <div class="product-v_btns">
-                  <a href="" class="ui-btn product-buy_btn" target="_blank">구매하기</a>
-                  <a href="/contact_kr/write" class="ui-btn product-inq_btn" target="_blank">문의하기</a>
+                  <a href="" class="ui-btn product-buy_btn" target="_blank">Buy Now</a>
+                  <a href="/contact_kr/write" class="ui-btn product-inq_btn" target="_blank">Contact us</a>
                 </div>
                 <div class="product-v_spec open">
                   <button type="button" class="ui-btn product-spec_btn">
-                    <span class="txt">제품 세부 정보</span>
+                    <span class="txt">Details</span>
                     <span class="icn"></span>
                   </button>
                   <ul class="spec-list">
-                    <li>프레임 : 블랙 아세테이트 프레임 </li>
-                    <li>렌즈 : 돌튼 스트롱 (적색)</li>
-                    <li>치수 : 49□24 145</li>
-                    <li>전체 가로길이 : 150mm</li>
-                    <li>렌즈 가로길이 : 52mm</li>
-                    <li>브리지 길이 : 18mm</li>
-                    <li>렌즈 세로길이 : 38mm</li>
-                    <li>안경 다리길이 : 145mm</li>
-                    <li>제조자 : 주식회사 알엠케이</li>
-                    <li>제조국 : 대한민국</li>
+                    <li>Frame: Black acetate frame</li>
+                    <li>Lens: Dalton Strong (red)</li>
+                    <li>Dimension: 49□24 145</li>
+                    <li>Total width: 150mm</li>
+                    <li>Lens width: 52mm</li>
+                    <li>Bridge Length: 18mm</li>
+                    <li>Lens length: 38mm</li>
+                    <li>Glasses leg length: 145mm</li>
+                    <li>Manufacturer: RMK Co., Ltd.</li>
+                    <li>Country of manufacture: Korea</li>
                   </ul>
                 </div>
               </div>
@@ -98,15 +98,15 @@
       <div class="container">
         <div class="wrapper">
           <div class="inner">
-            <p class="product-v_cTitle">이런 제품은 어떠세요?</p>
+            <p class="product-v_cTitle">How about a product like this?</p>
             <div class="rel-lsit">
               <div class="product-list_item">
                 <a href="" class="product-list_thumb">
                   <img src="/src/img/product-thumb.jpg" alt="제품 이미지" title="">
                 </a>
                 <div class="product-list_info">
-                  <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-                  <p class="product-list_price"><span>520,000</span>원</p>
+                  <a href="" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+                  <p class="product-list_price">￦<span>520,000</span></p>
                   <div class="product-list_option">
                     <p>+ 4 Color</p>
                     <p>+ 2 Lenses</p>
@@ -118,8 +118,8 @@
                   <img src="/src/img/product-thumb.jpg" alt="제품 이미지" title="">
                 </a>
                 <div class="product-list_info">
-                  <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-                  <p class="product-list_price"><span>520,000</span>원</p>
+                  <a href="" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+                  <p class="product-list_price">￦<span>520,000</span></p>
                   <div class="product-list_option">
                     <p>+ 4 Color</p>
                     <p>+ 2 Lenses</p>
@@ -131,8 +131,8 @@
                   <img src="/src/img/product-thumb.jpg" alt="제품 이미지" title="">
                 </a>
                 <div class="product-list_info">
-                  <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-                  <p class="product-list_price"><span>520,000</span>원</p>
+                  <a href="" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+                  <p class="product-list_price">￦<span>520,000</span></p>
                   <div class="product-list_option">
                     <p>+ 4 Color</p>
                     <p>+ 2 Lenses</p>
@@ -144,8 +144,8 @@
                   <img src="/src/img/product-thumb.jpg" alt="제품 이미지" title="">
                 </a>
                 <div class="product-list_info">
-                  <a href="" class="product-list_name">돌튼 클립온 선글라스(GR)</a>
-                  <p class="product-list_price"><span>520,000</span>원</p>
+                  <a href="" class="product-list_name">Dalton clip-on sunglasses(GR)</a>
+                  <p class="product-list_price">￦<span>520,000</span></p>
                   <div class="product-list_option">
                     <p>+ 4 Color</p>
                     <p>+ 2 Lenses</p>
@@ -190,45 +190,45 @@
             </div>
 
             <div class="sec-mt textList">
-              <p class="product-v_cTitle">처음 사용시 주의사항</p>
+              <p class="product-v_cTitle">Precautions for first use</p>
               <div class="tContents tNumber">
                 <ul>
                   <li>
                     <div class="round-right num">01</div>
-                    <p class="tit">충분한 광량에서 사용하세요.</p>
-                    <div class="expl">돌튼 제품은 편안한 사용감을 위해 눈에 들어오는 빛의 양을 줄이는 코팅이 되어 있습니다. 밝은 실외에서 사용하시거나, 실내에서 사용하실 때는 조명을 밝게 해주세요.</div>
+                    <p class="tit">Use in sufficient light.</p>
+                    <div class="expl">Dalton products are coated with a coating that reduces the amount of light entering the eyes for comfortable use. Please use it outdoors in bright light, or brighten the lighting when using it indoors.</div>
                   </li>
                   <li>
                     <div class="round-left round-top-right num">02</div>
-                    <p class="tit">효과는 즉시~2주까지 걸릴 수 있습니다.</p>
-                    <div class="expl">돌튼의 효과는 대부분 착용 즉시 이전에 불가능했던 색상의 구분을 느낄 수 있습니다. 다만, 익숙하지 않은 색감때문에 적응에 약간의 시간이 걸릴 수 있습니다. 일부의 경우 효과를 느끼는데 2주까지 걸리기도 합니다.</div>
+                    <p class="tit">Effects can take anywhere from immediate to 2 weeks.</p>
+                    <div class="expl">Most of Dalton's effects are immediately noticeable when you wear it, creating color distinctions that were previously impossible. However, it may take some time to get used to the unfamiliar colors. In some cases, it may take up to two weeks to feel the effects.</div>
                   </li>
                   <li>
                     <div class="round-top num">03</div>
-                    <p class="tit">자주 꼈다 벗었다 하지마세요.</p>
-                    <div class="expl">너무 자주 꼈다벗었다 하는 것은 눈이 새로운 렌즈에 적응하는데 어려움을 줄 수 있습니다. 가능한 한 번 착용하면 10분 이상 사용해주세요. 장시간 착용이 불편하면, 일반 선글라스처럼 돌튼이 필요한 순간만 착용할 수 있습니다.</div>
+                    <p class="tit">Do not put it on and take it off frequently.</p>
+                    <div class="expl">Taking them on and off too often can make it difficult for your eyes to adjust to the new lenses. If possible, use it for more than 10 minutes once worn. If wearing it for a long time is uncomfortable, you can wear Daltons like regular sunglasses only when you need them.</div>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div class="sec-mt sizeList">
-              <p class="product-v_cTitle">실측 사이즈</p>
+              <p class="product-v_cTitle">Actual size</p>
               <div class="size-img">
-                <img src="/src/img/product-size-pc.jpg" alt="" class="pc-view">
-                <img src="/src/img/product-size-mo.jpg" alt="" class="mo-view">
+                <img src="/src/img/product-size-pc_eng.jpg" alt="" class="pc-view">
+                <img src="/src/img/product-size-mo_eng.jpg" alt="" class="mo-view">
               </div>
-              <p class="cau">* 실측 사이즈는 측정자와 측정방법에 따라 실제 사이즈와 약간의 오차가 발생할 수 있습니다.</p>
+              <p class="cau">* The actual size may differ slightly from the actual size depending on the measurer and measurement method.</p>
             </div>
 
             <div class="sec-mt lensType">
-              <p class="product-v_cTitle">모양 및 구조 - 치수</p>
+              <p class="product-v_cTitle">Shape and Structure - Dimensions</p>
               <div class="type-ct">
                 <ul>
                   <li>
                     <div class="wrp">
                       <p class="name">
-                        <span>오목형 (-)렌즈</span>
+                        <span>concave (-)lens</span>
                       </p>
                       <div class="img">
                         <img src="/src/img/lens-type-img1.jpg" alt="오목형렌즈 도움 이미지">
@@ -236,30 +236,30 @@
                       <div class="info">
                         <ul>
                           <li>
-                            <span class="tit">근시-난시</span>
+                            <span class="tit">Myopia - Astigmatism</span>
                             <span class="expl">0 ~ -8.00D</span>
                           </li>
                           <li>
-                            <span class="tit">치수</span>
+                            <span class="tit">size</span>
                             <span class="expl">55~80mm</span>
                           </li>
                           <li>
-                            <span class="tit">제품굴절율</span>
+                            <span class="tit">product refractive index</span>
                             <span class="expl">1.56</span>
                           </li>
                           <li>
-                            <span class="tit">재질</span>
-                            <span class="expl">플라스틱</span>
+                            <span class="tit">Material</span>
+                            <span class="expl">plastic</span>
                           </li>
                         </ul>
                       </div>
-                      <p class="cau">* 다만 이 경우 무도수 제품은 제외한다.</p>
+                      <p class="cau">* However, in this case, non-alcoholic products are excluded.</p>
                     </div>
                   </li>
                   <li>
                     <div class="wrp">
                       <p class="name">
-                        <span>볼록형 (+)렌즈</span>
+                        <span>convex (+)lens</span>
                       </p>
                       <div class="img">
                         <img src="/src/img/lens-type-img1.jpg" alt="볼록형렌즈 도움 이미지">
@@ -267,24 +267,24 @@
                       <div class="info">
                         <ul>
                           <li>
-                            <span class="tit">근시-난시</span>
+                            <span class="tit">Myopia - Astigmatism</span>
                             <span class="expl">0 ~ +8.00D</span>
                           </li>
                           <li>
-                            <span class="tit">치수</span>
+                            <span class="tit">size</span>
                             <span class="expl">55~80mm</span>
                           </li>
                           <li>
-                            <span class="tit">제품굴절율</span>
+                            <span class="tit">product refractive index</span>
                             <span class="expl">1.56</span>
                           </li>
                           <li>
-                            <span class="tit">재질</span>
-                            <span class="expl">플라스틱</span>
+                            <span class="tit">Material</span>
+                            <span class="expl">plastic</span>
                           </li>
                         </ul>
                       </div>
-                      <p class="cau">* 다만 이 경우 무도수 제품은 제외한다.</p>
+                      <p class="cau">* However, in this case, non-alcoholic products are excluded.</p>
                     </div>
                   </li>
                 </ul>
@@ -294,26 +294,26 @@
             <div class="sec-mt lensCont">
               <div class="lt">
                 <div class="textList">
-                  <p class="product-v_cTitle">성능 소개</p>
+                  <p class="product-v_cTitle">Introduction to performance</p>
                   <div class="tContents">
                     <ul>
                       <li>
-                        <p class="tit">DALTON 1.56CC V2는 구면의 안경렌즈로 다음과 같은 성능을 지니고 있습니다.</p>
+                        <p class="tit">DALTON 1.56CC V2 is a spherical spectacle lens and has the following performance.</p>
                         <div class="expl">
                           <ul class="tDp1">
-                            <li>1. 본 렌즈는 (-)렌즈시 0 ~ -8.00D, (+)렌즈 시 0 ~ -8.00D 성능을 지님</li>
-                            <li>2. 크기 55 ~ 80(mm), 5mm 단위 제조 가능함</li>
-                            <li>3. 굴절율 : 1.56</li>
-                            <li>4. 비중 : 1.28g/cm3 ~ 1.50g/cm3</li>
-                            <li>5. 아베수 : 32~58</li>
-                            <li>6. 능력 :
+                            <li>1. This lens has a performance of 0 ~ -8.00D with a (-) lens and 0 ~ -8.00D with a (+) lens.</li>
+                            <li>2. Size 55 ~ 80(mm), can be manufactured in 5mm increments</li>
+                            <li>3. Refractive index: 1.56</li>
+                            <li>4. Specific gravity: 1.28g/cm3 ~ 1.50g/cm3</li>
+                            <li>5. Abbe number: 32~58</li>
+                            <li>6. Ability: 
                               <ul class="tDp2">
-                                <li>자외선 차단 UVA : 316~318nm 시 99.9%</li>
-                                <li>자외선 차단 UVB : 280~315nm 시 99.9%</li>
-                                <li>녹색 차단 : 520~530nm 시 95%</li>
+                                <li>UV blocking UVA: 99.9% at 316~318nm</li>
+                                <li>UV protection UVB: 99.9% at 280~315nm</li>
+                                <li>Green cutoff: 95% at 520~530nm</li>
                               </ul>
                             </li>
-                            <li>7. 기타(전 모델에 오목 및 볼록렌즈가 적용 가능, 아래 특수코팅이 가능함)</li>
+                            <li>7. Others (concave and convex lenses can be applied to all models, special coating below is available)</li>
                           </ul>
                         </div>
                       </li>
@@ -324,38 +324,38 @@
                   <table class="ui-table">
                     <thead>
                       <tr>
-                        <th>코팅 종류</th>
-                        <th>성능</th>
+                        <th>Coating type</th>
+                        <th>Performance</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>HMC</td>
-                        <td>렌즈의 표면을 강화하기 위하여 막을 형성하는 기본 하드 코팅</td>
+                        <td>A basic hard coating that forms a film to strengthen the surface of the lens.</td>
                       </tr>
                       <tr>
                         <td>SHMC</td>
-                        <td>HMC 코팅에 추가적으로 초발수 처리하는 코팅</td>
+                        <td>Coating that is additionally treated with super water repellent treatment to HMC coating</td>
                       </tr>
                       <tr>
                         <td>NIR</td>
-                        <td>코팅에 추가적으로 유해 근적외선을 차단하기 위한 코팅</td>
+                        <td>Coating to block harmful near-infrared rays in addition to coating</td>
                       </tr>
                       <tr>
                         <td>BlueSafe</td>
-                        <td>눈에 유해한 자외선 및 청색광을 차단하고 깨끗한 시야를 제공</td>
+                        <td>Blocks ultraviolet rays and blue light that are harmful to the eyes and provides clear vision.</td>
                       </tr>
                       <tr>
                         <td>TN</td>
-                        <td>실외에서 자외선의 양에 따라 선글라스와 동일하게 색상이 짙어져 눈에 해로운 자외선을 차단하고 실내에서는 일반 안경과 동일하게 투명</td>
+                        <td>Outdoors, depending on the amount of ultraviolet rays, the color becomes darker like sunglasses to block UV rays that are harmful to the eyes, and indoors, they are as transparent as regular glasses.</td>
                       </tr>
                       <tr>
                         <td>PO</td>
-                        <td>편광필름을 넣어 빛이 한 방향에서만 통과할 수 있도록 가공. 빛의 난반사를 막아 눈부심으로 인한 눈의 피로감을 덜어주고 더 맑은 시야를 제공</td>
+                        <td>Processed with a polarizing film so that light can only pass through in one direction. Prevents diffuse reflection of light, reduces eye fatigue caused by glare, and provides clearer vision.</td>
                       </tr>
                       <tr>
                         <td>CC</td>
-                        <td>530nm 대역을 포함한 가시광선 일부를 차단하여 적색과 녹색간 색구분을 용이하게 하여 적녹색약 보정효과가 있음. 코팅의 색상은 외측면은 적색 및 녹색 반사광, 내측면은 적색임.</td>
+                        <td>It blocks part of the visible light, including the 530nm band, making it easier to distinguish between red and green, and has a red-green effect. The color of the coating is red and green reflected on the outer side and red on the inner side.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -363,55 +363,55 @@
               </div>
               <div class="rt">
                 <div class="textList">
-                  <p class="product-v_cTitle">사용방법 및 주의사항</p>
+                  <p class="product-v_cTitle">How to use and precautions</p>
                   <div class="tContents">
                     <ul>
                       <li>
-                        <p class="tit">사용 전의 준비사항</p>
+                        <p class="tit">Preparation before use</p>
                         <div class="expl">
                           <ul class="tDp1">
-                            <li>1. 반드시 안과의사 또는 안경사에게 검안 후 사용할 것</li>
+                            <li>1. Must be used after examination by an ophthalmologist or optometrist</li>
                           </ul>
                         </div>
                       </li>
                       <li>
-                        <p class="tit">사용방법</p>
+                        <p class="tit">How to use</p>
                         <div class="expl">
                           <ul class="tDp1">
-                            <li>1. 동공 중심에 렌즈를 정해진 위치에 맞추고, 안경테의 크기와 모양에 맞게 가공한다.</li>
+                            <li>1. The lens is positioned at the center of the pupil and processed to match the size and shape of the glasses frame.</li>
                           </ul>
                         </div>
                       </li>
                       <li>
-                        <p class="tit">사용 후 보관 및 관리방법</p>
+                        <p class="tit">How to store and manage after use</p>
                         <div class="expl">
                           <ul class="tDp1">
-                            <li>1. 직사광선이나 고온, 다습을 피하여 전용 케이스에 보관할 것</li>
-                            <li>2. 렌즈를 볼록한 부분이 위를 향하도록 보관할 것</li>
-                            <li>3. 안경렌즈 전용 천으로 감싼 후에 보관할 것</li>
-                            <li>4. 안경렌즈 전용 천(부드러운 천)을 사용하여 닦을 것</li>
-                            <li>5. 세척할 때 미지근한 물에 중성세제를 사용하여 닦을 것</li>
+                            <li>1. Store in a special case, avoiding direct sunlight, high temperature, and humidity.</li>
+                            <li>2. Store the lens with the convex side facing up.</li>
+                            <li>3. Store after wrapping with a cloth specifically designed for eyeglass lenses.</li>
+                            <li>4. Clean with a cloth (soft cloth) specifically designed for eyeglass lenses.</li>
+                            <li>5. When cleaning, use a neutral detergent in lukewarm water.</li>
                           </ul>
                         </div>
                       </li>
                       <li class="bd-top-dash">
-                        <p class="tit">사용 시 주의사항</p>
+                        <p class="tit">Precautions for use</p>
                         <div class="expl">
                           <ul class="tDp1">
-                            <li>1. 제품을 다룰 때는 렌즈의 테두리 부분을 잡을 것</li>
-                            <li>2. 렌즈의 밖과 안을 손으로 만지지 말 것</li>
-                            <li>3. 떨어트리지 말 것</li>
-                            <li>4. 열풍이나 고온에 닿지 않게 할 것</li>
-                            <li>5. 수면시 착용을 해제할 것</li>
+                            <li>1. When handling the product, hold the edge of the lens.</li>
+                            <li>2. Do not touch the outside or inside of the lens with your hands.</li>
+                            <li>3. Don't drop it</li>
+                            <li>4. Avoid exposure to hot air or high temperatures.</li>
+                            <li>5. Remove from wearing when sleeping</li>
                           </ul>
                         </div>
                       </li>
                       <li>
-                        <p class="tit">보관 시 주의사항</p>
+                        <p class="tit">Precautions for storage</p>
                         <div class="expl">
                           <ul class="tDp1">
-                            <li>1. 어린이의 손이 닿지 않도록 용기에 보관할 것</li>
-                            <li>2. 상온에서 보관할 것</li>
+                            <li>1. Store in container out of reach of children.</li>
+                            <li>2. Store at room temperature</li>
                           </ul>
                         </div>
                       </li>
