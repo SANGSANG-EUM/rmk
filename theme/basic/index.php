@@ -149,7 +149,7 @@ include_once(G5_THEME_PATH.'/head.php');
         <div class="wrapper">
           <div class="inner">
             <p class="content_title1">색약보정 아이웨어 돌튼의 제품은 <br/>색을 선물해드립니다.</p>
-            <a href="/sub/product" class="ui-btn link-btn">
+            <a href="https://smartstore.naver.com/rmk-dalton" class="ui-btn link-btn" target="_blank">
               <span class="txt">제품 보러가기</span>
               <img src="/src/img/link-icon.svg" alt="">
             </a>

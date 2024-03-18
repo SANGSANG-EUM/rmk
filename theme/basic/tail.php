@@ -20,7 +20,7 @@ if(G5_COMMUNITY_USE === false) {
       <button type="button" class="ui-btn inspection-btn"></button>
     </li>
     <li>
-      <a href="" class="ui-btn naverStore-btn"></a>
+      <a href="https://smartstore.naver.com/rmk-dalton" class="ui-btn naverStore-btn" target="_blank"></a>
     </li>
     <li>
       <a href="" class="ui-btn amazon-btn"></a>
@@ -139,22 +139,22 @@ if(G5_COMMUNITY_USE === false) {
           <div class="sns">
             <ul>
               <li>
-                <a href="" target="_blank">
+                <a href="https://www.facebook.com/people/%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC-%EC%95%8C%EC%97%A0%EC%BC%80%EC%9D%B4-RMK-Inc/61552426027382/" target="_blank">
                   <img src="/src/img/sns-facebook.svg" alt="Facebook">
                 </a>
               </li>
               <li>
-                <a href="" target="_blank">
+                <a href="https://www.instagram.com/rmk_dalton/" target="_blank">
                   <img src="/src/img/sns-instagram.svg" alt="Instagram">
                 </a>
               </li>
               <li>
-                <a href="" target="_blank">
+                <a href="https://blog.naver.com/rmkinc2018" target="_blank">
                   <img src="/src/img/sns-blog.svg" alt="Blog">
                 </a>
               </li>
               <li>
-                <a href="" target="_blank">
+                <a href="https://www.youtube.com/@rmkdalton1940" target="_blank">
                   <img src="/src/img/sns-youtube.svg" alt="YouTube">
                 </a>
               </li>

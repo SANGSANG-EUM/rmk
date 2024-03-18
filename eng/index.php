@@ -141,7 +141,7 @@ include_once(G5_THEME_PATH.'/head.eng.php');
         <div class="wrapper">
           <div class="inner">
             <p class="content_title1">Dalton’s color blindness correction <br/>eyewear products give you the gift of color.</p>
-            <a href="/sub/product" class="ui-btn link-btn">
+            <a href="https://smartstore.naver.com/rmk-dalton" class="ui-btn link-btn" target="_blank">
               <span class="txt">View product</span>
               <img src="/src/img/link-icon.svg" alt="">
             </a>
