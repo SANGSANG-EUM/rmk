@@ -155,7 +155,7 @@
   .main_dalton-info .dalton_logo .dalton-text-d {width: 81px;}
   .main_dalton-info .dalton_logo .dalton-text {margin-left: 20px; width: 208px;}
   .main_dalton-info .dalton_proud {gap: 30px;}
-  .main_dalton-info .dalton_proud-item {height: 300px; padding: 0 20px;}
+  .main_dalton-info .dalton_proud-item {min-height: 300px; padding: 0 20px;}
   .main_dalton-info .dalton_proud-item.round-top-right {border-radius: 0 200px 0 0;}
   .main_dalton-info .dalton_proud-item .t2 {margin-top: 10px;}
   .main_dalton-info .dalton_proud-item .t2 br {display: none;}
@@ -365,7 +365,7 @@
   .main_dalton-info .dalton_logo .dalton-text-d {width: 40px;}
   .main_dalton-info .dalton_logo .dalton-text {margin-left: 10px; width: 120px;}
   .main_dalton-info .dalton_proud {margin-top: 20px; gap: 20px;}
-  .main_dalton-info .dalton_proud-item {width: calc(100% / 3 - (40px / 3)); height: 200px;}
+  .main_dalton-info .dalton_proud-item {width: calc(100% / 3 - (40px / 3)); min-height: 200px;}
   .main_dalton-info .dalton_proud-item.round-top-right {border-radius: 0 90px 0 0;}
   .main_dalton-info .dalton_proud-item .t1 {font-size: 20px;}
 
@@ -646,7 +646,7 @@
 
   .main_dalton-info .dalton_proud {gap: 10px;}
   .main_dalton-info .dalton_proud-item {width: calc(100% / 3 - (20px / 3)); padding: 0 10px; border-radius: 0 !important;}
-  .main_dalton-info .dalton_proud-item .t1 {font-size: 16px;}
+  .main_dalton-info .dalton_proud-item .t1 {margin-top: 20px; font-size: 16px;}
   .main_dalton-info .dalton_proud-item .t2 {font-size: 14px;}
 
   .main_dalton-info .dalton_exp-beforeAfter {height: 150px;}
@@ -916,7 +916,7 @@
   .main_dalton-info .dalton_logo .dalton-text-d {width: 26px;}
   .main_dalton-info .dalton_logo .dalton-text {width: 90px;}
   .main_dalton-info .dalton_proud {flex-direction: column; margin-top: 10px;}
-  .main_dalton-info .dalton_proud-item {width: 100%; height: auto; padding: 20px;}
+  .main_dalton-info .dalton_proud-item {width: 100%; min-height: auto; padding: 20px;}
 
   .main_dalton-info .dalton_exp-beforeAfter .slider-circle {width: 40px; height: 40px; background-size: 20px auto;}
   .main_dalton-info .dalton_exp-beforeAfter .slider-button {width: 40px; height: 40px; left: calc(50% - 20px); top: calc(50% - 20px);}

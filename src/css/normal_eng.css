@@ -6,6 +6,8 @@
 .main_visual .swiper-slide .txt-box .t1 {font-size: 80px;}
 .main_visual .swiper-slide .txt-box .t2 {font-size: 24px;}
 
+.main_product .link-btn {padding-bottom: 12px;}
+
 /* 서브 공통 */
 .sub-head_title {font-size: 70px;}
 .sub-head_explan {font-size: 42px;}
@@ -27,3 +29,72 @@
 .difference-compare-txt-ul {width: 100%;}
 .difference-comapre-txt-li__key {width: auto;}
 .difference-comapre-txt-li__val {width: auto; padding-left: 10px; font-weight: 300;}
+
+@media screen and (max-width:1680px) {
+  .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 28px;}
+} /* End */
+
+@media screen and (max-width:1600px) {
+  .content_title1 {font-size: 44px !important;}
+
+  #main .content-text {font-size: 40px !important;}
+
+  .main_visual .swiper-slide .txt-box .t1 {font-size: 66px !important;}
+  .main_visual .swiper-slide .txt-box .t2 {font-size: 20px;}
+} /* End */
+
+@media screen and (max-width:1290px) {
+  #header .gnb .navi > ul {gap: 0 35px !important;}
+  #header .language {margin-left: 50px !important;}
+  #header .inspection-btn {width: 140px; font-size: 14px;}
+
+  #footer .sitemap > ul > li {max-width: 20%;}
+  #footer .sitemap > ul > li > ul > li ~ li {margin-top: 10px;}
+  #footer .sitemap > ul > li > ul > li > a {line-height: 1.2;}
+
+  .content_title1 {font-size: 40px !important;}
+  .content_title1 br {display: none;}
+
+  #main .content-text {font-size: 38px !important;}
+  
+  .main_dalton-info .dalton_proud-item .t1 {font-size: 22px;}
+
+  .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 26px !important;}
+
+  .main_product .main_sec-top .inner {display: block;}
+  .main_product .main_sec-top .link-btn {display: block; width: 100%; margin-top: 10px; text-align: right;}
+} /* End */
+
+@media screen and (max-width:1023px) {
+  #footer .sitemap > ul > li {max-width: none;}
+
+  .content_title1 {font-size: 36px !important;}
+
+  #main .content-text {font-size: 28px !important;}
+
+  .main_visual .swiper-slide .txt-box .t1 {font-size: 50px !important;}
+
+  .main_dalton-info .dalton_proud-item {padding: 30px 20px !important;}
+  .main_dalton-info .dalton_proud-item .t1 {font-size: 16px !important;}
+  .main_dalton-info .dalton_proud-item .t2 {font-size: 14px !important;}
+
+  .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 20px !important;}
+} /* End */
+
+@media screen and (max-width:767px) {
+  #footer .sitemap > ul > li {width: 20%;}
+
+  .content_title1 {font-size: 22px !important;}
+
+  #main .content-text {font-size: 18px !important;}
+
+  .main_visual .swiper-slide .txt-box .t1 {font-size: 30px !important;}
+
+  #main .content-text2 br {display: none;}
+
+  .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 14px !important;}
+} /* End */
+
+@media screen and (max-width:480px) {
+  .content_title1 {font-size: 20px !important;}
+} /* End */
