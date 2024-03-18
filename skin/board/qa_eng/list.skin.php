@@ -16,8 +16,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 <div id="qa-list" class="sub">
   <div class="sub-head">
     <div class="wrapper">
-      <h1 class="sub-head_title">문의하기</h1>
-      <p class="sub-head_explan">우리에게 궁금한 것이 있으신가요?</p>
+      <h1 class="sub-head_title">Contact us</h1>
+      <p class="sub-head_explan">Do you have any questions for us?</p>
     </div>
   </div>
   <div class="sub-body">
@@ -40,8 +40,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         <div class="bo_top_info">
           <!-- 게시판 페이지 정보 { -->
           <div id="bo_list_total">
-            <span>Total <?php echo number_format($total_count) ?>건</span>
-            <?php echo $page ?> 페이지
+            <span>Total <?php echo number_format($total_count) ?></span>
           </div>
           <!-- } 게시판 페이지 정보 -->
 
@@ -56,14 +55,14 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                 <label for="sfl" class="sound_only">검색대상</label>
                 <div class="bo_sch_ct">
                   <select name="sfl" id="sfl">
-                    <option value="wr_subject||wr_content" selected="selected">전체</option>
-                    <option value="wr_subject">제목</option>
-                    <option value="wr_content">내용</option>
+                    <option value="wr_subject||wr_content" selected="selected">All</option>
+                    <option value="wr_subject">Title</option>
+                    <option value="wr_content">Contents</option>
                   </select>
                   
                   <div class="sch_bar">
                     <label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
-                    <input type="text" name="stx" value="<?php echo stripslashes($stx) ?>" required id="stx" class="sch_input" size="25" maxlength="20" placeholder=" 검색어를 입력해주세요">
+                    <input type="text" name="stx" value="<?php echo stripslashes($stx) ?>" required id="stx" class="sch_input" size="25" maxlength="20" placeholder="Please enter your search term">
                     <button type="submit" value="검색" class="sch_btn">
                       <i class="fa fa-search" aria-hidden="true"></i>
                       <span class="sound_only">검색</span>
@@ -106,11 +105,11 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                     </label>
                   </th>
                   <?php } ?>
-                  <th scope="col">번호</th>
-                  <th scope="col">제목</th>
-                  <th scope="col">글쓴이</th>
-                  <!-- <th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th> -->
-                  <th scope="col"><?php echo subject_sort_link('wr_datetime', $qstr2, 1) ?>날짜  </a></th>
+                  <th scope="col">No</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Writer</th>
+                  <!-- <th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>Hits </a></th> -->
+                  <th scope="col"><?php echo subject_sort_link('wr_datetime', $qstr2, 1) ?>Date  </a></th>
                 </tr>
               </thead>
               <tbody>
@@ -186,7 +185,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                   <td class="td_datetime"><?php echo date("Y.m.d", strtotime($list[$i]['wr_datetime'])) ?></td>
                 </tr>
                 <?php } ?>
-                <?php if (count($list) == 0) { echo '<tr><td colspan="'.$colspan.'" class="empty_table">게시물이 없습니다.</td></tr>'; } ?>
+                <?php if (count($list) == 0) { echo '<tr><td colspan="'.$colspan.'" class="empty_table">There are no posts.</td></tr>'; } ?>
               </tbody>
             </table>
           </div>

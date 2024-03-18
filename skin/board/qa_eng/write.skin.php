@@ -16,8 +16,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 <div id="qa-write" class="sub">
   <div class="sub-head">
     <div class="wrapper">
-      <h1 class="sub-head_title">문의하기</h1>
-      <p class="sub-head_explan">우리에게 궁금한 것이 있으신가요?</p>
+      <h1 class="sub-head_title">Contact us</h1>
+      <p class="sub-head_explan">Do you have any questions for us?</p>
     </div>
   </div>
   <div class="sub-body">
@@ -73,7 +73,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
             <div class="qa-section">
               <div class="qa-head">
-                <p class="qa-head_title">문의하실 내용이 무엇인가요?<span>(필수*)</span></p>
+                <p class="qa-head_title">What do you want to inquire about?<span>(Required*)</span></p>
               </div>
               <div class="qa-body qa-body-category">
                 <?php if ($is_category) { ?>
@@ -102,26 +102,26 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
             <div class="qa-section">
               <div class="qa-head">
-                <p class="qa-head_title">신청하시는 분의 정보를 알려주세요.</p>
+                <p class="qa-head_title">Please provide the information of the person applying.</p>
               </div>
               <div class="qa-body qa-body-inform">
                 <div class="qa-inform_list">
                   <div class="qa-inform_item">
-                    <label for="wr_name" class="qa-inform_label">성함*</label>
+                    <label for="wr_name" class="qa-inform_label">Name*</label>
                     <input type="text" name="wr_name" value="<?php echo $name ?>" id="wr_name" required class="qa-inform_text">
                   </div>
                   <?php if ($is_password) { ?>
                   <div class="qa-inform_item">
-                    <label for="wr_password" class="qa-inform_label">비밀번호*</label>
+                    <label for="wr_password" class="qa-inform_label">Password*</label>
                     <input type="password" name="wr_password" value="<?php echo $name ?>" id="wr_password" required class="qa-inform_text">
                   </div>
                   <?php } ?>
                   <div class="qa-inform_item">
-                    <label for="wr_homepage" class="qa-inform_label">연락처*</label>
+                    <label for="wr_homepage" class="qa-inform_label">Contact*</label>
                     <input type="text" name="wr_homepage" id="wr_homepage" value="<?php echo $homepage ?>" required class="qa-inform_text">
                   </div>
                   <div class="qa-inform_item">
-                    <label for="wr_email" class="qa-inform_label">이메일*</label>
+                    <label for="wr_email" class="qa-inform_label">Email*</label>
                     <input type="text" name="wr_email" id="wr_email" value="<?php echo $email ?>" required class="qa-inform_text email">
                   </div>
                 </div>
@@ -130,7 +130,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
             <div class="qa-section">
               <div class="qa-head">
-                <p class="qa-head_title">무엇을 도와드릴까요?<span>(필수*)</span></p>
+                <p class="qa-head_title">How can I help you?<span>(Required*)</span></p>
               </div>
               <div class="qa-body qa-body-content">
                 <div class="wr_content <?php echo $is_dhtml_editor ? $config['cf_editor'] : ''; ?>">
@@ -139,11 +139,11 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                 <div class="qa-policy">
                   <div class="qa-policy-check check-wrap">
                     <input type="checkbox" name="po_ck1" id="po_ck1">
-                    <label for="po_ck1" class="qa-policy-check_label"><u>개인정보 수집 및 이용</u>에 동의합니다. (필수*)</label>
+                    <label for="po_ck1" class="qa-policy-check_label">I agree to the <u>collection and use of personal information.</u> (Required*)</label>
                   </div>
                   <div class="qa-policy-content">
                     <textarea readonly><?php echo get_text($config['cf_privacy']) ?></textarea>
-                    <button type="button" class="qa-policy-close">[닫기]</button>
+                    <button type="button" class="qa-policy-close">[Close]</button>
                   </div>
                 </div>
               </div>
@@ -151,10 +151,10 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
             <div class="qa-section">
               <div class="qa-head">
-                <p class="qa-head_title">마케팅 활용 동의 및 광고 수신 동의</p>
+                <p class="qa-head_title">Consent to use marketing and receive advertisements</p>
               </div>
               <div class="qa-body qa-body-marketing">
-                <p class="qa-marketing_text">서비스와 관련된 신상품 소식, 이벤트 안내, 고객 혜택 등 다양한 정보를 제공합니다.</p>
+                <p class="qa-marketing_text">We provide a variety of information such as new product news, event information, and customer benefits related to the service.</p>
                 <!-- 
                   * 아래 두 체크박스의 value 값 변경 시 
                   * skin\board\qa\view.skin.php 파일의 내용도 꼭 변경 필요
@@ -162,11 +162,11 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                 <div class="qa-marketing_list">
                   <div class="qa-marketing_check check-wrap">
                     <input type="checkbox" name="wr_1" id="wr_1" value="Y">
-                    <label for="wr_1">SMS 수신동의 (선택)</label>
+                    <label for="wr_1">Agree to receive SMS (optional)</label>
                   </div>
                   <div class="qa-marketing_check check-wrap">
                     <input type="checkbox" name="wr_2" id="wr_2" value="Y">
-                    <label for="wr_2">E-mail 수신동의 (선택)</label>
+                    <label for="wr_2">Agree to receive e-mail (optional)</label>
                   </div>
                 </div>
               </div>
@@ -175,7 +175,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             <?php if ($is_use_captcha) { ?>
             <div class="qa-section">
               <div class="qa-head">
-                <p class="qa-head_title">자동등록방지<span>(필수*)</span></p>
+                <p class="qa-head_title">Automatic registration prevention<span>(Required*)</span></p>
               </div>
               <div class="qa-body qa-body-captcha">
                 <?php echo $captcha_html ?>
@@ -235,11 +235,11 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             <div class="btn_confirm">
               <ul class="i-col-0 btn_confirm_ul">
                 <li>
-                  <button type="submit" id="btn_submit" accesskey="s" class="btn_submit bo_btn1"><?php echo $w=='u'?'수정하기':'문의하기'; ?></button>
+                  <button type="submit" id="btn_submit" accesskey="s" class="btn_submit bo_btn1"><?php echo $w=='u'?'Confirm':'Confirm'; ?></button>
                 </li>
                 <?php if($is_admin){ ?>
                 <li>
-                  <a href="<?php echo get_pretty_url($bo_table); ?>" class="btn_cancel bo_btn2">목록보기</a>
+                  <a href="<?php echo get_pretty_url($bo_table); ?>" class="btn_cancel bo_btn2">List</a>
                 </li>
                 <?php } ?>
               </ul>
@@ -248,6 +248,10 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         </form>
 
         <script>
+        $(document).ready(function(){
+          $("#captcha #captcha_info").text('Enter the automatic registration prevention numbers in order.');
+        });
+
         <?php if($write_min || $write_max) { ?>
         // 글자수 제한
         var char_min = parseInt(<?php echo $write_min; ?>); // 최소

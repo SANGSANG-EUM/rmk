@@ -30,6 +30,10 @@
 .difference-comapre-txt-li__key {width: auto;}
 .difference-comapre-txt-li__val {width: auto; padding-left: 10px; font-weight: 300;}
 
+.guide-step01-li {width: calc(50% - 60px); flex: none;}
+.guide-step01-txt--03 b {text-decoration: underline;}
+.guide-step01-txt--03 b:after {display: none;}
+
 @media screen and (max-width:1680px) {
   .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 28px;}
 } /* End */
@@ -63,6 +67,10 @@
 
   .main_product .main_sec-top .inner {display: block;}
   .main_product .main_sec-top .link-btn {display: block; width: 100%; margin-top: 10px; text-align: right;}
+
+  .difference-comapre-txt-li {font-size: 15px !important;}
+
+  .guide-step01-li {width: calc(50% - 25px); flex: none;}
 } /* End */
 
 @media screen and (max-width:1023px) {
@@ -79,6 +87,10 @@
   .main_dalton-info .dalton_proud-item .t2 {font-size: 14px !important;}
 
   .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 20px !important;}
+
+  .product-visual_title,
+  .product-visual_text1,
+  .product-visual_text2 {width: 100%;}
 } /* End */
 
 @media screen and (max-width:767px) {
@@ -93,6 +105,12 @@
   #main .content-text2 br {display: none;}
 
   .main_dalton-info .dalton_ex-item .txt .t2 {font-size: 14px !important;}
+
+  .difference-comapre-txt-li {display: block;}
+  .difference-comapre-txt-li__key {width: 100% !important;}
+  .difference-comapre-txt-li__val {width: 100% !important; margin-top: 5px; padding-left: 18px;}
+
+  .guide-step01-li {width: 100%;}
 } /* End */
 
 @media screen and (max-width:480px) {

@@ -25,7 +25,7 @@
               </div>
               <div class="guide-step01-test-wr">
                 <div class="guide-step01-test">
-                  <p class="guide-step01-txt guide-step01-txt--03"><b>Less than 5 </b>out of 10 color <br/>vision test results</b></p>
+                  <p class="guide-step01-txt guide-step01-txt--03"><b>Less than 5 </b>out of 10 color <br/>vision test results</p>
                   <div class="guide-step01-circle guide-step01-circle--red guide-dot">
                     <p class="guide-step01-circle-in">red lenses</p>
                   </div>
@@ -44,7 +44,7 @@
                   <span>B</span> When used for occupational or physical examination purposes
                 </p>
                 <p class="guide-step01-txt guide-step01-txt--02">
-                  <b>What job are you in?
+                  <b>What job are you in?</b>
                 </p>
               </div>
               <div class="guide-step01-test-wr">

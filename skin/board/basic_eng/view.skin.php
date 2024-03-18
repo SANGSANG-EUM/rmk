@@ -176,19 +176,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
           <ul class="i-col-0 bo_v_nb">
             <li class="btn_prv">
               <?php if ($prev_href) { ?>
-              <a href="<?php echo $prev_href ?>" class="bo_v_nb_btn bo_v_nb_prev">이전 글 보러가기
-              </a>
-              <?php } else { ?>
-              <p class="bo_v_nb_txt">이전 글이 없습니다.</p>
+              <a href="<?php echo $prev_href ?>" class="bo_v_nb_btn bo_v_nb_prev"></a>
               <?php } ?>
             </li>
             <li class="btn_next">
               <?php if ($next_href) { ?>
-              <a href="<?php echo $next_href ?>" class="bo_v_nb_btn bo_v_nb_next">
-                다음 글 보러가기
-              </a>
-              <?php } else { ?>
-              <p class="bo_v_nb_txt">다음 글이 없습니다.</p>
+              <a href="<?php echo $next_href ?>" class="bo_v_nb_btn bo_v_nb_next"></a>
               <?php } ?>
             </li>
             <?php //} ?>
