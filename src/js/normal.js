@@ -186,27 +186,5 @@ $(document).ready(function () {
     fixBtns.toggleClass('show', scrolled);
   });
 
-  // 색각검사
-  /**
-   * 준비물 : 
-   * --총 문제 수
-   * --문제 데이터[{이미지, [보기(9개)], 정답}, ...]
-   * 프로세스 : 
-   * --문제 데이터 랜덤 출력(몇번째 문제인지 체크)
-   * --문제 데이터 내 보기 랜덤 출력(정답 포함)
-   * --문제 정답 유무(결과를 위해 저장)
-   * --모든 문제 풀이 후 로딩화면
-   * --로딩화면 후 결과 화면(정답에 따라 내용 다름)
-   */
-  const inspPopup = "#inspection_popup";
-  const $inspBtn_open = $(".inspection-btn");
-  const $inspBtn_close = $(inspPopup).find(".close-btn");
-
-  $inspBtn_open.on('click', function(){
-    f.popupOpen(inspPopup);
-  });
-
-  $inspBtn_close.on('click', function(){
-    f.popupClose(inspPopup);
-  });
+  
 });
