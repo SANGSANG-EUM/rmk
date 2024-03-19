@@ -168,6 +168,9 @@ if(G5_COMMUNITY_USE === false) {
 <!-- } 푸터 끝 -->
 
 <!-- 색각검사 팝업 { -->
+<?php 
+add_javascript('<script type="module" src="'.EUM_JS_URL.'/inspection.js" defer></script>', 0);
+?>
 <div id="inspection_popup" class="layer-popup">
   <div class="layer-popup_ct">
     <div class="top">
@@ -177,73 +180,106 @@ if(G5_COMMUNITY_USE === false) {
       </button>
     </div>
     <div class="mid">
-      <div class="cbTest_wrap">
-        <div class="cbTest-img">
-          <img src="/src/img/t-cbtest-img1.jpg" alt="">
-        </div>
-        <div class="cbTest-chkList">
-          <ul>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt1">
-                <label for="cbt1">1</label>
-              </div>
-            </li>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt2">
-                <label for="cbt2">2</label>
-              </div>
-            </li>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt3">
-                <label for="cbt3">3</label>
-              </div>
-            </li>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt4">
-                <label for="cbt4">4</label>
-              </div>
-            </li>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt5">
-                <label for="cbt5">5</label>
-              </div>
-            </li>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt6">
-                <label for="cbt6">6</label>
-              </div>
-            </li>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt7">
-                <label for="cbt7">7</label>
-              </div>
-            </li>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt8">
-                <label for="cbt8">8</label>
-              </div>
-            </li>
-            <li>
-              <div class="cbTest-chkList_btn">
-                <input type="radio" name="cbt" id="cbt9">
-                <label for="cbt9">9</label>
-              </div>
-            </li>
+
+      <div class="cbTest_preInfo">
+        <p class="t1">검사 기간은 1~2분 이내입니다. <br/>왼쪽 그림에 보이는 숫자를 오른쪽 보기에서 선택해 주시면 됩니다.</p>
+        <div class="bd_tbox">
+          <p class="t2">다음 사항은 검사결과에 영향을 줄 수 있으니 검사 전 꼭 확인해주세요.</p>
+          <ul class="t-dot_list">
+            <li class="t3">· 모니터의 블루라이트 필터, 색약모드 등을 꺼주세요</li>
+            <li class="t3">· 블루라이트 차단 안경, 착색 렌즈를 착용 중이시라면 벗어주세요.</li>
+            <li class="t3">· 모니터가 너무 어둡지 않게 밝기를 적절히 조절해 주세요.</li>
           </ul>
         </div>
+        <div class="check-wrap">
+          <input type="checkbox" name="" id="cbTest-agree" value="1">
+          <label for="cbTest-agree">본 색각검사 기능의 개선을 위해 비식별화된 검사결과를 ㈜알엠케이에 제공하는것에 동의합니다.</label>
+        </div>
+        <div class="bot-btns">
+          <button type="button" id="cbTest-start_btn" class="ui-btn step-btn2">검사시작</button>
+        </div>
       </div>
-    </div>
-    <div class="bot">
-      <button type="button" id="qa-policy-check_trigger" class="ui-btn step-btn1">이전</button>
-      <button type="button" id="qa-policy-check_trigger" class="ui-btn step-btn2">다음</button>
+
+      <div class="cbTest_wrap">
+        <div class="inner">
+          <div class="cbTest-img">
+            <img src="/src/img/t-cbtest-img1.jpg" alt="">
+          </div>
+          <div class="cbTest-chkList">
+            <input type="text" name="" id="cbTest-input">
+            <ul>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="1">1</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="2">2</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="3">3</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="4">4</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="5">5</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="6">6</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="7">7</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="8">8</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="9">9</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="number" data-cbt-value="0">0</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="noidea" data-cbt-value="noidea">모름</button>
+              </li>
+              <li>
+                <button type="button" class="ui-btn cbTest-chkList_btn" data-cbt-type="reset" data-cbt-value="reset">Reset</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="bot-btns">
+          <button type="button" id="cbTest-next_btn" class="ui-btn step-btn2">다음</button>
+        </div>
+      </div>
+
+      <div class="cbTest_loading">
+        <div class="loading_icon"></div>
+        <p class="t1"><b>검사결과</b>를 <b>확인</b>하고 있습니다.</p>
+        <p class="t3">검사결과를 취합하는데 시간이 소요될 수 있습니다. <br/>조금만 기다려주시면 검사결과가 화면에 나타납니다.</p>
+      </div>
+
+      <div class="cbTest_result">
+        <div class="icon">
+          <img src="/src/img/inspection_o_icon.png" alt="">
+          <!-- 색각이상자일 경우 { 
+          <img src="/src/img/inspection_x_icon.png" alt="">
+          } 색각이상자일 경우 -->
+        </div>
+        <p class="t1"><b>정상색각</b></p>
+        <p class="inspection-type">
+          <span>약도 (제1도) D1</span>
+        </p>
+        <div class="bd_tbox">
+          <p class="t3">약도(제1도)의 제2색각이상(Deutan: 녹색약, 녹색맹)이 의심됩니다.</p>
+          <p class="t3">정확한 진단을 위해서는 반드시 전문 안과의와 상의하세요.</p>
+          <p class="t3">총 21문제 중 00문제를 맞추셨습니다.</p>
+        </div>
+        <div class="bot-btns">
+          <a href="/sub/guide" class="ui-btn step-btn1">제품선택가이드</a>
+          <a href="/contact_kr/write" class="ui-btn step-btn2">문의하기</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
