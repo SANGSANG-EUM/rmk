@@ -385,3 +385,59 @@ export const scrollTop = () => {
       scrollTop: 0
   }, 400);
 }
+
+/* magnifier(image zoom) */
+/*
+https://github.com/SaintSilver/Magnifying-Glass?tab=readme-ov-file
+
+html
+<div class="area">
+  <img class="target" src="test.png" alt="" data-zoom="2">
+</div>
+
+css
+.area {position: relative;}
+.area .target {display: block; width: 100%;}
+.magnifier {display: none; position: absolute; width: 150px; height: 150px; border-radius: 100%; box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.85), 0 0 3px 3px rgba(0, 0, 0, 0.25);}
+*/
+export const magnify = (area, tg) => {
+  let target = $(tg);
+  let zoom = target.data('zoom');
+  let magnifier;
+
+  $(area)
+    .on('mousemove', {target, zoom}, magnifyFunc)
+    .prepend("<div class='magnifier'></div>")
+    .children('.magnifier').css({
+      "background": "url('" + target.attr("src") + "') no-repeat",
+      "background-size": target.width() * zoom + "px " + target.height() * zoom + "px"
+    });
+
+  magnifier = $(area).children('.magnifier');
+}
+
+const magnifyFunc = (e) => {
+  let mouseX = e.pageX - $(e.currentTarget).offset().left;
+  let mouseY = e.pageY - $(e.currentTarget).offset().top;
+  let magnifier = $(e.currentTarget).children('.magnifier');
+  let {target, zoom} = e.data;
+
+  if (mouseX < $(e.currentTarget).width() && mouseY < $(e.currentTarget).height() && mouseX > 0 && mouseY > 0) {
+    magnifier.fadeIn(100);
+  } else {
+    magnifier.fadeOut(100);
+  }
+
+  if (magnifier.is(":visible")) {
+    let rx = -(mouseX * zoom - magnifier.width() / 2);
+    let ry = -(mouseY * zoom - magnifier.height() / 2);
+    let px = mouseX - magnifier.width() / 2;
+    let py = mouseY - magnifier.height() / 2;
+
+    magnifier.css({
+      left: px,
+      top: py,
+      backgroundPosition: rx + "px " + ry + "px"
+    });
+  }
+}

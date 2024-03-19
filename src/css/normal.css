@@ -443,6 +443,10 @@
 .product-v_top .lt {width: 52.632%;}
 .product-v_top .rt {width: calc(100% - 52.632%); padding: 10px 20px 0; font-size: 0; text-align: right;}
 
+.product-v_pic .big .image {position: relative;}
+.product-v_pic .big .image .target {display: block; width: 100%;}
+.magnifier {display: none; position: absolute; width: 150px; height: 150px; border-radius: 100%; box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.85), 0 0 3px 3px rgba(0, 0, 0, 0.25);}
+
 .product-v_pic .small {margin-top: 10px;}
 .product-v_pic .small .swiper-container {position: relative;}
 .product-v_pic .small .swiper-slide {position: relative; cursor: pointer;}

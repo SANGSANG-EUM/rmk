@@ -10,22 +10,34 @@
                   <div class="swiper-container">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
-                        <img src="/src/img/sunglass.png" alt="">
+                        <div class="image">
+                          <img class="target" src="/src/img/sunglass.png" alt="" data-zoom="2">
+                        </div>
                       </div>
                       <div class="swiper-slide">
-                        <img src="/src/img/sunglass.png" alt="">
+                        <div class="image">
+                          <img class="target" src="/src/img/sunglass.png" alt="" data-zoom="2">
+                        </div>
                       </div>
                       <div class="swiper-slide">
-                        <img src="/src/img/sunglass.png" alt="">
+                        <div class="image">
+                          <img class="target" src="/src/img/sunglass.png" alt="" data-zoom="2">
+                        </div>
                       </div>
                       <div class="swiper-slide">
-                        <img src="/src/img/sunglass.png" alt="">
+                        <div class="image">
+                          <img class="target" src="/src/img/sunglass.png" alt="" data-zoom="2">
+                        </div>
                       </div>
                       <div class="swiper-slide">
-                        <img src="/src/img/sunglass.png" alt="">
+                        <div class="image">
+                          <img class="target" src="/src/img/sunglass.png" alt="" data-zoom="2">
+                        </div>
                       </div>
                       <div class="swiper-slide">
-                        <img src="/src/img/sunglass.png" alt="">
+                        <div class="image">
+                          <img class="target" src="/src/img/sunglass.png" alt="" data-zoom="2">
+                        </div>
                       </div>
                     </div>
                   </div>

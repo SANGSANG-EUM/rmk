@@ -127,6 +127,9 @@ $(document).ready(function () {
   };
   const productViewPictureSlider = f.slider(productViewPictureTarget, productViewPictureOptions);
 
+  //Product View Picture Zoom
+  f.magnify('.product-v_pic .big .image','.product-v_pic .big .image .target');
+
   // Best Review Slide
   const reviewTarget = '.review-best-slider';
   const reivewSlideCount = $('.review-best-slide').length;
